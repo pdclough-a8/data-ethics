@@ -6,7 +6,7 @@
     <lom xmlns="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1" xsi:schemaLocation="http://www.imsglobal.org/xsd/imsmd_rootv1p2p1 imsmd_rootv1p2p1.xsd">
       <general>
         <title>
-          <langstring xml:lang="x-none"><![CDATA[TPX // Data Ethics]]></langstring>
+          <langstring xml:lang="x-none"><![CDATA[Analytics8 // Data Ethics]]></langstring>
         </title>
         <description>
           <langstring xml:lang="x-none"><![CDATA[]]></langstring>
@@ -16,9 +16,9 @@
   </metadata>
   <organizations default="adapt_scorm">
     <organization identifier="adapt_scorm">
-      <title><![CDATA[TPX // Data Ethics]]></title>
+      <title><![CDATA[Analytics8 // Data Ethics]]></title>
       <item identifier="item_1" isvisible="true" identifierref="res1">
-        <title><![CDATA[TPX // Data Ethics]]></title>
+        <title><![CDATA[Analytics8 // Data Ethics]]></title>
       </item>
     </organization>
   </organizations>
