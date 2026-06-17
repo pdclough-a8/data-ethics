@@ -1,0 +1,325 @@
+[
+  {
+    "_id": "6514457691935905f0aca85f",
+    "_type": "page",
+    "title": "Introduction",
+    "displayTitle": "Introduction",
+    "body": "<p>Duration: 2 minutes.</p>",
+    "_classes": "background-image1",
+    "_parentId": "course",
+    "subtitle": "",
+    "pageBody": "",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_graphic": {
+      "alt": "",
+      "src": "course/en/assets/65200be997a10df36a55a95c.jpg"
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_menu": null,
+    "_bookmarking": {
+      "_isEnabled": true,
+      "_level": "inherit"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    }
+  },
+  {
+    "_id": "651446358ceafb6bdaa1ac56",
+    "_type": "page",
+    "title": "Data Collection",
+    "displayTitle": "Data Collection",
+    "body": "<p>Duration: 6 minutes.</p>",
+    "_classes": "background-image1",
+    "_parentId": "course",
+    "subtitle": "",
+    "pageBody": "",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_graphic": {
+      "alt": "",
+      "src": "course/en/assets/65200be997a10df36a55a95c.jpg"
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_bookmarking": {
+      "_isEnabled": true,
+      "_level": "inherit"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    }
+  },
+  {
+    "_id": "651449195843e577fed791c4",
+    "_type": "page",
+    "title": "Data Storage",
+    "displayTitle": "Data Storage",
+    "body": "<p>Duration: 6 minutes.</p>",
+    "_classes": "background-image1",
+    "_parentId": "course",
+    "subtitle": "",
+    "pageBody": "",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_graphic": {
+      "alt": "",
+      "src": "course/en/assets/65200be997a10df36a55a95c.jpg"
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_bookmarking": {
+      "_isEnabled": true,
+      "_level": "inherit"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    }
+  },
+  {
+    "_id": "65144e315a8ab59542ead025",
+    "_type": "page",
+    "title": "Data Usage",
+    "displayTitle": "Data Usage",
+    "body": "<p>Duration: 7 minutes.</p>",
+    "_classes": "background-image1",
+    "_parentId": "course",
+    "subtitle": "",
+    "pageBody": "",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_graphic": {
+      "alt": "",
+      "src": "course/en/assets/65200be997a10df36a55a95c.jpg"
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_bookmarking": {
+      "_isEnabled": true,
+      "_level": "inherit"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    }
+  },
+  {
+    "_id": "651451e05a8ab59542ead54e",
+    "_type": "page",
+    "title": "Data Sharing",
+    "displayTitle": "Data Sharing",
+    "body": "<p>Duration: 5 minutes.</p>",
+    "_classes": "background-colour10",
+    "_parentId": "course",
+    "subtitle": "",
+    "pageBody": "",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_graphic": {
+      "alt": "",
+      "src": "course/en/assets/65200be997a10df36a55a95c.jpg"
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_bookmarking": {
+      "_isEnabled": true,
+      "_level": "inherit"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    }
+  },
+  {
+    "_id": "6514534ac40ee1f1040c0094",
+    "_type": "page",
+    "title": "Data Destruction",
+    "displayTitle": "Data Destruction",
+    "body": "<p>Duration: 5 minutes.</p>",
+    "_classes": "",
+    "_parentId": "course",
+    "subtitle": "",
+    "pageBody": "",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_graphic": {
+      "alt": "",
+      "src": "course/en/assets/65200be997a10df36a55a95c.jpg"
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_bookmarking": {
+      "_isEnabled": true,
+      "_level": "inherit"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    }
+  },
+  {
+    "_id": "651455f4c173eacbb438b782",
+    "_type": "page",
+    "title": "Conclusion",
+    "displayTitle": "Conclusion",
+    "body": "<p>Duration: 3 minutes.</p>",
+    "_classes": "",
+    "_parentId": "course",
+    "subtitle": "",
+    "pageBody": "",
+    "instruction": "",
+    "_htmlClasses": "",
+    "linkText": "View",
+    "duration": "",
+    "_lockedBy": [],
+    "_lockType": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_requireCompletionOf": -1,
+    "_ariaLevel": 0,
+    "_graphic": {
+      "alt": "",
+      "src": "course/en/assets/65200be997a10df36a55a95c.jpg"
+    },
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_bookmarking": {
+      "_isEnabled": true,
+      "_level": "inherit"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_showPageCompletion": true,
+      "_isCompletionIndicatorEnabled": false,
+      "_excludeAssessments": false
+    }
+  }
+]

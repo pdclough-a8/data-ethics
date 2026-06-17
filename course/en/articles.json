@@ -1,0 +1,1106 @@
+[
+  {
+    "_id": "6516d0be91768003978c0f1d",
+    "_type": "article",
+    "title": "Article title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "background-image2",
+    "_parentId": "6514457691935905f0aca85f",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": true,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "fadeIn",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "6516ecebf4e526e6a2c31091",
+    "_type": "article",
+    "title": "Article title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "background-image9",
+    "_parentId": "651446358ceafb6bdaa1ac56",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": true,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "fadeIn",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "faster"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "651ed7e3e6709d40435aeb7d",
+    "_type": "article",
+    "title": "Article title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "background-image10",
+    "_parentId": "651449195843e577fed791c4",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": true,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "fadeIn",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "faster"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "651ef5308e3d8bc3100cd84d",
+    "_type": "article",
+    "title": "Article title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "background-image11",
+    "_parentId": "65144e315a8ab59542ead025",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": true,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "fadeIn",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "faster"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "651f003453a700b1e0f3a00c",
+    "_type": "article",
+    "title": "Article title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "background-image12",
+    "_parentId": "651451e05a8ab59542ead54e",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": true,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "fadeIn",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "faster"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "651f030b97a10df36a54b414",
+    "_type": "article",
+    "title": "Article title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "background-image13",
+    "_parentId": "6514534ac40ee1f1040c0094",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": true,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "fadeIn",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "faster"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "651fbc8569e32295d1b0e785",
+    "_type": "article",
+    "title": "Article title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "background-image14",
+    "_parentId": "651455f4c173eacbb438b782",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": true,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "fadeIn",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "faster"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "651446358ceafb6bdaa1ac65",
+    "_type": "article",
+    "title": "Consent",
+    "displayTitle": "Consent",
+    "body": "",
+    "_classes": "background-colour10 no-element-backgrounds no-article-backgrounds",
+    "_parentId": "651446358ceafb6bdaa1ac56",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "65144e315a8ab59542ead034",
+    "_type": "article",
+    "title": "The law suggests...",
+    "displayTitle": "The law suggests...",
+    "body": "",
+    "_classes": "background-image5 no-element-backgrounds no-article-backgrounds",
+    "_parentId": "65144e315a8ab59542ead025",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "6514534ac40ee1f1040c00a3",
+    "_type": "article",
+    "title": "The law suggests...",
+    "displayTitle": "The law suggests...",
+    "body": "",
+    "_classes": "background-image5 no-element-backgrounds no-article-backgrounds",
+    "_parentId": "6514534ac40ee1f1040c0094",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "6516d488454c1c42a4cded29",
+    "_type": "article",
+    "title": "Article title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "background-image6 background-colour9 remove-padding-top remove-padding-bottom",
+    "_parentId": "6514457691935905f0aca85f",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "651fd1871a999dd866db5b61",
+    "_type": "article",
+    "title": "Article title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "background-image15 background-colour9 remove-padding-top remove-padding-bottom",
+    "_parentId": "651449195843e577fed791c4",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "651ff49e53a700b1e0f44f8f",
+    "_type": "article",
+    "title": "Article title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "background-image18 background-colour9 remove-padding-top remove-padding-bottom",
+    "_parentId": "651451e05a8ab59542ead54e",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "652003ebb2afb2e37eebedc8",
+    "_type": "article",
+    "title": "Article title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "background-image21 background-colour9 remove-padding-top remove-padding-bottom",
+    "_parentId": "651455f4c173eacbb438b782",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "6514457691935905f0aca86e",
+    "_type": "article",
+    "title": "Going beyond the law",
+    "displayTitle": "Going beyond the law",
+    "body": "",
+    "_classes": "background-colour9 no-element-backgrounds no-article-backgrounds remove-padding-top",
+    "_parentId": "6514457691935905f0aca85f",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "6514465c45a8ddbd09bed5b4",
+    "_type": "article",
+    "title": "Confidentiality and anonymity",
+    "displayTitle": "Confidentiality and anonymity",
+    "body": "",
+    "_classes": "background-image5 no-element-backgrounds no-article-backgrounds",
+    "_parentId": "651446358ceafb6bdaa1ac56",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "651449195843e577fed791d3",
+    "_type": "article",
+    "title": "The law suggests...",
+    "displayTitle": "The law suggests...",
+    "body": "",
+    "_classes": "background-colour9 no-element-backgrounds no-article-backgrounds",
+    "_parentId": "651449195843e577fed791c4",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "65144e7f91935905f0acbbb3",
+    "_type": "article",
+    "title": "Transparency",
+    "displayTitle": "Transparency",
+    "body": "",
+    "_classes": "background-colour10 no-element-backgrounds no-article-backgrounds",
+    "_parentId": "65144e315a8ab59542ead025",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "651451e05a8ab59542ead55d",
+    "_type": "article",
+    "title": "The law suggests...",
+    "displayTitle": "The law suggests...",
+    "body": "",
+    "_classes": "background-colour9 no-element-backgrounds no-article-backgrounds  remove-padding-top",
+    "_parentId": "651451e05a8ab59542ead54e",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "651455f4c173eacbb438b791",
+    "_type": "article",
+    "title": "You've learned a lot!",
+    "displayTitle": "You've learned a lot!",
+    "body": "",
+    "_classes": "background-colour9 no-element-backgrounds no-article-backgrounds remove-padding-top",
+    "_parentId": "651455f4c173eacbb438b782",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "6520001b1a999dd866dbd575",
+    "_type": "article",
+    "title": "blank",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "remove-padding-top  background-image20",
+    "_parentId": "6514534ac40ee1f1040c0094",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "651449375843e577fed792f9",
+    "_type": "article",
+    "title": "Retention",
+    "displayTitle": "Retention",
+    "body": "",
+    "_classes": "background-colour10 no-element-backgrounds no-article-backgrounds background-image1",
+    "_parentId": "651449195843e577fed791c4",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "651453d55131711db9a2fc90",
+    "_type": "article",
+    "title": "Establish expectations",
+    "displayTitle": "Establish expectations",
+    "body": "",
+    "_classes": "half-width background-image19 background-colour9",
+    "_parentId": "6514534ac40ee1f1040c0094",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "6514561645a8ddbd09bef684",
+    "_type": "article",
+    "title": "Top tips",
+    "displayTitle": "Top tips",
+    "body": "",
+    "_classes": "background-colour10 no-element-backgrounds no-article-backgrounds",
+    "_parentId": "651455f4c173eacbb438b782",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "651ebad1cbca08732af9988f",
+    "_type": "article",
+    "title": "blank",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "background-image8 remove-padding-top",
+    "_parentId": "651446358ceafb6bdaa1ac56",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "651ecb2ee6709d40435a924e",
+    "_type": "article",
+    "title": "Article title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "background-image7 remove-padding-top remove-padding-bottom background-colour9 remove-padding-bottom",
+    "_parentId": "6514457691935905f0aca85f",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "651fe69ee6709d40435bb6ac",
+    "_type": "article",
+    "title": "Article title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "background-image17 remove-padding-top",
+    "_parentId": "65144e315a8ab59542ead025",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "651ff77097a10df36a556931",
+    "_type": "article",
+    "title": "Article title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "background-image7 remove-padding-top remove-padding-bottom background-colour9 remove-padding-bottom",
+    "_parentId": "651451e05a8ab59542ead54e",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "6514467d4a35532cd49a621d",
+    "_type": "article",
+    "title": "Intention",
+    "displayTitle": "Intention",
+    "body": "",
+    "_classes": " transparent background-colour11 half-width background-image4 remove-padding-top",
+    "_parentId": "651446358ceafb6bdaa1ac56",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "651449450e6ac6d29d1583e7",
+    "_type": "article",
+    "title": "Access",
+    "displayTitle": "Access",
+    "body": "",
+    "_classes": "background-colour10 no-element-backgrounds no-article-backgrounds",
+    "_parentId": "651449195843e577fed791c4",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "65144f4b1974edf041001f20",
+    "_type": "article",
+    "title": "Fairness",
+    "displayTitle": "Fairness",
+    "body": "",
+    "_classes": "background-image16 background-colour9 remove-padding-top",
+    "_parentId": "65144e315a8ab59542ead025",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "651451fdc40ee1f1040bfeeb",
+    "_type": "article",
+    "title": "A shared responsibility",
+    "displayTitle": "A shared responsibility",
+    "body": "",
+    "_classes": "background-image3",
+    "_parentId": "651451e05a8ab59542ead54e",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "651453ea4a35532cd49a7a7b",
+    "_type": "article",
+    "title": "Case study: Second-hand data",
+    "displayTitle": "Case study: Second-hand data",
+    "body": "",
+    "_classes": "background-colour10 no-element-backgrounds no-article-backgrounds ",
+    "_parentId": "6514534ac40ee1f1040c0094",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "651456215534bbdc31df24db",
+    "_type": "article",
+    "title": "Thanks for learning with us",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "background-image5 no-element-backgrounds no-article-backgrounds",
+    "_parentId": "651455f4c173eacbb438b782",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": true,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "fadeIn",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "fast"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "6516e20e4a35532cd49d45cd",
+    "_type": "article",
+    "title": "Article title",
+    "displayTitle": "",
+    "body": "",
+    "_classes": "background-colour10 no-element-backgrounds no-article-backgrounds background-image3",
+    "_parentId": "6514457691935905f0aca85f",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "651445cc0e6ac6d29d157aac",
+    "_type": "article",
+    "title": "Coming up...",
+    "displayTitle": "Coming up...",
+    "body": "",
+    "_classes": "background-image5 no-element-backgrounds no-article-backgrounds",
+    "_parentId": "6514457691935905f0aca85f",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": true,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "fadeIn",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "fast"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "65144696f4e526e6a2c02d52",
+    "_type": "article",
+    "title": "Case study: Always-on Alexas",
+    "displayTitle": "Case study: Always-on Alexas",
+    "body": "",
+    "_classes": "background-colour10 no-element-backgrounds no-article-backgrounds",
+    "_parentId": "651446358ceafb6bdaa1ac56",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "65144955f4e526e6a2c03431",
+    "_type": "article",
+    "title": "Case study: Ocado v McKeeve",
+    "displayTitle": "Case study: Ocado v McKeeve",
+    "body": "",
+    "_classes": "background-image5 no-element-backgrounds no-article-backgrounds",
+    "_parentId": "651449195843e577fed791c4",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "65144f595843e577fed7a380",
+    "_type": "article",
+    "title": "Bias",
+    "displayTitle": "Bias",
+    "body": "",
+    "_classes": "background-image5 no-element-backgrounds no-article-backgrounds",
+    "_parentId": "65144e315a8ab59542ead025",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "6514520c0e6ac6d29d159392",
+    "_type": "article",
+    "title": "Case study: Exploiting a crisis",
+    "displayTitle": "Case study: Exploiting a crisis",
+    "body": "",
+    "_classes": "background-image1 background-colour10 no-element-backgrounds no-article-backgrounds",
+    "_parentId": "651451e05a8ab59542ead54e",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "651454195131711db9a2fcc6",
+    "_type": "article",
+    "title": "Coming up...",
+    "displayTitle": "Coming up...",
+    "body": "",
+    "_classes": "background-colour9 no-element-backgrounds no-article-backgrounds",
+    "_parentId": "6514534ac40ee1f1040c0094",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": true,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "fadeIn",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "fast"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "651446bec40ee1f1040be620",
+    "_type": "article",
+    "title": "Coming up...",
+    "displayTitle": "Coming up...",
+    "body": "",
+    "_classes": "background-colour9 no-element-backgrounds no-article-backgrounds ",
+    "_parentId": "651446358ceafb6bdaa1ac56",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": true,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "fadeIn",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "fast"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "651449a2a7557c573a70dd31",
+    "_type": "article",
+    "title": "Coming up...",
+    "displayTitle": "Coming up...",
+    "body": "",
+    "_classes": "background-colour9 no-element-backgrounds no-article-backgrounds",
+    "_parentId": "651449195843e577fed791c4",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": true,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "fadeIn",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "fast"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "65144f6ecbdff4d92f2c27a9",
+    "_type": "article",
+    "title": "Case study: Predictive policing",
+    "displayTitle": "Case study: Predictive policing",
+    "body": "",
+    "_classes": "background-colour10 no-element-backgrounds no-article-backgrounds",
+    "_parentId": "65144e315a8ab59542ead025",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "651452438f1d294228db6a9c",
+    "_type": "article",
+    "title": "Coming up...",
+    "displayTitle": "Coming up...",
+    "body": "",
+    "_classes": "background-image5 no-element-backgrounds no-article-backgrounds background-colour1",
+    "_parentId": "651451e05a8ab59542ead54e",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": true,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "fadeIn",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "fast"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  },
+  {
+    "_id": "65144f964a35532cd49a753e",
+    "_type": "article",
+    "title": "Coming up...",
+    "displayTitle": "Coming up...",
+    "body": "",
+    "_classes": "background-colour9 no-element-backgrounds no-article-backgrounds",
+    "_parentId": "65144e315a8ab59542ead025",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_onScreen": {
+      "_isEnabled": true,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "fadeIn",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "fast"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    }
+  }
+]

@@ -1,0 +1,3678 @@
+[
+  {
+    "_id": "651445944a35532cd49a5fdc",
+    "_type": "component",
+    "_component": "text",
+    "_layout": "full",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "6514457691935905f0aca87c",
+    "title": "Going beyond the law",
+    "displayTitle": "",
+    "body": "<p>The <a class=\"customlink\" href=\"https://theodi.org/\" target=\"_blank\" rel=\"noopener noreferrer\"><u>Open Data Institute</u></a> defines <strong>data ethics</strong> as 'a branch of ethics that evaluates data practices with the potential to adversely impact on people and society–in data collection, sharing, and use.' It argues that data ethics is not only relevant to how organisations use, process, or analyse data, but the impact of data activities at every stage of the <strong>data lifecycle</strong>.<br>Data ethics can cover many areas, but the <a class=\"customlink\" href=\"https://royalsocietypublishing.org/doi/10.1098/rsta.2016.0360\" target=\"_blank\" rel=\"noopener noreferrer\"><u>main areas of focus</u></a> include:</p><ul><li>The ethics of data (e.g., collection, processing and use)</li><li>The ethics of algorithms (e.g., use of artificial intelligence)</li><li>The ethics of practices (e.g., responsible innovation, user privacy)</li></ul><p>It's not just <strong>right </strong>to handle data responsibly – the <a class=\"customlink\" href=\"https://www.gov.uk/data-protection\" target=\"_blank\" rel=\"noopener noreferrer\"><u>Data Protection Act 2018</u></a> makes it the <strong>law</strong>. This act mandates that everyone who uses personal data must follow strict rules called data protection principles. But meeting a legal requirement is just one part of data ethics. It doesn't always follow that an organisation is behaving ethically just because it's compliant with the law.</p>",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "651445df5534bbdc31df0898",
+    "_type": "component",
+    "_component": "text",
+    "_layout": "full",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "651445cc5a621228f931134b",
+    "title": "Coming up...",
+    "displayTitle": "",
+    "body": "<p>The first stage of the data lifecycle we'll cover is <strong>data collection</strong>. The law states that organisations must act transparently, with consent, collecting data only for the explicit purpose it's needed. But above and beyond legal requirements, there's still more you can do to serve customers ethically and responsibly during data collection.</p><p><br><strong>Select Next to continue to the next section.</strong><br>&nbsp;</p>",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "6514464e5534bbdc31df09aa",
+    "_type": "component",
+    "_component": "text",
+    "_layout": "full",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "651446358ceafb6bdaa1ac73",
+    "title": "Consent",
+    "displayTitle": "",
+    "body": "<p>Seeking <strong>consent </strong>is the most appropriate way to legally collect information, while giving customers genuine control over their data.&nbsp;</p><p><br>While <a class=\"customlink\" href=\"https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/consent/when-is-consent-appropriate/\" target=\"_blank\" rel=\"noopener noreferrer\"><u>consent isn't always required</u></a> (such as in cases of legitimate interest and/or legal obligation), the General Data Protection Regulations (GDPR) suggest that consent be given to collect data for an explicit and stated purpose. Even without consent, there still needs to be clear and comprehensive information provided about how personal information is used.&nbsp;</p><p>&nbsp;</p><p>Unfortunately, some companies also resort to manipulative user agreements to get the consent they need, but it is not always consent a participant is happy to give. The value of consent is diminished when it becomes a condition of service.</p>",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "651446765843e577fed78ce0",
+    "_type": "component",
+    "_component": "narrative",
+    "_layout": "full",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "6514465c5534bbdc31df09f5",
+    "title": "Confidentiality and anonymity",
+    "displayTitle": "",
+    "body": "<p>Customers will often opt in to data collection under the assumption that the information collected remains confidential, and that any published findings are anonymised.&nbsp;</p><p>&nbsp;</p><p><strong>Select the next and back arrows to find out more.</strong></p>",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "mobileInstruction": "Select the plus icon followed by the next arrow to find out more.",
+    "_isTextBelowImage": false,
+    "_isMobileTextBelowImage": false,
+    "_isStackedOnMobile": false,
+    "_hasNavigationInTextArea": false,
+    "_setCompletionOn": "allItems",
+    "_items": [
+      {
+        "title": "Breaking confidentiality",
+        "_ariaLevel": 0,
+        "body": "<p>If you should need to break confidentiality at any point (or suspect that you will do so in the future), then make it clear at the <strong>start </strong>of the process.</p>",
+        "_graphic": {
+          "src": "course/en/assets/651eb55097a10df36a53a6ff.png",
+          "alt": "Icon of a chain breaking",
+          "attribution": ""
+        },
+        "strapline": "Tap + for more. "
+      },
+      {
+        "title": "Personal identifiable information (PII)",
+        "_ariaLevel": 0,
+        "body": "<p>Where possible, avoid collecting <a class=\"customlink\" href=\"https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/key-definitions/what-is-personal-data/\" target=\"_blank\" rel=\"noopener noreferrer\"><span style=\"color:hsl(150,75%,60%);\"><u>personal identifiable information (PII)</u></span>.</a> Good practice might be to design your data collection methods in a way that they can't be reverse-engineered to reveal subjects. However, keep in mind that it's also possible to identify people from merging separate datasets with just a few personal pieces of information about them.</p>",
+        "_graphic": {
+          "src": "course/en/assets/651eb56894505f1a22eab381.png",
+          "alt": "Icon of a person in a magnifying glass",
+          "attribution": ""
+        },
+        "strapline": "Tap + for more."
+      },
+      {
+        "title": "Ask yourself:",
+        "_ariaLevel": 0,
+        "body": "<ul><li>Have you taken steps to de-identify a dataset by removing all PII before analysing or sharing the insights?</li><li>Have you considered how different data points could be combined to reverse engineer identity/identifying characteristics?</li><li>Do you really need to collect PII-level information?</li></ul>",
+        "_graphic": {
+          "src": "course/en/assets/651eb57b53a700b1e0f26e01.png",
+          "alt": "icon of a question mark",
+          "attribution": ""
+        },
+        "strapline": "Tap + for more. "
+      }
+    ]
+  },
+  {
+    "_id": "651446895534bbdc31df0a64",
+    "_type": "component",
+    "_component": "accordion",
+    "_layout": "left",
+    "_classes": "background-colour11",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "651eba36cbca08732af995f2",
+    "title": "Intention",
+    "displayTitle": "",
+    "body": "",
+    "_onScreen": {
+      "_isEnabled": true,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "fadeIn",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "fast"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_setCompletionOn": "allItems",
+    "_items": [
+      {
+        "title": "Purpose limitation",
+        "body": "<p>Purpose limitation stipulates that data should only be collected for a specific, legitimate, and clearly defined purpose. Organisations should gather information from individuals <strong>only</strong> for the intended use, and data should <strong>not </strong>be repurposed in ways that could violate users' privacy or expectations.&nbsp;<br>Communicate the reasons for data collection to individuals and inform their consent. Ask yourself: How will this data contribute to my overall aim?</p>",
+        "_imageAlignment": "full",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "The data minimisation principle",
+        "body": "<p>Minimum viable collection is a strategy which relates to the issues of anonymity and intention. This method encourages organisations to only collect the data they absolutely need to ensure a result they want or a trend they aim to understand.<br>Ask yourself: What would the results mean for my overall predictions and aims?</p>",
+        "_imageAlignment": "full",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Implementation tips",
+        "body": "<p>It's not always possible to know every purpose for data collection in advance. Being more responsible with data collection intention involves thinking critically about each data point you plan to collect.&nbsp;</p><ul><li>Review<a class=\"customlink\" href=\"https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/lawful-basis-for-processing/consent/\" target=\"_blank\" rel=\"noopener noreferrer\"> <u>recommendations from the ICO</u></a> around consent.</li><li>Use this <a class=\"customlink\" href=\"https://ico.org.uk/for-organisations/gdpr-resources/lawful-basis-interactive-guidance-tool/\" target=\"_blank\" rel=\"noopener noreferrer\"><u>interactive tool</u> </a>to help determine the lawful basis for gathering data</li></ul>",
+        "_imageAlignment": "full",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": true,
+    "_shouldExpandFirstItem": false
+  },
+  {
+    "_id": "651446a95843e577fed78d91",
+    "_type": "component",
+    "_component": "graphic",
+    "_layout": "left",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "6514469645a8ddbd09bed646",
+    "title": "Graphic",
+    "displayTitle": "",
+    "body": "",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "An Amazon Alexa device listening in on a parent and child having a conversation.",
+      "longdescription": "",
+      "large": "course/en/assets/651eb5b8cbca08732af9755c.png",
+      "small": "course/en/assets/651eb5b8cbca08732af9755c.png",
+      "attribution": "",
+      "_url": "",
+      "_target": null
+    },
+    "_isScrollable": false,
+    "_defaultScrollPercent": 0
+  },
+  {
+    "_id": "651446b0f4e526e6a2c02d9d",
+    "_type": "component",
+    "_component": "text",
+    "_layout": "right",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "6514469645a8ddbd09bed646",
+    "title": "Case study: Always-on Alexas",
+    "displayTitle": "",
+    "body": "<p>There are endless examples of questionable personal data collection practices. Amazon received a rash of negative headlines following a<a class=\"customlink\" href=\"https://www.npr.org/2023/06/01/1179381126/amazon-alexa-ring-settlement\" target=\"_blank\" rel=\"noopener noreferrer\"> <u>2021 class-action lawsuit</u></a>, which accused the company's Alexa smart speaker of <a class=\"customlink\" href=\"https://www.theguardian.com/technology/2022/feb/27/the-data-game-what-amazon-knows-about-you-and-how-to-stop-it\" target=\"_blank\" rel=\"noopener noreferrer\"><u>secretly collecting and storing</u> </a>user data.</p>",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "651446baa7557c573a70d583",
+    "_type": "component",
+    "_component": "mcq",
+    "_layout": "full",
+    "_classes": "background-colour8",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "651ed247e6709d40435accf8",
+    "title": "Case study: Always-on Alexas",
+    "displayTitle": "",
+    "body": "",
+    "_onScreen": {
+      "_isEnabled": true,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "fadeIn",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "fast"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "Choose {{#if _isRadio}}one option{{else}}one or more options{{/if}} then select Submit.",
+    "ariaQuestion": "",
+    "_items": [
+      {
+        "text": "Collecting voice data and sharing insights with ad partners by default ",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      },
+      {
+        "text": "Storing children's voice and biometric data without parental consent ",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      },
+      {
+        "text": "Storing data indefinitely by default",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      },
+      {
+        "text": "Devices not allowing users to prevent devices from making recordings",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": false,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_hasItemScoring": false,
+    "_questionWeight": 1,
+    "_selectable": 4,
+    "_feedback": {
+      "title": "Always-on Alexas",
+      "correct": "<p>That's right. All of these data collection practices are unethical, as users do not retain control over their data. They're not all illegal, though–while it's against the law to store children's data without parental consent, it's within the law to set defaults that are not necessarily within the user's best interests when it comes to their personal data.&nbsp;</p>",
+      "_incorrect": {
+        "final": "<p>Not quite. All of these data collection practices are unethical, as users do not retain control over their data. They're not all illegal, though–while it's against the law to store children's data without parental consent, it's within the law to set defaults that are not necessarily within the user's best interests when it comes to their personal data.&nbsp;</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "<p>Not quite. All of these data collection practices are unethical, as users do not retain control over their data. They're not all illegal, though–while it's against the law to store children's data without parental consent, it's within the law to set defaults that are not necessarily within the user's best interests when it comes to their personal data.&nbsp;</p>",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "651446d210ade7c1b1eb67f6",
+    "_type": "component",
+    "_component": "text",
+    "_layout": "full",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "651446bf4a35532cd49a62bf",
+    "title": "Coming up...",
+    "displayTitle": "",
+    "body": "<p>The next part of the data lifecycle is <strong>storage</strong>. Next, we'll talk about some ethical considerations when storing data.&nbsp;</p><p><br><strong>Select Next to continue.</strong></p>",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "6514492c10ade7c1b1eb6db1",
+    "_type": "component",
+    "_component": "text",
+    "_layout": "full",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "651449195843e577fed791e1",
+    "title": "The law suggests...",
+    "displayTitle": "",
+    "body": "<p><meta charset=\"utf-8\"></p><p>As with other aspects of the data lifecycle, the<a class=\"customlink\" href=\"https://www.legislation.gov.uk/ukpga/2018/12/contents\" target=\"_blank\" rel=\"noopener noreferrer\"> <u>Data Protection Act 2018</u> </a>sets out clear rules for the storage of personal data. In particular, organisations must&nbsp;<strong>not </strong>keep personal data for longer than they need to – and they need to be able to justify the length of time they hold the data for.</p><p>Policies are needed for setting standard retention periods for data. Organisations must also review the data they have, and erase or anonymise it when they no longer need it. When this is the case, individuals have the right to ask for their data to be erased.</p><p>There are exceptions, and organisations may keep data for longer periods if they are keeping it for public interest archiving, scientific or historical research, or statistical purposes.&nbsp;</p>",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "65144944c173eacbb438a084",
+    "_type": "component",
+    "_component": "reveal",
+    "_layout": "full",
+    "_classes": "background-colour8",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "651fd93f78dd7cfbc54c0609",
+    "title": "Retention",
+    "displayTitle": "",
+    "body": "",
+    "_onScreen": {
+      "_isEnabled": true,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "fadeIn",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "fast"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_direction": "left",
+    "control": {
+      "hideText": "Hide",
+      "showText": "Show"
+    },
+    "_isItemTitlesEnabled": false,
+    "first": {
+      "title": "",
+      "src": "course/en/assets/651eb5e08e3d8bc3100bcea6.png",
+      "alt": "A selection of data storage devices",
+      "body": "",
+      "moreText": "More"
+    },
+    "second": {
+      "title": "",
+      "src": "course/en/assets/651fd9fee6709d40435b943a.png",
+      "alt": "",
+      "body": "<p>Legal requirements state that data should be stored for the shortest time possible. However, in practice,<a class=\"customlink\" href=\"https://medium.com/golden-data/to-keep-or-not-to-keep-data-retention-challenges-and-solutions-2678e02c2c2e\" target=\"_blank\" rel=\"noopener noreferrer\"> <span style=\"color:hsl(150,75%,60%);\">things aren't always as clear-cut.</span></a><span style=\"color:hsl(150,75%,60%);\">&nbsp;</span><br>Ask yourself:</p><ul><li>Do you need to keep this data at all? Has it already served its purpose?</li><li>Should the data be anonymised? Even though it's not the law, would this be safer? Do you really need to store PII?</li><li>Are you storing out of date or redundant data? Could this be generating faulty insights leading to biased and poor decision making?&nbsp;</li><li>How often will you review stored data and decide whether it's still necessary to keep it? Consider increasing the frequency of your review periods to ensure an ethical approach.</li></ul>",
+      "moreText": "More"
+    }
+  },
+  {
+    "_id": "651449548f1d294228db5a1c",
+    "_type": "component",
+    "_component": "narrative",
+    "_layout": "full",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "6514494510ade7c1b1eb6e2e",
+    "title": "Access",
+    "displayTitle": "",
+    "body": "<p>Data protection and security is vital for storing and managing data, especially personal data that must be kept secure and not disclosed to unauthorised people.</p><p><br><strong>Select the arrows to learn more.</strong></p>",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "mobileInstruction": "Select the plus icon followed by the next arrow to find out more.",
+    "_isTextBelowImage": false,
+    "_isMobileTextBelowImage": false,
+    "_isStackedOnMobile": false,
+    "_hasNavigationInTextArea": false,
+    "_setCompletionOn": "allItems",
+    "_items": [
+      {
+        "title": "Securing data",
+        "_ariaLevel": 0,
+        "body": "<p>Securing data means several things, including preserving its integrity, controlling access to it to reduce breaches and unauthorised access, and protecting the privacy of data contributors–for example, using techniques such as <a class=\"customlink\" href=\"https://en.wikipedia.org/wiki/De-identification\" target=\"_blank\" rel=\"noopener noreferrer\"><u>de-identification</u></a>.</p>",
+        "_graphic": {
+          "src": "course/en/assets/651eb61294505f1a22eab94a.png",
+          "alt": "icon of a padlock",
+          "attribution": ""
+        },
+        "strapline": "Tap + for more."
+      },
+      {
+        "title": "Balancing security and access",
+        "_ariaLevel": 0,
+        "body": "<p>There's an obvious tension between keeping the data secure and ensuring the people who need to view it have access. It could be argued that information should also be available to people in the organisation who may need it to generate valuable insights that could improve services or save time and money – the so-called democratisation of data.&nbsp;<br>In addition, data subjects have the right to ask what data you hold on them – and ask for it to be deleted if they wish.</p>",
+        "_graphic": {
+          "src": "course/en/assets/651eb6253eab62d1217d1171.png",
+          "alt": "icon of a scales",
+          "attribution": ""
+        },
+        "strapline": "Tap + for more. "
+      },
+      {
+        "title": "Implementation tips",
+        "_ariaLevel": 0,
+        "body": "<ul><li>Store multiple copies of key datasets on different media formats (depending on short or long term storage), for redundancy, accessibility, and retention.</li><li>Review databases multiple times a year to understand which data is still necessary to keep and what can be securely disposed of.</li><li><a class=\"customlink\" href=\"https://uk.practicallaw.thomsonreuters.com/w-014-8024?transitionType=Default&amp;contextData=(sc.Default)&amp;firstPage=true\" target=\"_blank\" rel=\"noopener noreferrer\"><u>Thomson Reuters has produced a clear checklist</u> </a>for effective data retention policies.</li></ul>",
+        "_graphic": {
+          "src": "course/en/assets/651eb638cbca08732af9789a.png",
+          "alt": "icon of a checklist",
+          "attribution": ""
+        },
+        "strapline": "Tap + for more."
+      },
+      {
+        "title": "Ask yourself",
+        "_ariaLevel": 0,
+        "body": "<ul><li>How can you balance the security and privacy and access elements of the data you are storing?</li><li>Do you have a plan for providing different levels of access to data so that data in your organisation can be used effectively and ethically?</li><li>How quickly can the data be made available to data subjects should they request it – legally, it's as soon as possible and within one month. Can you put a system in place to ensure that you respond as quickly as possible?</li></ul>",
+        "_graphic": {
+          "src": "course/en/assets/651eb64c53a700b1e0f27785.png",
+          "alt": "icon of a question mark",
+          "attribution": ""
+        },
+        "strapline": "Tap + for more. "
+      }
+    ]
+  },
+  {
+    "_id": "651449761974edf041001474",
+    "_type": "component",
+    "_component": "text",
+    "_layout": "left",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "651449558d8daf96d91a17b2",
+    "title": "Case study: Ocado v McKeeve",
+    "displayTitle": "",
+    "body": "<p>In June 2021, British retailer <a class=\"customlink\" href=\"https://www.ocadogroup.com/media/statements/ocado-settles-litigation-today/\" target=\"_blank\" rel=\"noopener noreferrer\"><span style=\"color:hsl(150,75%,60%);\"><u>Ocado settled litigation</u></span></a> with two former employees who collected confidential documents while they worked for Ocado, which they kept upon leaving the company. These employees used these documents to support the development of a new, rival operation, pursuing clients in direct competition with Ocado.</p>",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "6514497c8ceafb6bdaa1b455",
+    "_type": "component",
+    "_component": "graphic",
+    "_layout": "right",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "651449558d8daf96d91a17b2",
+    "title": "Graphic",
+    "displayTitle": "",
+    "body": "",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "Hands holding a folder labelled 'Confidential'",
+      "longdescription": "",
+      "large": "course/en/assets/651fdadcb2afb2e37eeb854b.png",
+      "small": "course/en/assets/651fdadcb2afb2e37eeb854b.png",
+      "attribution": "",
+      "_url": "",
+      "_target": null
+    },
+    "_isScrollable": false,
+    "_defaultScrollPercent": 0
+  },
+  {
+    "_id": "6514499d5843e577fed793f8",
+    "_type": "component",
+    "_component": "mcq",
+    "_layout": "full",
+    "_classes": "background-colour11",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "65144999c173eacbb438a11f",
+    "title": "Case study: Ocado v McKeeve",
+    "displayTitle": "",
+    "body": "<p>What could Ocado have done to prevent this breach of data security?</p><p>&nbsp;</p><p><strong>Select two correct answers, then submit.</strong></p>",
+    "_onScreen": {
+      "_isEnabled": true,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "fadeIn",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "fast"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "ariaQuestion": "",
+    "_items": [
+      {
+        "text": "Implementing access controls to ensure that only individuals with a legitimate need be granted access to such data",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      },
+      {
+        "text": "Following thorough exit procedures to ensure that employees do not take or share confidential data upon leaving the company",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      },
+      {
+        "text": "Implementing more complicated procedures for data access",
+        "_shouldBeSelected": false,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      },
+      {
+        "text": "Restricting data handling and confidentiality training only to key stakeholders within the company",
+        "_shouldBeSelected": false,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": false,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_hasItemScoring": false,
+    "_questionWeight": 1,
+    "_selectable": 2,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>That's right. Access controls and exit procedures can both help to prevent employees from accessing information they don't need and taking it with them when they leave.<br>Implementing more complex access procedures could have an opposite effect from what is intended: this could deter employees from following proper channels, instead using shortcuts and less ethical methods to access data. Likewise, restricting data handling training to a few people does not promote a culture of data ethics and transparency within the company. This training should be offered to employees at all levels of the organisation.</p>",
+      "_incorrect": {
+        "final": "<p>That's not right. Access controls and exit procedures can both help to prevent employees from accessing information they don't need and taking it with them when they leave.&nbsp;<br>Implementing more complex access procedures could have an opposite effect from what is intended: this could deter employees from following proper channels, instead using shortcuts and less ethical methods to access data. Likewise, restricting data handling training to a few people does not promote a culture of data ethics and transparency within the company. This training should be offered to employees at all levels of the organisation.</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "<p>Not quite. Access controls and exit procedures can both help to prevent employees from accessing information they don't need and taking it with them when they leave.<br>Implementing more complex access procedures could have an opposite effect from what is intended: this could deter employees from following proper channels, instead using shortcuts and less ethical methods to access data. Likewise, restricting data handling training to a few people does not promote a culture of data ethics and transparency within the company. This training should be offered to employees at all levels of the organisation.</p>",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "651449ae5534bbdc31df11fc",
+    "_type": "component",
+    "_component": "text",
+    "_layout": "full",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "651449a25534bbdc31df11d0",
+    "title": "Coming up...",
+    "displayTitle": "",
+    "body": "<p>The next part of the data lifecycle is <strong>usage</strong>. Next, we'll talk about some ethical issues that can arise when interpreting, visualising, and sharing data.</p><p><br><strong>Select Next to continue.</strong></p>",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "65144e7d5a621228f9312754",
+    "_type": "component",
+    "_component": "text",
+    "_layout": "full",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "65144e315a8ab59542ead042",
+    "title": "The law suggests...",
+    "displayTitle": "",
+    "body": "<p>In order to use data – often the point of collecting it in the first place – it must be analysed, processed and modified, or even shared with people outside of your organisation. The Data Protection Act 2018 says that data should be used <strong>fairly, lawfully, and transparently.</strong> It should also be used only for specified purposes, and in a way that is <strong>adequate, relevant, and limited</strong> to what is absolutely necessary.&nbsp;</p><p><br>Data usage covers a wide scope of tasks, and brings numerous ethical issues, particularly around transparency, fairness, and bias.&nbsp;</p>",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "65144f448d8daf96d91a239e",
+    "_type": "component",
+    "_component": "narrative",
+    "_layout": "full",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "65144e7fc40ee1f1040bf68a",
+    "title": "Transparency",
+    "displayTitle": "",
+    "body": "<p>As well as stating an intended purpose up front, organisations should also be ready to clearly communicate how the data is being used.&nbsp;</p><p><br><strong>Select the arrows to learn more.</strong></p>",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "mobileInstruction": "Select the plus icon followed by the next arrow to find out more.",
+    "_isTextBelowImage": false,
+    "_isMobileTextBelowImage": false,
+    "_isStackedOnMobile": false,
+    "_hasNavigationInTextArea": false,
+    "_setCompletionOn": "allItems",
+    "_items": [
+      {
+        "title": "The right to explanation",
+        "_ariaLevel": 0,
+        "body": "<p>It's critical to be able to explain how data is driving a decision-making process and/or how a particular decision was made using the data. Transparency represents a fundamental principle in GDPR: the right to explanation.</p>",
+        "_graphic": {
+          "src": "course/en/assets/651eb761cbca08732af980d2.png",
+          "alt": "icon of a magnifying glass looking at binary code",
+          "attribution": ""
+        },
+        "strapline": "Tap + for more."
+      },
+      {
+        "title": "Algorithms",
+        "_ariaLevel": 0,
+        "body": "<p>With an increasing use of algorithms for data-driven automated decision making, transparency has become even more important to help explain how an algorithm arrived at its outcomes.&nbsp;<br>This can often be difficult as many algorithms are 'black boxes.' However, methods to help explain their inner workings (<a class=\"customlink\" href=\"https://royalsociety.org/topics-policy/projects/explainable-ai/\" target=\"_blank\" rel=\"noopener noreferrer\"><u>explainable AI</u></a>) are becoming increasingly used.&nbsp;</p>",
+        "_graphic": {
+          "src": "course/en/assets/651eb77894505f1a22eac3ef.png",
+          "alt": "icon of an organisational chart",
+          "attribution": ""
+        },
+        "strapline": "Tap + for more."
+      },
+      {
+        "title": "Ask yourself",
+        "_ariaLevel": 0,
+        "body": "<ul><li>How open are you about data collection, processing, and usage?</li><li>Are you able to easily articulate and explain how you are using data and for what specific purpose?</li><li>Are you transparent about how you protect and secure the data collected from consumers?</li><li>If you're using algorithms and AI, are you using methods to help explain their inner workings and how they arrived at an outcome?</li></ul>",
+        "_graphic": {
+          "src": "course/en/assets/651eb79553a700b1e0f281ab.png",
+          "alt": "icon of a question mark",
+          "attribution": ""
+        },
+        "strapline": "Tap + for more."
+      }
+    ]
+  },
+  {
+    "_id": "65144f5591935905f0acbd27",
+    "_type": "component",
+    "_component": "accordion",
+    "_layout": "left",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "651fe58f94505f1a22ec6fcc",
+    "title": "Fairness",
+    "displayTitle": "",
+    "body": "",
+    "_onScreen": {
+      "_isEnabled": true,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "fadeIn",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "fast"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_setCompletionOn": "allItems",
+    "_items": [
+      {
+        "title": "Value",
+        "body": "<p>Are you offering customers <strong>value </strong>in exchange for using their data? This is part of what it means to collect data proportionately to the issue it is resolving–that is, improving a product or service your customers use.</p>",
+        "_imageAlignment": "full",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Personal data",
+        "body": "<p>Should you be using personal data at all? Is it fair to do so? You may not need to collect any personal information to achieve your analytics goals.</p>",
+        "_imageAlignment": "full",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Filling the gaps",
+        "body": "<p>Are you collecting data in a fair way, so that all groups are represented? Look for gaps in the data you are collecting – this could lead you to overlook key information you could use to ensure all groups have equitable positive experiences with the product or service you offer.&nbsp;</p>",
+        "_imageAlignment": "full",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": true,
+    "_shouldExpandFirstItem": false
+  },
+  {
+    "_id": "65144f62c173eacbb438afe9",
+    "_type": "component",
+    "_component": "hotgraphic",
+    "_layout": "full",
+    "_classes": "background-colour8",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "65144f5910ade7c1b1eb7b60",
+    "title": "Bias",
+    "displayTitle": "",
+    "body": "<p>While we acknowledge that humans are often biased and naturally prejudiced, it's a common misconception that machines make cold and objective decisions. The reality is that they are <a class=\"customlink\" href=\"https://arxiv.org/abs/2001.09762\" target=\"_blank\" rel=\"noopener noreferrer\"><span style=\"color:hsl(150,75%,60%);\"><u>as susceptible to bias as any human</u></span></a><span style=\"color:hsl(150,75%,60%);\">.</span></p><p><br><strong>Select the icons to find out more.&nbsp;</strong></p>",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_setCompletionOn": "allItems",
+    "_graphic": {
+      "src": "course/en/assets/651feba797a10df36a554c46.png",
+      "alt": "A person typing on a laptop.",
+      "attribution": ""
+    },
+    "mobileBody": "",
+    "mobileInstruction": "Select the plus icon followed by the next arrow to find out more.",
+    "_isMobileTextBelowImage": false,
+    "_hidePagination": false,
+    "_canCycleThroughPagination": false,
+    "_isNarrativeOnMobile": true,
+    "_useNumberedPins": false,
+    "_useGraphicsAsPins": false,
+    "_isRound": false,
+    "_items": [
+      {
+        "title": "Biases in data collection",
+        "_ariaLevel": 0,
+        "body": "<p>Because humans decide what data to collect, biases often creep in at the data collection stage–like reporting bias, in which only a fraction of real-world information is captured, so information is underreported for certain groups.&nbsp;</p>",
+        "strapline": "Tap + for more.",
+        "_imageAlignment": "right",
+        "_graphic": {
+          "src": "course/en/assets/651eb7d88e3d8bc3100bddf7.png",
+          "alt": "icon of a download to a computer",
+          "attribution": "",
+          "_classes": ""
+        },
+        "_tooltip": {
+          "_isEnabled": false,
+          "text": "{{ariaLabel}}"
+        },
+        "_pin": {
+          "src": "",
+          "alt": ""
+        },
+        "_classes": "",
+        "_left": 25.048923679060664,
+        "_top": 19.93540825962692
+      },
+      {
+        "title": "Biases in data analysis",
+        "_ariaLevel": 0,
+        "body": "<p>There are a few ways in which bias can creep into data analysis. Data preprocessing can exclude certain groups, and humans can act unconsciously to introduce bias when selecting features for analysis, setting parameters, or interpreting results. Likewise, algorithms may inherit bias from training models.</p>",
+        "strapline": "Tap + for more.",
+        "_imageAlignment": "right",
+        "_graphic": {
+          "src": "course/en/assets/651eb7f48e3d8bc3100bdebf.png",
+          "alt": "icon of information moving from a computer to a server",
+          "attribution": "",
+          "_classes": ""
+        },
+        "_tooltip": {
+          "_isEnabled": false,
+          "text": "{{ariaLabel}}"
+        },
+        "_pin": {
+          "src": "",
+          "alt": ""
+        },
+        "_classes": "",
+        "_left": 32.77886497064579,
+        "_top": 54.001923129911155
+      },
+      {
+        "title": "Minimising bias",
+        "_ariaLevel": 0,
+        "body": "<p>There are tools and strategies to help minimise bias in data processing and handling. Employing bias detection tools, interpretability tools, and ethical AI frameworks can all help you to increase transparency in how data is handled. Conducting fairness auditing and continually monitoring systems can also help you to stop bias before it causes a negative impact on groups.</p>",
+        "strapline": "Tap + for more.",
+        "_imageAlignment": "right",
+        "_graphic": {
+          "src": "course/en/assets/651eb8104dadb797dce49feb.png",
+          "alt": "Icon of information being passed to a person",
+          "attribution": "",
+          "_classes": ""
+        },
+        "_tooltip": {
+          "_isEnabled": false,
+          "text": "{{ariaLabel}}"
+        },
+        "_pin": {
+          "src": "",
+          "alt": ""
+        },
+        "_classes": "",
+        "_left": 58.121330724070454,
+        "_top": 13.422692181484349
+      }
+    ]
+  },
+  {
+    "_id": "65144f825a8ab59542ead291",
+    "_type": "component",
+    "_component": "text",
+    "_layout": "left",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "65144f6ef4e526e6a2c045f7",
+    "title": "Case study: Predictive policing",
+    "displayTitle": "",
+    "body": "<p>Due to the mistaken belief that algorithms can provide an impartial and objective solution to crime prevention, law enforcement agencies in major US cities, including New York City, Chicago, and Los Angeles, have implemented <a class=\"customlink\" href=\"https://www.nature.com/articles/d41586-018-05469-3\" target=\"_blank\" rel=\"noopener noreferrer\"><u>predictive policing programs</u>.</a> These programs, which use algorithms to allocate resources to 'hot spots' or potential perpetrators. However, as a <a class=\"customlink\" href=\"https://theconversation.com/ai-profiling-the-social-and-moral-hazards-of-predictive-policing-92960\" target=\"_blank\" rel=\"noopener noreferrer\"><u>report by Durham Constabulary</u></a> highlights, the models used in these programs inherit the biases deeply ingrained in historical crime data. When deployed, the predictions produced replicate and perpetuate the biases present in the training data.&nbsp;</p>",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "65144f87c173eacbb438b01a",
+    "_type": "component",
+    "_component": "graphic",
+    "_layout": "right",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "65144f6ef4e526e6a2c045f7",
+    "title": "Graphic",
+    "displayTitle": "",
+    "body": "",
+    "_onScreen": {
+      "_isEnabled": true,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "fadeIn",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "fast"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "",
+      "longdescription": "",
+      "large": "course/en/assets/651eb83c53a700b1e0f28703.png",
+      "small": "course/en/assets/651eb83c53a700b1e0f28703.png",
+      "attribution": "A computer displaying an eye",
+      "_url": "",
+      "_target": null
+    },
+    "_isScrollable": false,
+    "_defaultScrollPercent": 0
+  },
+  {
+    "_id": "65144f908ceafb6bdaa1c30b",
+    "_type": "component",
+    "_component": "mcq",
+    "_layout": "full",
+    "_classes": "background-colour11",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "65144f89a7557c573a70ea2a",
+    "title": "Case study: Predictive policing",
+    "displayTitle": "",
+    "body": "",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "ariaQuestion": "",
+    "_items": [
+      {
+        "text": "Regularly updating algorithms to reflect demographic change",
+        "_shouldBeSelected": false,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      },
+      {
+        "text": "Ensuring transparency in the algorithm development process",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      },
+      {
+        "text": "Shifting input from largely historical data to largely the judgements of experienced law enforcement officers",
+        "_shouldBeSelected": false,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      },
+      {
+        "text": "Ensuring all predictive policing programs in different locations use the same proprietary algorithms",
+        "_shouldBeSelected": false,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": false,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_hasItemScoring": false,
+    "_questionWeight": 1,
+    "_selectable": 1,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>That's right. Transparency is a fundamental principle in ethical algorithm development processes. This means that the methods, data sources, and decision-making processes behind the algorithm used are open to scrutiny and evaluation by external stakeholders, including the public and oversight bodies.&nbsp;<br>Updating algorithms to reflect demographic change does not accomplish any ethical goals, as this will not have an impact on the biases inherent in historical crime data. Likewise, implementing further input from experienced law enforcement officers will simply introduce bias from a different source. Implementing algorithms with proprietary code can hinder transparency and accountability, making it more challenging for stakeholders to identify and mitigate bias.&nbsp;</p>",
+      "_incorrect": {
+        "final": "<p>That's not right. Transparency is a fundamental principle in ethical algorithm development processes. This means that the methods, data sources, and decision-making processes behind the algorithm used are open to scrutiny and evaluation by external stakeholders, including the public and oversight bodies.&nbsp;<br>Updating algorithms to reflect demographic change does not accomplish any ethical goals, as this will not have an impact on the biases inherent in historical crime data. Likewise, implementing further input from experienced law enforcement officers will simply introduce bias from a different source. Implementing algorithms with proprietary code can hinder transparency and accountability, making it more challenging for stakeholders to identify and mitigate bias.&nbsp;</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "<p>Not quite. Transparency is a fundamental principle in ethical algorithm development processes. This means that the methods, data sources, and decision-making processes behind the algorithm used are open to scrutiny and evaluation by external stakeholders, including the public and oversight bodies.&nbsp;<br>Updating algorithms to reflect demographic change does not accomplish any ethical goals, as this will not have an impact on the biases inherent in historical crime data. Likewise, implementing further input from experienced law enforcement officers will simply introduce bias from a different source. Implementing algorithms with proprietary code can hinder transparency and accountability, making it more challenging for stakeholders to identify and mitigate bias.&nbsp;</p>",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "65144fa15843e577fed7a3e5",
+    "_type": "component",
+    "_component": "text",
+    "_layout": "full",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "65144f96cbdff4d92f2c27da",
+    "title": "Coming up...",
+    "displayTitle": "",
+    "body": "<p>The next part of the data lifecycle is <strong>sharing</strong>. Next, we'll talk about some ethical issues that can arise when sharing data within your business, and externally with stakeholders.</p><p><br><strong>Select Next to continue.</strong></p>",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "651451fa12a914d730089c2b",
+    "_type": "component",
+    "_component": "text",
+    "_layout": "full",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "651451e05a8ab59542ead56b",
+    "title": "The law suggests...",
+    "displayTitle": "",
+    "body": "<p>In general, data protection does not prevent data sharing if it is in the public interest or, if the data is being shared for commercial reasons, proportionate. However, organisations must be able to identify at least one lawful basis for sharing personal data, and demonstrate that they fully considered this before data is shared.&nbsp;</p><p><br>The lawful basis for sharing personal data can come from either the <a class=\"customlink\" href=\"https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/\" target=\"_blank\" rel=\"noopener noreferrer\"><u>UK General Data Protection Regulation</u></a> or the <a class=\"customlink\" href=\"https://www.legislation.gov.uk/ukpga/2018/12/contents\" target=\"_blank\" rel=\"noopener noreferrer\"><u>Data Protection Act 2018</u></a>. This is a potentially complex area, so it's worth checking the<a class=\"customlink\" href=\"https://ico.org.uk/datasharing\" target=\"_blank\" rel=\"noopener noreferrer\"> <u>ICO Data Sharing Code of Practice</u></a> and its <a class=\"customlink\" href=\"https://ico.org.uk/for-organisations/gdpr-resources/lawful-basis-interactive-guidance-tool/\" target=\"_blank\" rel=\"noopener noreferrer\"><u>lawful basis interactive guidance tool</u></a> before sharing data, especially outside of your organisation.&nbsp;</p><p><br>Under GDPR rules, businesses are the curators of the data they collect, not the sole owner, so they must work to safeguard it. Provided there is a legal basis for sharing, the biggest threat to consumers from data sharing projects is re-identification, or the ability to piece together select data to find its source.&nbsp;</p>",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "6514520a12a914d730089c4e",
+    "_type": "component",
+    "_component": "flipcard",
+    "_layout": "full",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "651451fdc173eacbb438b36f",
+    "title": "A shared responsibility",
+    "displayTitle": "",
+    "body": "<p>Organisations might share data with each other to produce new tools or better services for their customers. While companies must meet GDPR's <a class=\"customlink\" href=\"https://ico.org.uk/for-organisations/guide-to-data-protection/ico-codes-of-practice/data-sharing-a-code-of-practice/lawful-basis-for-sharing-personal-data/\" target=\"_blank\" rel=\"noopener noreferrer\"><u>legal basis</u></a> for sharing data, there are further ethical questions they should ask.</p><p>&nbsp;</p><p><strong>Select the cards for more information.</strong></p>",
+    "_onScreen": {
+      "_isEnabled": true,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "fadeIn",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "fast"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_flipType": "allFlip",
+    "_flipTime": 400,
+    "_items": [
+      {
+        "_flipDirection": "horizontal",
+        "frontImage": {
+          "alt": "A handshake",
+          "src": "course/en/assets/652fe7c35fa2580cc9f94e77.png"
+        },
+        "backTitle": "",
+        "backBody": "<p>Data sharing agreements set out the purpose of the data sharing, cover what happens to the data at each stage, set standards and help all the parties involved in sharing to be clear about their roles and responsibilities.</p>"
+      },
+      {
+        "_flipDirection": "horizontal",
+        "frontImage": {
+          "alt": "Question marks in speech bubbles",
+          "src": "course/en/assets/652fe834f8ebc1e7feb8b56f.png"
+        },
+        "backTitle": "",
+        "backBody": "<p>Ask yourself:</p><ul><li>How will the end user benefit from this data sharing?</li><li>How ethical is the data sharing partner?</li><li>How will you take responsibility for any breaches?<br>&nbsp;</li></ul>"
+      }
+    ]
+  },
+  {
+    "_id": "651452315131711db9a2fae7",
+    "_type": "component",
+    "_component": "text",
+    "_layout": "left",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "6514520c5a621228f9312c90",
+    "title": "Case study: exploiting a crisis",
+    "displayTitle": "",
+    "body": "<p>In 2021, <a class=\"customlink\" href=\"https://www.politico.com/news/2022/01/28/suicide-hotline-silicon-valley-privacy-debates-00002617\" target=\"_blank\" rel=\"noopener noreferrer\"><u>Politico reported that Crisis Text Line</u></a> (a non-profit crisis intervention hotline) was sharing user data with its for-profit sister company Loris.ai to improve its customer service optimisation software.</p><p><br>Despite being fully legal, sharing and monetising data from conversations with people in distress was seen as <a class=\"customlink\" href=\"https://www.forbes.com/sites/alexandralevine/2022/02/24/suicide-hotline-left-ethics-board-out-of-the-loop-about-data-sharing-with-for-profit-spinoff/?sh=796780d549b9\" target=\"_blank\" rel=\"noopener noreferrer\">a <u>breach of data sharing ethics</u>,</a> prompting a request to cease the activity from the US Federal Communications Commission.</p>",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "6514523491935905f0acc0d9",
+    "_type": "component",
+    "_component": "graphic",
+    "_layout": "right",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "6514520c5a621228f9312c90",
+    "title": "Graphic",
+    "displayTitle": "",
+    "body": "",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "A mobile phone showing a text conversation--the sender sent a broken heart emoji, and received a money bag emoji.",
+      "longdescription": "",
+      "large": "course/en/assets/651eb8b1e6709d40435a32f7.png",
+      "small": "course/en/assets/651eb8b1e6709d40435a32f7.png",
+      "attribution": "",
+      "_url": "",
+      "_target": null
+    },
+    "_isScrollable": false,
+    "_defaultScrollPercent": 0
+  },
+  {
+    "_id": "6514523d8f1d294228db6a75",
+    "_type": "component",
+    "_component": "mcq",
+    "_layout": "full",
+    "_classes": "background-colour11",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "651452380e6ac6d29d1593d0",
+    "title": "Case study: Exploiting a crisis",
+    "displayTitle": "",
+    "body": "",
+    "_onScreen": {
+      "_isEnabled": true,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "fadeIn",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "fast"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "ariaQuestion": "",
+    "_items": [
+      {
+        "text": "Sharing sensitive user data related to crisis interventions without explicit consent raised privacy and confidentiality concerns.",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      },
+      {
+        "text": "Because Loris.ai is a for-profit company, user data could potentially be commercialised despite being acquired through a non-profit crisis intervention service.",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      },
+      {
+        "text": "The Crisis Text Line did not clearly communicate to users how their data would be used or seek permission to share their data. ",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      },
+      {
+        "text": "Any perceived breach of trust in a crisis situation, such as sharing user data, can damage the reputation of an intervention service.",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": false,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_hasItemScoring": false,
+    "_questionWeight": 1,
+    "_selectable": 4,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>That's right. All of these issues raise ethical concerns, especially with regard to a non-profit which deals with sensitive and vulnerable populations.&nbsp;</p>",
+      "_incorrect": {
+        "final": "",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "<p>Not quite. All of these issues raise ethical concerns, especially with regard to a non-profit which deals with sensitive and vulnerable populations.&nbsp;</p>",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "6514524fcbdff4d92f2c2bf0",
+    "_type": "component",
+    "_component": "text",
+    "_layout": "full",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "651452431974edf0410022b9",
+    "title": "Coming up...",
+    "displayTitle": "",
+    "body": "<p>The next part of the data lifecycle is <strong>destruction</strong>. Next, we'll talk about expectations about deletion of data and limitations of its lifespan.&nbsp;</p><p><br><strong>Select Next to continue.</strong></p>",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "651453d45843e577fed7a872",
+    "_type": "component",
+    "_component": "text",
+    "_layout": "full",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "6514534ac40ee1f1040c00b1",
+    "title": "The law suggests...",
+    "displayTitle": "",
+    "body": "<p>Data should be appropriately managed across its entire lifecycle, from capture to destruction. Planning for data destruction is an integral part of a high-quality, ethical, and responsible data management programme.&nbsp;</p><p><br>Destruction is included as a form of data processing under the <a class=\"customlink\" href=\"https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/\" target=\"_blank\" rel=\"noopener noreferrer\"><span style=\"color:hsl(150,75%,60%);\"><u>UK General Data Protection Regulation</u></span></a><span style=\"color:hsl(150,75%,60%);\">.</span> As well as giving the option for people to have their personal data deleted if they so wish, the GDPR also requires that data is kept for no longer than is necessary and is handled in a way that prevents unlawful or unauthorised processing.</p><p><br>Organisations must have robust data destruction policies. Methods of data destruction should be permanent and irreversible for both physical and digital data and information.&nbsp;</p>",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "651453e510ade7c1b1eb8351",
+    "_type": "component",
+    "_component": "accordion",
+    "_layout": "left",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "651fff1a1a999dd866dbd26a",
+    "title": "Establish expectations",
+    "displayTitle": "",
+    "body": "",
+    "_onScreen": {
+      "_isEnabled": true,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "fadeIn",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "fast"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_setCompletionOn": "allItems",
+    "_items": [
+      {
+        "title": "Before the user consents",
+        "body": "<p>Make it clear how long data will be used <strong>before </strong>the user consents to data collection. Establishing this expectation will ensure you can then meet this expectation.</p>",
+        "_imageAlignment": "full",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Plan ahead",
+        "body": "<p>Plan to make sure there will be no disruptions or inability to destroy the data by the required date and get it done. You should set timeframes in such a way that you are able to get the most value from the data you collect before it is destroyed.&nbsp;</p>",
+        "_imageAlignment": "full",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Practical considerations",
+        "body": "<p>Different types of data will have different methods of storage and different levels of security and requirements to be destroyed. If organisations don't purge data properly, there may be traces of information left behind that no longer have protection.&nbsp;</p>",
+        "_imageAlignment": "full",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Review for existing data",
+        "body": "<p>Finally, any data destruction policy should include procedures for checking archives routinely to make sure there are no traces of purged data, or data that is no longer useful and could be destroyed.&nbsp;<br>Not only does this reduce the volume of stored data, but reduces the impact of potential data breaches.&nbsp;</p>",
+        "_imageAlignment": "full",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      },
+      {
+        "title": "Implementation tips",
+        "body": "<ul><li>Stop disposing of sensitive data via file deletion, disk formatting, and 'one way' encryption–these leave the majority of the data intact and able to be retrieved with the right tools.&nbsp;</li><li>Create formal, documented processes for data destruction within your organisation and require that partner organisations do the same.&nbsp;</li><li>Review and purge your databases of any out of date or old data.</li></ul>",
+        "_imageAlignment": "full",
+        "_graphic": {
+          "alt": "",
+          "src": "",
+          "attribution": ""
+        },
+        "_classes": ""
+      }
+    ],
+    "_shouldCollapseItems": true,
+    "_shouldExpandFirstItem": false
+  },
+  {
+    "_id": "651453fbcbdff4d92f2c2d30",
+    "_type": "component",
+    "_component": "graphic",
+    "_layout": "right",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "651453ea8ceafb6bdaa1c78b",
+    "title": "Graphic",
+    "displayTitle": "",
+    "body": "",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "A segment of binary code",
+      "longdescription": "",
+      "large": "course/en/assets/651eb8e7e6709d40435a34e3.png",
+      "small": "course/en/assets/651eb8e7e6709d40435a34e3.png",
+      "attribution": "",
+      "_url": "",
+      "_target": null
+    },
+    "_isScrollable": false,
+    "_defaultScrollPercent": 0
+  },
+  {
+    "_id": "651454014a35532cd49a7aac",
+    "_type": "component",
+    "_component": "text",
+    "_layout": "left",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "651453ea8ceafb6bdaa1c78b",
+    "title": "Case study: second-hand data",
+    "displayTitle": "",
+    "body": "<p>In 2020, US financial giant <a class=\"customlink\" href=\"https://www.reuters.com/article/us-usa-morgan-stanley-fine-idUSKBN26T3A7\" target=\"_blank\" rel=\"noopener noreferrer\"><u>Morgan Stanley was ordered to pay a $60 million fine</u></a> for improperly decommissioning two of its data centres. Morgan Stanley was found to lack due diligence when subcontracting the destruction, and failed to maintain inventory of customer data.&nbsp;</p><p><br>During the 2016 decommission process, Morgan Stanley subcontracted supervision to a third-party vendor, which was cheaper than relying on equipment manufacturer IBM as they had in the past. This third party did not adequately document and inventory the process, and may not have wiped all information before reselling Morgan Stanley's devices to another asset disposal firm (despite reporting back to Morgan Stanley that these devices had been destroyed).&nbsp;</p><p><br>While Morgan Stanley says none of its wealth management customers have been negatively impacted by this loss, some of the equipment–and the data it holds–has not been recovered or accounted for.&nbsp;</p>",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "651454095534bbdc31df22e2",
+    "_type": "component",
+    "_component": "mcq",
+    "_layout": "full",
+    "_classes": "background-colour8",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "651454035a621228f93132bc",
+    "title": "Case study: Second-hand data",
+    "displayTitle": "",
+    "body": "",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "ariaQuestion": "",
+    "_items": [
+      {
+        "text": "Morgan Stanley",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      },
+      {
+        "text": "The third-party asset disposal company",
+        "_shouldBeSelected": true,
+        "_isPartlyCorrect": false,
+        "feedback": "",
+        "_score": 0
+      }
+    ],
+    "_attempts": 1,
+    "_canShowModelAnswer": false,
+    "_canShowFeedback": true,
+    "_canShowMarking": true,
+    "_shouldDisplayAttempts": false,
+    "_isRandom": true,
+    "_recordInteraction": true,
+    "_hasItemScoring": false,
+    "_questionWeight": 1,
+    "_selectable": 2,
+    "_feedback": {
+      "title": "",
+      "correct": "<p>That's right. Both groups are at fault here.&nbsp;<br>Morgan Stanley did not do its due diligence in retaining and overseeing the third-party asset disposal company, nor did it maintain a proper inventory of customer data stored on decommissioned equipment.&nbsp;<br>The third-party company, Triple Crown, was inadequately certified in handling sensitive data. They failed to adhere to industry standards in not following recommended data wiping or destruction methods, instead selling on the devices without wiping them to another firm.&nbsp;</p>",
+      "_incorrect": {
+        "final": "<p>Not quite. Both groups are at fault here.&nbsp;<br>Morgan Stanley did not do its due diligence in retaining and overseeing the third-party asset disposal company, nor did it maintain a proper inventory of customer data stored on decommissioned equipment.&nbsp;<br>The third-party company, Triple Crown, was inadequately certified in handling sensitive data. They failed to adhere to industry standards in not following recommended data wiping or destruction methods, instead selling on the devices without wiping them to another firm.&nbsp;</p>",
+        "notFinal": ""
+      },
+      "_partlyCorrect": {
+        "final": "<p>Not quite. Both groups are at fault here.&nbsp;<br>Morgan Stanley did not do its due diligence in retaining and overseeing the third-party asset disposal company, nor did it maintain a proper inventory of customer data stored on decommissioned equipment.&nbsp;<br>The third-party company, Triple Crown, was inadequately certified in handling sensitive data. They failed to adhere to industry standards in not following recommended data wiping or destruction methods, instead selling on the devices without wiping them to another firm.&nbsp;</p>",
+        "notFinal": ""
+      }
+    },
+    "_buttons": {
+      "_submit": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_reset": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_hideCorrectAnswer": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "_showFeedback": {
+        "buttonText": "",
+        "ariaLabel": ""
+      },
+      "remainingAttemptsText": "",
+      "remainingAttemptText": ""
+    }
+  },
+  {
+    "_id": "65145426f4e526e6a2c04ae9",
+    "_type": "component",
+    "_component": "text",
+    "_layout": "full",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "651454195a8ab59542ead7fb",
+    "title": "Coming up...",
+    "displayTitle": "",
+    "body": "<p>Finally, we'll summarise everything we've covered so far and leave you with a few top tips for implementing data ethics in your organisation.&nbsp;</p><p>&nbsp;</p><p><strong>Select Next to continue.</strong></p>",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "651456155a621228f931348d",
+    "_type": "component",
+    "_component": "text",
+    "_layout": "full",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "651455f4c173eacbb438b79f",
+    "title": "You've learned a lot!",
+    "displayTitle": "",
+    "body": "<p>This module has covered the complex lifecycle that data experiences. We've moved from consensual data collection, to fair usage, to transparent management practices–but where do we go from here?&nbsp;&nbsp;<br>It's one thing to learn and know about data ethics, but it's another to actually put these principles in practice. Let's finish up by considering a few tips for embedding <a class=\"customlink\" href=\"https://link.springer.com/article/10.1007/s43681-020-00011-6\" target=\"_blank\" rel=\"noopener noreferrer\"><u>ethical practices</u></a> within your organisation.&nbsp;</p>",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "6514561f10ade7c1b1eb84cb",
+    "_type": "component",
+    "_component": "flipcard",
+    "_layout": "full",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "6514561691935905f0acc36f",
+    "title": "Top tips",
+    "displayTitle": "",
+    "body": "<p><meta charset=\"utf-8\"><strong>Select the cards for more information.</strong></p>",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_flipType": "allFlip",
+    "_flipTime": 400,
+    "_items": [
+      {
+        "_flipDirection": "horizontal",
+        "frontImage": {
+          "alt": "icon of a government building",
+          "src": "course/en/assets/652fe4fe0ad97cf52488bffa.png"
+        },
+        "backTitle": "",
+        "backBody": "<p><strong>Lean on your organisation's core values.</strong> Fairness, transparency, and accountability underpin the basis of doing things responsibly, and you've likely had discussions about these values in the context of your employees and customers already. Use these familiar terms as jumping-off points to hold your organisation accountable.</p>"
+      },
+      {
+        "_flipDirection": "horizontal",
+        "frontImage": {
+          "alt": "icon of diverse people and a globe",
+          "src": "course/en/assets/652fe5233ae28a8a54846b8a.png"
+        },
+        "backTitle": "",
+        "backBody": "<p><strong>Get as many voices in the room as possible.</strong> A failure to account for personal bias can wreak havoc across the data lifecycle. Getting a range of voices and experiences together to point out your blind spots doesn't just avoid negative outcomes–it makes ethical guidelines more flexible and versatile for everyone.</p>"
+      },
+      {
+        "_flipDirection": "horizontal",
+        "frontImage": {
+          "alt": "icon of a conversation",
+          "src": "course/en/assets/652fe53b12749b6318880f49.png"
+        },
+        "backTitle": "",
+        "backBody": "<p><strong>Enable people to communicate concerns. </strong>Data projects pass through different sections of an organisation, and not all these teams have the same level of power and influence. A true ethics policy needs to work for everyone, and appropriate safeguards must be put in place for anyone to raise and communicate concerns when needed.&nbsp;</p>"
+      },
+      {
+        "_flipDirection": "horizontal",
+        "frontImage": {
+          "alt": "icon of a roadmap where an X marks the destination",
+          "src": "course/en/assets/652fe5543ae28a8a54846c49.png"
+        },
+        "backTitle": "",
+        "backBody": "<p><strong>It's the journey, not the destination.</strong>&nbsp;</p><p>Truly ethical practice is a constantly shifting goal. A willingness to always learn more is therefore crucial for moving forward. Use existing standards and frameworks to ensure that ethical practices don't just become an exercise in ticking boxes, but rather are a part of your standard practices and ways of working.&nbsp;</p>"
+      }
+    ]
+  },
+  {
+    "_id": "65145633cbdff4d92f2c2f26",
+    "_type": "component",
+    "_component": "text",
+    "_layout": "full",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "6514562145a8ddbd09bef69a",
+    "title": "Thanks for learning with us",
+    "displayTitle": "",
+    "body": "<p>You've now completed this module on data ethics. Feel free to revisit this training at any time to review all the information we've covered.</p><p><br><strong>To exit the course, select the exit icon&nbsp;<i class=\"fas fa-sign-out-alt\"></i> or close the tab/browser window.</strong></p>",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "6516d0dc91768003978c0fb0",
+    "_type": "component",
+    "_component": "graphic",
+    "_layout": "full",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "6516d0be8ceafb6bdaa415bf",
+    "title": "Graphic",
+    "displayTitle": "",
+    "body": "",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "Introduction",
+      "longdescription": "",
+      "large": "course/en/assets/651ec9338e3d8bc3100c3bdb.png",
+      "small": "course/en/assets/6516d1280d1aa3d036a74dae.png",
+      "attribution": "",
+      "_url": "",
+      "_target": null
+    },
+    "_isScrollable": false,
+    "_defaultScrollPercent": 0
+  },
+  {
+    "_id": "6516d4ac5843e577feda18da",
+    "_type": "component",
+    "_component": "blank",
+    "_layout": "full",
+    "_classes": "blank-small",
+    "_isOptional": true,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "6516d4884ea2671f34b0579e",
+    "title": "Blank",
+    "displayTitle": "Blank",
+    "body": "",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    }
+  },
+  {
+    "_id": "6516e3f54a35532cd49d4800",
+    "_type": "component",
+    "_component": "graphic",
+    "_layout": "full",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "6516e20e91768003978c3397",
+    "title": "Graphic",
+    "displayTitle": "",
+    "body": "",
+    "_onScreen": {
+      "_isEnabled": true,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "fadeIn",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "\"Think of it as the difference between what you could do and what you should do.\"",
+      "longdescription": "",
+      "large": "course/en/assets/6516e425a320b562430d1778.png",
+      "small": "course/en/assets/6516e425a320b562430d1778.png",
+      "attribution": "",
+      "_url": "",
+      "_target": null
+    },
+    "_isScrollable": false,
+    "_defaultScrollPercent": 0
+  },
+  {
+    "_id": "6516ecf64ea2671f34b0894e",
+    "_type": "component",
+    "_component": "graphic",
+    "_layout": "full",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "6516eceb0d1aa3d036a78668",
+    "title": "Graphic",
+    "displayTitle": "",
+    "body": "",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "Data collection",
+      "longdescription": "",
+      "large": "course/en/assets/6516ed10b2132a2a1a5f6af8.png",
+      "small": "course/en/assets/6516ed3391768003978c48a6.png",
+      "attribution": "",
+      "_url": "",
+      "_target": null
+    },
+    "_isScrollable": false,
+    "_defaultScrollPercent": 0
+  },
+  {
+    "_id": "651eba4094505f1a22eaecb4",
+    "_type": "component",
+    "_component": "text",
+    "_layout": "left",
+    "_classes": "background-colour10",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "6514467dc173eacbb43899f5",
+    "title": "Text",
+    "displayTitle": "",
+    "body": "<p>It can be hard to know the purpose or value of data in advance, but it is important to plan for it before collecting any data.</p><p><br><strong>Select each heading from the list below to find out more.</strong></p>",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "651ebaed4dadb797dce4b2a3",
+    "_type": "component",
+    "_component": "blank",
+    "_layout": "full",
+    "_classes": "",
+    "_isOptional": true,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "651ebad194505f1a22eaf00e",
+    "title": "Blank",
+    "displayTitle": "",
+    "body": "",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    }
+  },
+  {
+    "_id": "651ecb2ee6709d40435a9265",
+    "_type": "component",
+    "_component": "blank",
+    "_layout": "full",
+    "_classes": "blank-small",
+    "_isOptional": true,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "651ecb2ee6709d40435a9259",
+    "title": "Blank",
+    "displayTitle": "Blank",
+    "body": "",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    }
+  },
+  {
+    "_id": "651ed26753a700b1e0f33e8e",
+    "_type": "component",
+    "_component": "text",
+    "_layout": "full",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "651446b545a8ddbd09bed6b0",
+    "title": "Text",
+    "displayTitle": "",
+    "body": "<p>Which of these actions could pose a problem with regard to ethical data collection?</p><p>&nbsp;</p><p><strong>Select all answers that apply, then Submit.</strong></p>",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "651ed7f094505f1a22eb9deb",
+    "_type": "component",
+    "_component": "graphic",
+    "_layout": "full",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "651ed7e353a700b1e0f35a0f",
+    "title": "Graphic",
+    "displayTitle": "",
+    "body": "",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "Data storage",
+      "longdescription": "",
+      "large": "course/en/assets/651ed80e4dadb797dce55c9e.png",
+      "small": "course/en/assets/651ed83b53a700b1e0f35bfe.png",
+      "attribution": "",
+      "_url": "",
+      "_target": null
+    },
+    "_isScrollable": false,
+    "_defaultScrollPercent": 0
+  },
+  {
+    "_id": "651ef53e4dadb797dce591dc",
+    "_type": "component",
+    "_component": "graphic",
+    "_layout": "full",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "651ef5304dadb797dce591b5",
+    "title": "Graphic",
+    "displayTitle": "",
+    "body": "",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "Data usage",
+      "longdescription": "",
+      "large": "course/en/assets/651ef5733eab62d1217e18a2.png",
+      "small": "course/en/assets/651ef6304dadb797dce592a0.png",
+      "attribution": "",
+      "_url": "",
+      "_target": null
+    },
+    "_isScrollable": false,
+    "_defaultScrollPercent": 0
+  },
+  {
+    "_id": "651f003453a700b1e0f3a023",
+    "_type": "component",
+    "_component": "graphic",
+    "_layout": "full",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "651f003453a700b1e0f3a017",
+    "title": "Graphic",
+    "displayTitle": "",
+    "body": "",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "Data sharing",
+      "longdescription": "",
+      "large": "course/en/assets/651fbeba1a999dd866db3f42.png",
+      "small": "course/en/assets/651fbf7d1e88d670d70d5eb3.png",
+      "attribution": "",
+      "_url": "",
+      "_target": null
+    },
+    "_isScrollable": false,
+    "_defaultScrollPercent": 0
+  },
+  {
+    "_id": "651f030b97a10df36a54b42b",
+    "_type": "component",
+    "_component": "graphic",
+    "_layout": "full",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "651f030b97a10df36a54b41f",
+    "title": "Graphic",
+    "displayTitle": "",
+    "body": "",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "Data destruction",
+      "longdescription": "",
+      "large": "course/en/assets/651fc8244dadb797dce5d5fe.png",
+      "small": "course/en/assets/651fc8964dadb797dce5d665.png",
+      "attribution": "",
+      "_url": "",
+      "_target": null
+    },
+    "_isScrollable": false,
+    "_defaultScrollPercent": 0
+  },
+  {
+    "_id": "651fbc8569e32295d1b0e79c",
+    "_type": "component",
+    "_component": "graphic",
+    "_layout": "full",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "651fbc8569e32295d1b0e790",
+    "title": "Graphic",
+    "displayTitle": "",
+    "body": "",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "instruction": "",
+    "_graphic": {
+      "alt": "Conclusion",
+      "longdescription": "",
+      "large": "course/en/assets/651fcab13ad8519ec21d19a0.png",
+      "small": "course/en/assets/651fcad0e6709d40435b6b4d.png",
+      "attribution": "",
+      "_url": "",
+      "_target": null
+    },
+    "_isScrollable": false,
+    "_defaultScrollPercent": 0
+  },
+  {
+    "_id": "651fd1871a999dd866db5b78",
+    "_type": "component",
+    "_component": "blank",
+    "_layout": "full",
+    "_classes": "blank-small",
+    "_isOptional": true,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "651fd1871a999dd866db5b6c",
+    "title": "Blank",
+    "displayTitle": "Blank",
+    "body": "",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    }
+  },
+  {
+    "_id": "651fd947e6709d40435b9255",
+    "_type": "component",
+    "_component": "text",
+    "_layout": "full",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "6514493745a8ddbd09bedc22",
+    "title": "Text",
+    "displayTitle": "",
+    "body": "<p>It's fairly obvious that data needs to be stored and protected with the appropriate level of security, with backup and recovery procedures that protect key information.<br>But beyond this, there are ethical considerations relating to storage – in particular, how long organisations should store data for. <strong>Data retention</strong> links back to having a clear purpose for collecting the data in the first place and being very precise about its use.</p><p><br><strong>Select the arrow to find out more.&nbsp;</strong></p>",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "651fe59afa8785042a4696c3",
+    "_type": "component",
+    "_component": "text",
+    "_layout": "left",
+    "_classes": "background-colour10",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "65144f4bf4e526e6a2c0459b",
+    "title": "Text",
+    "displayTitle": "",
+    "body": "<p>In terms of fairness — often thought of as 'impartial and just treatment or behaviour without favouritism or discrimination' — the collection and use of data should be proportionate to the challenge or issue it has set out to resolve. The quality of data should also be such that the insights it generates are fair, and that any impact on a particular group can be justified and not be detrimental.</p><p><br><strong>Select each heading from the list below to find out more.</strong></p>",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "651fe6a853a700b1e0f42eed",
+    "_type": "component",
+    "_component": "blank",
+    "_layout": "full",
+    "_classes": "",
+    "_isOptional": true,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "651fe69eb2afb2e37eeba92b",
+    "title": "Blank",
+    "displayTitle": "",
+    "body": "",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    }
+  },
+  {
+    "_id": "651ff2fbfa8785042a46b508",
+    "_type": "component",
+    "_component": "text",
+    "_layout": "full",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "651ff2f11e88d670d70dd50f",
+    "title": "Text",
+    "displayTitle": "",
+    "body": "<p>How can bias be prevented in predictive policing?</p><p>&nbsp;</p><p><strong>Select your answer, then submit.</strong></p>",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "651ff49e53a700b1e0f44fa6",
+    "_type": "component",
+    "_component": "blank",
+    "_layout": "full",
+    "_classes": "blank-small",
+    "_isOptional": true,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "651ff49e53a700b1e0f44f9a",
+    "title": "Blank",
+    "displayTitle": "Blank",
+    "body": "",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    }
+  },
+  {
+    "_id": "651ff57394505f1a22ec989e",
+    "_type": "component",
+    "_component": "text",
+    "_layout": "full",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "651ff56d8e3d8bc3100d8c02",
+    "title": "Text",
+    "displayTitle": "",
+    "body": "<p>Which of these could have posed an ethical issue in this case?</p><p>&nbsp;</p><p><strong>Select all answers that apply, then submit.</strong></p>",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "651ff77097a10df36a556948",
+    "_type": "component",
+    "_component": "blank",
+    "_layout": "full",
+    "_classes": "blank-small",
+    "_isOptional": true,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "651ff77097a10df36a55693c",
+    "title": "Blank",
+    "displayTitle": "Blank",
+    "body": "",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    }
+  },
+  {
+    "_id": "651fff2369e32295d1b18a94",
+    "_type": "component",
+    "_component": "text",
+    "_layout": "left",
+    "_classes": "background-colour10",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "651453d55a8ab59542ead7b5",
+    "title": "Text",
+    "displayTitle": "",
+    "body": "<p>Just as a user should be informed when their data is being collected and for what purpose before they opt in, you should make it clear how long that data will be held and when/whether it will be destroyed or not.&nbsp;</p><p><br><strong>Select each heading from the list below to find out more.</strong></p>",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "651fffe1b2afb2e37eebe4b3",
+    "_type": "component",
+    "_component": "text",
+    "_layout": "full",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "651fffdcb72152e1a6595fd3",
+    "title": "Text",
+    "displayTitle": "",
+    "body": "<p>Who's at fault in this situation?</p><p>&nbsp;</p><p><strong>Select all answers that apply, then submit.</strong></p>",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  },
+  {
+    "_id": "6520002bb72152e1a65960aa",
+    "_type": "component",
+    "_component": "blank",
+    "_layout": "full",
+    "_classes": "",
+    "_isOptional": true,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "6520001b8e3d8bc3100da798",
+    "title": "Blank",
+    "displayTitle": "",
+    "body": "",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    }
+  },
+  {
+    "_id": "652003ebb2afb2e37eebeddf",
+    "_type": "component",
+    "_component": "blank",
+    "_layout": "full",
+    "_classes": "blank-small",
+    "_isOptional": true,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "652003ebb2afb2e37eebedd3",
+    "title": "Blank",
+    "displayTitle": "Blank",
+    "body": "",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-1s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": false,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    }
+  },
+  {
+    "_id": "6584141a1e408880b629c4f9",
+    "_type": "component",
+    "_component": "text",
+    "_layout": "full",
+    "_classes": "",
+    "_isOptional": false,
+    "_isAvailable": true,
+    "_isHidden": false,
+    "_isVisible": true,
+    "_isResetOnRevisit": "false",
+    "_ariaLevel": 0,
+    "_disableAccessibilityState": false,
+    "_parentId": "658413fdbf1ae521c7942c89",
+    "title": "Text",
+    "displayTitle": "",
+    "body": "<p style=\"font-family:'Poppins', sans-serif;font-size:30px;\"><strong>Ask yourself:&nbsp;&nbsp;</strong></p><p style=\"font-family:'Poppins', sans-serif;font-size:20px;\">✦ Do you have <strong>permission</strong> from users or participants?&nbsp;&nbsp;</p><p style=\"font-family:'Poppins', sans-serif;font-size:20px;\">✦ Have they been made aware that their involvement is <strong>voluntary?</strong>&nbsp;&nbsp;</p><p style=\"font-family:'Poppins', sans-serif;font-size:20px;\">✦ Is it clear that participants are <strong>free to withdraw</strong> from any active data collection programme at any point without pressure or fear of retaliation?&nbsp;</p>",
+    "_onScreen": {
+      "_isEnabled": false,
+      "_classes": "",
+      "_percentInviewVertical": 50,
+      "_animationName": "",
+      "_animationDelay": "delay-0.5s",
+      "_animationRepetition": "repeat-1",
+      "_animationSpeed": "slow"
+    },
+    "_tutor": {
+      "_isInherited": true,
+      "_type": "notify",
+      "_classes": "",
+      "_hasNotifyBottomButton": false,
+      "_button": {
+        "text": "{{_globals._extensions._tutor.hideFeedback}}",
+        "ariaLabel": "{{_globals._extensions._tutor.hideFeedback}}"
+      }
+    },
+    "_pageLevelProgress": {
+      "_isEnabled": true,
+      "_isCompletionIndicatorEnabled": false
+    },
+    "instruction": ""
+  }
+]
