@@ -5,15 +5,18 @@ import { withBase } from '../scripts/paths';
 interface Props {
   title: string;
   duration?: string;
+  // 'landing' skips the default <h1>/duration wrapper so the course home
+  // page can supply its own full-bleed hero markup via the slot instead.
+  variant?: 'default' | 'landing';
 }
 
-const { title, duration } = Astro.props;
+const { title, duration, variant = 'default' } = Astro.props;
 
 // Mirrors contentObjects.json's page list — hand-maintained for now.
 // (In the Adapt version this tree is generated across 5 JSON files;
 // here it's just this one array.)
 const pages = [
-  { title: 'Introduction', href: '/' },
+  { title: 'Introduction', href: '/introduction/' },
   { title: 'Data Collection', href: '/data-collection/' },
   { title: 'Data Storage', href: '/data-storage/' },
   { title: 'Data Usage', href: '/data-usage/' },
@@ -54,11 +57,17 @@ const pages = [
       </div>
     </header>
 
-    <main class="a8-container a8-main">
-      <h1>{title}</h1>
-      {duration && <p class="a8-duration">Duration: {duration}</p>}
-      <slot />
-    </main>
+    {variant === 'landing' ? (
+      <main class="a8-main a8-main--landing">
+        <slot />
+      </main>
+    ) : (
+      <main class="a8-container a8-main">
+        <h1>{title}</h1>
+        {duration && <p class="a8-duration">Duration: {duration}</p>}
+        <slot />
+      </main>
+    )}
 
     <footer class="a8-footer">
       <div class="a8-container">
@@ -137,6 +146,9 @@ const pages = [
         padding-top: var(--a8-space-lg);
         padding-bottom: var(--a8-space-lg);
         min-height: 60vh;
+      }
+      .a8-main--landing {
+        padding: 0;
       }
       .a8-duration {
         color: var(--a8-text-muted);

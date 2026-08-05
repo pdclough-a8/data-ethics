@@ -1,0 +1,84 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Accordion from '../components/Accordion.astro';
+import Graphic from '../components/Graphic.astro';
+import Mcq from '../components/Mcq.astro';
+
+// Real MCQ content, pulled from components.json (id 651446baa7557c573a70d583)
+// — "Always-on Alexas" case-study question, borrowed from Data Collection
+// the same way the accordion above was, purely to demo the rebuilt
+// component. Multi-select, single attempt, ungraded (matches the current
+// course's _completionCriteria — no assessment gating).
+const alexasMcq = {
+  id: 'always-on-alexas',
+  title: 'Case study: Always-on Alexas',
+  instruction: 'Choose one or more options then select Submit.',
+  items: [
+    { text: 'Collecting voice data and sharing insights with ad partners by default', shouldBeSelected: true },
+    { text: "Storing children's voice and biometric data without parental consent", shouldBeSelected: true },
+    { text: 'Storing data indefinitely by default', shouldBeSelected: true },
+    { text: 'Devices not allowing users to prevent devices from making recordings', shouldBeSelected: true },
+  ],
+  feedbackCorrect: `<p>That's right. All of these data collection practices are unethical, as users do not retain control over their data. They're not all illegal, though–while it's against the law to store children's data without parental consent, it's within the law to set defaults that are not necessarily within the user's best interests when it comes to their personal data.</p>`,
+  feedbackIncorrect: `<p>Not quite. All of these data collection practices are unethical, as users do not retain control over their data. They're not all illegal, though–while it's against the law to store children's data without parental consent, it's within the law to set defaults that are not necessarily within the user's best interests when it comes to their personal data.</p>`,
+};
+
+// Real copy, pulled from course/en/components.json (id 651445944a35532cd49a5fdc)
+// — the "Going beyond the law" text block from the current Introduction page.
+const introBody = `<p>The <a class="customlink" href="https://theodi.org/" target="_blank" rel="noopener noreferrer"><u>Open Data Institute</u></a> defines <strong>data ethics</strong> as 'a branch of ethics that evaluates data practices with the potential to adversely impact on people and society–in data collection, sharing, and use.' It argues that data ethics is not only relevant to how organisations use, process, or analyse data, but the impact of data activities at every stage of the <strong>data lifecycle</strong>.<br>Data ethics can cover many areas, but the <a class="customlink" href="https://royalsocietypublishing.org/doi/10.1098/rsta.2016.0360" target="_blank" rel="noopener noreferrer"><u>main areas of focus</u></a> include:</p><ul><li>The ethics of data (e.g., collection, processing and use)</li><li>The ethics of algorithms (e.g., use of artificial intelligence)</li><li>The ethics of practices (e.g., responsible innovation, user privacy)</li></ul><p>It's not just <strong>right </strong>to handle data responsibly – the <a class="customlink" href="https://www.gov.uk/data-protection" target="_blank" rel="noopener noreferrer"><u>Data Protection Act 2018</u></a> makes it the <strong>law</strong>. This act mandates that everyone who uses personal data must follow strict rules called data protection principles. But meeting a legal requirement is just one part of data ethics. It doesn't always follow that an organisation is behaving ethically just because it's compliant with the law.</p>`;
+
+// Real accordion content, pulled from components.json (id 651eba... "Intention")
+// — borrowed from the Data Collection page purely to demonstrate the
+// rebuilt accordion component with real course copy, not placeholder text.
+const accordionItems = [
+  {
+    title: 'Purpose limitation',
+    body: `<p>Purpose limitation stipulates that data should only be collected for a specific, legitimate, and clearly defined purpose. Organisations should gather information from individuals <strong>only</strong> for the intended use, and data should <strong>not </strong>be repurposed in ways that could violate users' privacy or expectations.<br>Communicate the reasons for data collection to individuals and inform their consent. Ask yourself: How will this data contribute to my overall aim?</p>`,
+  },
+  {
+    title: 'The data minimisation principle',
+    body: `<p>Minimum viable collection is a strategy which relates to the issues of anonymity and intention. This method encourages organisations to only collect the data they absolutely need to ensure a result they want or a trend they aim to understand.<br>Ask yourself: What would the results mean for my overall predictions and aims?</p>`,
+  },
+  {
+    title: 'Implementation tips',
+    body: `<p>It's not always possible to know every purpose for data collection in advance. Being more responsible with data collection intention involves thinking critically about each data point you plan to collect.</p><ul><li>Review <a class="customlink" href="https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/lawful-basis-for-processing/consent/" target="_blank" rel="noopener noreferrer"><u>recommendations from the ICO</u></a> around consent.</li><li>Use this <a class="customlink" href="https://ico.org.uk/for-organisations/gdpr-resources/lawful-basis-interactive-guidance-tool/" target="_blank" rel="noopener noreferrer"><u>interactive tool</u></a> to help determine the lawful basis for gathering data.</li></ul>`,
+  },
+];
+---
+
+<Layout title="Introduction" duration="2 minutes">
+  <Graphic
+    src="/assets/intro-hero.jpg"
+    alt=""
+    caption="Hero image reused from the current course — swap for A8-branded imagery later."
+  />
+
+  <h2>Going beyond the law</h2>
+  <div class="a8-prose" set:html={introBody} />
+
+  <p class="a8-note">
+    The accordion below reuses real copy from the "Intention" section of the
+    Data Collection page, just to demonstrate the rebuilt component — it'll
+    move to its proper page once more content is ported.
+  </p>
+  <Accordion items={accordionItems} />
+
+  <p class="a8-note">
+    Same borrow-for-demo approach for the quiz below — real "Always-on
+    Alexas" question from Data Collection, single attempt, ungraded,
+    matching the current course's behaviour.
+  </p>
+  <Mcq {...alexasMcq} />
+</Layout>
+
+<style>
+  .a8-prose :global(ul) {
+    padding-left: 1.25rem;
+  }
+  .a8-note {
+    color: var(--a8-text-muted);
+    font-size: 0.85rem;
+    border-left: 3px solid var(--a8-accent);
+    padding-left: var(--a8-space-md);
+  }
+</style>
