@@ -1,23 +1,25 @@
-// One-off content migration script: reads the current Adapt JSON (course →
-// pages → articles → blocks → components) and flattens each remaining page
-// into an ordered list of {type, ...props} entries matching the Astro
-// component props, so each page.astro can just be:
+// One-off content migration script: reads the original Adapt JSON (course →
+// pages → articles → blocks → components) and flattens each page into an
+// ordered list of {type, ...props} entries matching the Astro component
+// props, so each page.astro can just be:
 //
 //   {content.blocks.map((block) => <Block block={block} />)}
 //
-// Also copies every referenced image into v2-astro/public/assets/ and
-// rewrites its path, so pages don't reach outside this project's folder.
+// Kept for reference (and in case content ever needs re-deriving), but it
+// won't run as-is any more: `course/en/` — its source data — was removed
+// once migration was complete and the old Adapt course was decommissioned.
+// It's still recoverable via git history (any commit before the cleanup
+// that dropped adapt/, course/, etc.) if this script needs to run again.
 //
-// Run once per page as content is ported: `node scripts/extract-content.mjs`
-// (from inside v2-astro/). Not part of the build — this is a migration
-// tool, not a runtime dependency.
+// Originally run via `node scripts/extract-content.mjs` from the project
+// root. Not part of the build — a migration tool, not a runtime dependency.
 
 import fs from 'node:fs';
 import path from 'node:path';
 import { fileURLToPath } from 'node:url';
 
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
-const repoRoot = path.resolve(__dirname, '../..');
+const repoRoot = path.resolve(__dirname, '..');
 const courseDir = path.join(repoRoot, 'course/en');
 const outDir = path.resolve(__dirname, '../src/content');
 const assetsOutDir = path.resolve(__dirname, '../public/assets');
