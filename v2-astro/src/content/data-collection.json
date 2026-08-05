@@ -1,0 +1,118 @@
+{
+  "title": "Data Collection",
+  "duration": "6 minutes.",
+  "blocks": [
+    {
+      "type": "graphic",
+      "alt": "Data collection",
+      "src": "/assets/6516ed10b2132a2a1a5f6af8.png"
+    },
+    {
+      "type": "text",
+      "title": "Consent",
+      "body": "<p>Seeking <strong>consent </strong>is the most appropriate way to legally collect information, while giving customers genuine control over their data.&nbsp;</p><p><br>While <a class=\"customlink\" href=\"https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/consent/when-is-consent-appropriate/\" target=\"_blank\" rel=\"noopener noreferrer\"><u>consent isn't always required</u></a> (such as in cases of legitimate interest and/or legal obligation), the General Data Protection Regulations (GDPR) suggest that consent be given to collect data for an explicit and stated purpose. Even without consent, there still needs to be clear and comprehensive information provided about how personal information is used.&nbsp;</p><p>&nbsp;</p><p>Unfortunately, some companies also resort to manipulative user agreements to get the consent they need, but it is not always consent a participant is happy to give. The value of consent is diminished when it becomes a condition of service.</p>"
+    },
+    {
+      "type": "text",
+      "title": "",
+      "body": "<p><strong>Ask yourself:&nbsp;&nbsp;</strong></p><p>✦ Do you have <strong>permission</strong> from users or participants?&nbsp;&nbsp;</p><p>✦ Have they been made aware that their involvement is <strong>voluntary?</strong>&nbsp;&nbsp;</p><p>✦ Is it clear that participants are <strong>free to withdraw</strong> from any active data collection programme at any point without pressure or fear of retaliation?&nbsp;</p>"
+    },
+    {
+      "type": "narrative",
+      "id": "651446765843e577fed78ce0",
+      "title": "Confidentiality and anonymity",
+      "body": "<p>Customers will often opt in to data collection under the assumption that the information collected remains confidential, and that any published findings are anonymised.&nbsp;</p><p>&nbsp;</p><p><strong>Select the next and back arrows to find out more.</strong></p>",
+      "items": [
+        {
+          "title": "Breaking confidentiality",
+          "body": "<p>If you should need to break confidentiality at any point (or suspect that you will do so in the future), then make it clear at the <strong>start </strong>of the process.</p>",
+          "graphicSrc": "/assets/651eb55097a10df36a53a6ff.png",
+          "graphicAlt": "Icon of a chain breaking"
+        },
+        {
+          "title": "Personal identifiable information (PII)",
+          "body": "<p>Where possible, avoid collecting <a class=\"customlink\" href=\"https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/key-definitions/what-is-personal-data/\" target=\"_blank\" rel=\"noopener noreferrer\"><span><u>personal identifiable information (PII)</u></span>.</a> Good practice might be to design your data collection methods in a way that they can't be reverse-engineered to reveal subjects. However, keep in mind that it's also possible to identify people from merging separate datasets with just a few personal pieces of information about them.</p>",
+          "graphicSrc": "/assets/651eb56894505f1a22eab381.png",
+          "graphicAlt": "Icon of a person in a magnifying glass"
+        },
+        {
+          "title": "Ask yourself:",
+          "body": "<ul><li>Have you taken steps to de-identify a dataset by removing all PII before analysing or sharing the insights?</li><li>Have you considered how different data points could be combined to reverse engineer identity/identifying characteristics?</li><li>Do you really need to collect PII-level information?</li></ul>",
+          "graphicSrc": "/assets/651eb57b53a700b1e0f26e01.png",
+          "graphicAlt": "icon of a question mark"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "",
+      "body": "<p>It can be hard to know the purpose or value of data in advance, but it is important to plan for it before collecting any data.</p><p><br><strong>Select each heading from the list below to find out more.</strong></p>"
+    },
+    {
+      "type": "accordion",
+      "title": "Intention",
+      "items": [
+        {
+          "title": "Purpose limitation",
+          "body": "<p>Purpose limitation stipulates that data should only be collected for a specific, legitimate, and clearly defined purpose. Organisations should gather information from individuals <strong>only</strong> for the intended use, and data should <strong>not </strong>be repurposed in ways that could violate users' privacy or expectations.&nbsp;<br>Communicate the reasons for data collection to individuals and inform their consent. Ask yourself: How will this data contribute to my overall aim?</p>"
+        },
+        {
+          "title": "The data minimisation principle",
+          "body": "<p>Minimum viable collection is a strategy which relates to the issues of anonymity and intention. This method encourages organisations to only collect the data they absolutely need to ensure a result they want or a trend they aim to understand.<br>Ask yourself: What would the results mean for my overall predictions and aims?</p>"
+        },
+        {
+          "title": "Implementation tips",
+          "body": "<p>It's not always possible to know every purpose for data collection in advance. Being more responsible with data collection intention involves thinking critically about each data point you plan to collect.&nbsp;</p><ul><li>Review<a class=\"customlink\" href=\"https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/lawful-basis-for-processing/consent/\" target=\"_blank\" rel=\"noopener noreferrer\"> <u>recommendations from the ICO</u></a> around consent.</li><li>Use this <a class=\"customlink\" href=\"https://ico.org.uk/for-organisations/gdpr-resources/lawful-basis-interactive-guidance-tool/\" target=\"_blank\" rel=\"noopener noreferrer\"><u>interactive tool</u> </a>to help determine the lawful basis for gathering data</li></ul>"
+        }
+      ]
+    },
+    {
+      "type": "graphic",
+      "alt": "An Amazon Alexa device listening in on a parent and child having a conversation.",
+      "src": "/assets/651eb5b8cbca08732af9755c.png"
+    },
+    {
+      "type": "text",
+      "title": "Case study: Always-on Alexas",
+      "body": "<p>There are endless examples of questionable personal data collection practices. Amazon received a rash of negative headlines following a<a class=\"customlink\" href=\"https://www.npr.org/2023/06/01/1179381126/amazon-alexa-ring-settlement\" target=\"_blank\" rel=\"noopener noreferrer\"> <u>2021 class-action lawsuit</u></a>, which accused the company's Alexa smart speaker of <a class=\"customlink\" href=\"https://www.theguardian.com/technology/2022/feb/27/the-data-game-what-amazon-knows-about-you-and-how-to-stop-it\" target=\"_blank\" rel=\"noopener noreferrer\"><u>secretly collecting and storing</u> </a>user data.</p>"
+    },
+    {
+      "type": "text",
+      "title": "",
+      "body": "<p>Which of these actions could pose a problem with regard to ethical data collection?</p><p>&nbsp;</p><p><strong>Select all answers that apply, then Submit.</strong></p>"
+    },
+    {
+      "type": "mcq",
+      "id": "651446baa7557c573a70d583",
+      "title": "Case study: Always-on Alexas",
+      "instruction": "Choose one or more options then select Submit.",
+      "isRadio": false,
+      "items": [
+        {
+          "text": "Collecting voice data and sharing insights with ad partners by default ",
+          "shouldBeSelected": true
+        },
+        {
+          "text": "Storing children's voice and biometric data without parental consent ",
+          "shouldBeSelected": true
+        },
+        {
+          "text": "Storing data indefinitely by default",
+          "shouldBeSelected": true
+        },
+        {
+          "text": "Devices not allowing users to prevent devices from making recordings",
+          "shouldBeSelected": true
+        }
+      ],
+      "feedbackCorrect": "<p>That's right. All of these data collection practices are unethical, as users do not retain control over their data. They're not all illegal, though–while it's against the law to store children's data without parental consent, it's within the law to set defaults that are not necessarily within the user's best interests when it comes to their personal data.&nbsp;</p>",
+      "feedbackIncorrect": "<p>Not quite. All of these data collection practices are unethical, as users do not retain control over their data. They're not all illegal, though–while it's against the law to store children's data without parental consent, it's within the law to set defaults that are not necessarily within the user's best interests when it comes to their personal data.&nbsp;</p>",
+      "feedbackPartlyCorrect": "<p>Not quite. All of these data collection practices are unethical, as users do not retain control over their data. They're not all illegal, though–while it's against the law to store children's data without parental consent, it's within the law to set defaults that are not necessarily within the user's best interests when it comes to their personal data.&nbsp;</p>"
+    },
+    {
+      "type": "text",
+      "title": "Coming up...",
+      "body": "<p>The next part of the data lifecycle is <strong>storage</strong>. Next, we'll talk about some ethical considerations when storing data.&nbsp;</p><p><br><strong>Select Next to continue.</strong></p>"
+    }
+  ]
+}
