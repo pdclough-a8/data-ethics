@@ -4,63 +4,57 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What This Project Is
 
-A **SCORM 1.2 compliant e-learning course** about data ethics, built with the [Adapt Learning](https://www.adaptlearning.org/) framework (v5.31.20). The course covers data collection, storage, usage, sharing, and destruction across 6 topic pages.
+An **Analytics8-branded e-learning site** about data ethics, built with [Astro](https://astro.build/). The course covers data collection, storage, usage, sharing, and destruction across 7 topic pages.
 
-This is a **pre-built static distribution** — all JavaScript and CSS are already compiled and minified. There is no build step or package manager. Changes are made directly to JSON content files and deployed as-is.
+This is a from-scratch rebuild of an earlier [Adapt Learning](https://www.adaptlearning.org/)-based SCORM course. That version (and its SCORM/LMS plumbing) has been fully decommissioned — this project is standalone, not SCORM-tracked, and not intended to run through an LMS. The old course's files are recoverable via git history if ever needed, but nothing in this repo depends on them.
 
 ## Deployment
 
-Deployment is automatic via GitHub Actions ([.github/workflows/static.yml](.github/workflows/static.yml)): push to `main` and the entire repo root is published to GitHub Pages.
-
-- **Standalone (no LMS):** `index.html`
-- **LMS/SCORM entry point:** `index_lms.html`
+Deployment is automatic via GitHub Actions ([.github/workflows/static.yml](.github/workflows/static.yml)): push to `main` triggers `npm ci && npm run build`, and the built output (`dist/`) is published to GitHub Pages.
 
 ## Content Architecture
 
-Course content is driven entirely by JSON files in [course/en/](course/en/):
+Course content lives in [src/content/](src/content/) as one JSON file per page (`data-collection.json`, `data-storage.json`, etc.), each holding an ordered array of `{type, ...props}` blocks:
 
-| File | Purpose |
-|------|---------|
-| `course.json` | Course metadata, global nav, and settings |
-| `contentObjects.json` | The 6 pages (menu items) |
-| `articles.json` | Article containers within pages |
-| `blocks.json` | Block groupings within articles |
-| `components.json` | All interactive components (~700 total) |
+```json
+{ "title": "Data Collection", "duration": "6 minutes.", "blocks": [ { "type": "text", ... }, { "type": "mcq", ... } ] }
+```
 
-The hierarchy is: **Course → Pages → Articles → Blocks → Components**
+Each page file under [src/pages/](src/pages/) is just:
 
-Each JSON item has a unique `_id` string. Items reference their parent via `_parentId`. Navigation and completion tracking follow this tree.
+```astro
+{content.blocks.map((block) => <Block block={block} />)}
+```
+
+[Block.astro](src/components/Block.astro) dispatches each entry to the matching component by its `type` field. The Introduction page ([src/pages/index.astro](src/pages/index.astro)) predates this pattern and has its content written directly in the page instead — functionally equivalent, just not yet converted to the same data-driven form.
 
 ## Component Types in Use
 
-Components in `components.json` have a `_component` field identifying their type:
+Each type has a matching `.astro` component in [src/components/](src/components/):
 
-- `text` — narrative content
-- `mcq` — multiple choice questions (used for assessments)
-- `accordion` — expandable sections
-- `graphic` — images
-- `narrative` — image+text carousel
-- `hotgraphic` — clickable image regions
-- `flipcard` — flip card interactions
-- `blank` — layout spacer
+- `text` — narrative content ([Text.astro](src/components/Text.astro))
+- `graphic` — images ([Graphic.astro](src/components/Graphic.astro))
+- `accordion` — expandable sections ([Accordion.astro](src/components/Accordion.astro))
+- `mcq` — multiple-choice knowledge checks, ungraded self-checks with no completion gating ([Mcq.astro](src/components/Mcq.astro))
+- `narrative` — image+text carousel ([Narrative.astro](src/components/Narrative.astro))
+- `hotgraphic` — clickable image hotspots ([Hotgraphic.astro](src/components/Hotgraphic.astro))
+- `flipcard` — click-to-flip cards ([Flipcard.astro](src/components/Flipcard.astro))
+- `reveal` — two-panel image/text reveal-on-click ([Reveal.astro](src/components/Reveal.astro))
 
-## Framework Configuration
+## Theming
 
-[course/config.json](course/config.json) controls SCORM tracking behaviour (completion criteria, retry settings), accessibility, and which Adapt plugins are active. The `_spoor` section configures SCORM 1.2 LMS interaction.
+[src/styles/theme.css](src/styles/theme.css) holds the Analytics8 palette/typography as CSS custom properties — **currently provisional values estimated from the Brand Foundations Playbook's slide styling**, not confirmed hex codes or a real font spec. Update this one file once real brand assets (logo, colours, fonts) are available; everything else reads from these variables.
 
-[adapt/js/build.min.js](adapt/js/build.min.js) contains the compiled plugin manifest — do not edit this manually.
+The header logo in [src/layouts/Layout.astro](src/layouts/Layout.astro) is currently a plain "Analytics8" text wordmark — swap in a real logo file (`public/logo.svg` preferred) when available.
+
+## Progress & Interaction Tracking
+
+[src/scripts/tracking.ts](src/scripts/tracking.ts) is the single module responsible for persisting page-visited and quiz-answer state (currently `localStorage` only, no LMS/SCORM). `Layout.astro` and `Mcq.astro` both call into it rather than touching storage directly — if LMS reporting is ever needed, this is the one file that should change.
 
 ## Making Content Changes
 
-All content edits go into the JSON files under `course/en/`. Key conventions:
+Edit the relevant page's JSON file under `src/content/`, or the `.astro` file directly for the Introduction page. `_id`-style uniqueness constraints from the old Adapt model no longer apply — content is just an ordered array per page.
 
-- Component and block `_id` values must remain unique across the entire course
-- `_isAvailable` and `_isVisible` flags control what renders
-- Assessment components reference an `_assessment` block via `_id`
-- Images live in `course/en/assets/` and are referenced by relative path in component JSON
+[scripts/extract-content.mjs](scripts/extract-content.mjs) is the one-off script that originally migrated content out of the old Adapt JSON. It won't run as-is any more (its source, `course/en/`, was removed), but is kept for reference — see the comment at the top of that file for how to recover the old source from git history if it's ever needed again.
 
-To add a new page: add an entry to `contentObjects.json`, then add corresponding articles/blocks/components referencing that page's `_id` as `_parentId`.
-
-## SCORM Compliance
-
-The course targets **SCORM 1.2**. The manifest is [imsmanifest.xml](imsmanifest.xml). SCORM communication is handled by [libraries/SCORM_API_wrapper.js](libraries/SCORM_API_wrapper.js) (pipwerks wrapper v1.1). Do not modify SCORM wrapper or manifest structure without verifying LMS compatibility.
+To add a new page: create `src/content/<slug>.json`, add a `src/pages/<slug>.astro` following the existing pattern, and add a nav entry to the `pages` array in `Layout.astro`.
