@@ -1,12 +1,16 @@
 import { defineConfig } from 'astro/config';
 
-// Static output only — this becomes the SCORM package content, so everything
-// must be self-contained (no server, no external requests at runtime).
+// GitHub Pages serves this as a project site — https://pdclough-a8.github.io/data-ethics/ —
+// not the domain root, so `base` has to match. Any hardcoded internal link/asset
+// path (nav hrefs, image src from content JSON) must go through withBase()
+// (src/scripts/paths.ts) rather than being a plain "/..." string, since Astro
+// only auto-prefixes URLs it generates itself, not ones we write by hand.
 export default defineConfig({
   output: 'static',
-  build: {
-    // Keep asset filenames stable/simple rather than Astro's default hashed
-    // names — easier to reference from imsmanifest.xml and the SCORM wrapper.
-    assets: 'assets',
-  },
+  site: 'https://pdclough-a8.github.io',
+  base: '/data-ethics',
+  // Astro's default build.assets ("_astro") is left as-is here — a previous
+  // override pointed it at "assets", the same folder public/assets/ (our
+  // content images) copies into, which meant Astro's own bundle files and
+  // our content images were landing in the same output folder.
 });

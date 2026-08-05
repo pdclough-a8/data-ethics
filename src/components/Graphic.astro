@@ -1,6 +1,8 @@
 ---
 // Recreates Adapt's "graphic" component type — a full-width image with
 // optional caption/attribution.
+import { withBase } from '../scripts/paths';
+
 interface Props {
   src: string;
   alt: string;
@@ -11,7 +13,7 @@ const { src, alt, caption } = Astro.props;
 ---
 
 <figure class="a8-graphic">
-  <img src={src} alt={alt} loading="lazy" />
+  <img src={withBase(src)} alt={alt} loading="lazy" />
   {caption && <figcaption>{caption}</figcaption>}
 </figure>
 

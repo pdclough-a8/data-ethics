@@ -3,6 +3,8 @@
 // on click to reveal more text on the back. Built as native <button>
 // elements (keyboard/screen-reader accessible via aria-pressed) with a
 // CSS 3D flip, rather than Adapt's JS animation.
+import { withBase } from '../scripts/paths';
+
 interface FlipItem {
   frontImageSrc: string;
   frontImageAlt?: string;
@@ -27,7 +29,7 @@ const { title, body, items } = Astro.props;
     {items.map((item) => (
       <button type="button" class="a8-flipcard__card" data-flipcard-card aria-pressed="false">
         <span class="a8-flipcard__face a8-flipcard__face--front">
-          <img src={item.frontImageSrc} alt={item.frontImageAlt ?? ''} />
+          <img src={withBase(item.frontImageSrc)} alt={item.frontImageAlt ?? ''} />
         </span>
         <span class="a8-flipcard__face a8-flipcard__face--back">
           {item.backTitle && <strong>{item.backTitle}</strong>}

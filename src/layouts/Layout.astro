@@ -1,5 +1,6 @@
 ---
 import '../styles/theme.css';
+import { withBase } from '../scripts/paths';
 
 interface Props {
   title: string;
@@ -36,11 +37,11 @@ const pages = [
           Placeholder wordmark. Swap for the real ∞8 mark once we have a
           vector (SVG) or high-res file — see public/README.md.
         -->
-        <a href="/" class="a8-logo" aria-label="Analytics8 home">Analytics8</a>
+        <a href={withBase('/')} class="a8-logo" aria-label="Analytics8 home">Analytics8</a>
         <nav class="a8-nav" aria-label="Course navigation">
           <ul>
             {pages.map((p) => (
-              <li><a href={p.href} data-page-link>{p.title}</a></li>
+              <li><a href={withBase(p.href)} data-page-link>{p.title}</a></li>
             ))}
           </ul>
         </nav>
