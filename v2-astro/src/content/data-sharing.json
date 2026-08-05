@@ -1,0 +1,83 @@
+{
+  "title": "Data Sharing",
+  "duration": "5 minutes.",
+  "blocks": [
+    {
+      "type": "graphic",
+      "alt": "Data sharing",
+      "src": "/assets/651fbeba1a999dd866db3f42.png"
+    },
+    {
+      "type": "text",
+      "title": "The law suggests...",
+      "body": "<p>In general, data protection does not prevent data sharing if it is in the public interest or, if the data is being shared for commercial reasons, proportionate. However, organisations must be able to identify at least one lawful basis for sharing personal data, and demonstrate that they fully considered this before data is shared.&nbsp;</p><p><br>The lawful basis for sharing personal data can come from either the <a class=\"customlink\" href=\"https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/\" target=\"_blank\" rel=\"noopener noreferrer\"><u>UK General Data Protection Regulation</u></a> or the <a class=\"customlink\" href=\"https://www.legislation.gov.uk/ukpga/2018/12/contents\" target=\"_blank\" rel=\"noopener noreferrer\"><u>Data Protection Act 2018</u></a>. This is a potentially complex area, so it's worth checking the<a class=\"customlink\" href=\"https://ico.org.uk/datasharing\" target=\"_blank\" rel=\"noopener noreferrer\"> <u>ICO Data Sharing Code of Practice</u></a> and its <a class=\"customlink\" href=\"https://ico.org.uk/for-organisations/gdpr-resources/lawful-basis-interactive-guidance-tool/\" target=\"_blank\" rel=\"noopener noreferrer\"><u>lawful basis interactive guidance tool</u></a> before sharing data, especially outside of your organisation.&nbsp;</p><p><br>Under GDPR rules, businesses are the curators of the data they collect, not the sole owner, so they must work to safeguard it. Provided there is a legal basis for sharing, the biggest threat to consumers from data sharing projects is re-identification, or the ability to piece together select data to find its source.&nbsp;</p>"
+    },
+    {
+      "type": "flipcard",
+      "title": "A shared responsibility",
+      "body": "<p>Organisations might share data with each other to produce new tools or better services for their customers. While companies must meet GDPR's <a class=\"customlink\" href=\"https://ico.org.uk/for-organisations/guide-to-data-protection/ico-codes-of-practice/data-sharing-a-code-of-practice/lawful-basis-for-sharing-personal-data/\" target=\"_blank\" rel=\"noopener noreferrer\"><u>legal basis</u></a> for sharing data, there are further ethical questions they should ask.</p><p>&nbsp;</p><p><strong>Select the cards for more information.</strong></p>",
+      "items": [
+        {
+          "frontImageSrc": "/assets/652fe7c35fa2580cc9f94e77.png",
+          "frontImageAlt": "A handshake",
+          "backTitle": "",
+          "backBody": "<p>Data sharing agreements set out the purpose of the data sharing, cover what happens to the data at each stage, set standards and help all the parties involved in sharing to be clear about their roles and responsibilities.</p>"
+        },
+        {
+          "frontImageSrc": "/assets/652fe834f8ebc1e7feb8b56f.png",
+          "frontImageAlt": "Question marks in speech bubbles",
+          "backTitle": "",
+          "backBody": "<p>Ask yourself:</p><ul><li>How will the end user benefit from this data sharing?</li><li>How ethical is the data sharing partner?</li><li>How will you take responsibility for any breaches?<br>&nbsp;</li></ul>"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Case study: exploiting a crisis",
+      "body": "<p>In 2021, <a class=\"customlink\" href=\"https://www.politico.com/news/2022/01/28/suicide-hotline-silicon-valley-privacy-debates-00002617\" target=\"_blank\" rel=\"noopener noreferrer\"><u>Politico reported that Crisis Text Line</u></a> (a non-profit crisis intervention hotline) was sharing user data with its for-profit sister company Loris.ai to improve its customer service optimisation software.</p><p><br>Despite being fully legal, sharing and monetising data from conversations with people in distress was seen as <a class=\"customlink\" href=\"https://www.forbes.com/sites/alexandralevine/2022/02/24/suicide-hotline-left-ethics-board-out-of-the-loop-about-data-sharing-with-for-profit-spinoff/?sh=796780d549b9\" target=\"_blank\" rel=\"noopener noreferrer\">a <u>breach of data sharing ethics</u>,</a> prompting a request to cease the activity from the US Federal Communications Commission.</p>"
+    },
+    {
+      "type": "graphic",
+      "alt": "A mobile phone showing a text conversation--the sender sent a broken heart emoji, and received a money bag emoji.",
+      "src": "/assets/651eb8b1e6709d40435a32f7.png"
+    },
+    {
+      "type": "text",
+      "title": "",
+      "body": "<p>Which of these could have posed an ethical issue in this case?</p><p>&nbsp;</p><p><strong>Select all answers that apply, then submit.</strong></p>"
+    },
+    {
+      "type": "mcq",
+      "id": "6514523d8f1d294228db6a75",
+      "title": "Case study: Exploiting a crisis",
+      "instruction": "",
+      "isRadio": false,
+      "items": [
+        {
+          "text": "Sharing sensitive user data related to crisis interventions without explicit consent raised privacy and confidentiality concerns.",
+          "shouldBeSelected": true
+        },
+        {
+          "text": "Because Loris.ai is a for-profit company, user data could potentially be commercialised despite being acquired through a non-profit crisis intervention service.",
+          "shouldBeSelected": true
+        },
+        {
+          "text": "The Crisis Text Line did not clearly communicate to users how their data would be used or seek permission to share their data. ",
+          "shouldBeSelected": true
+        },
+        {
+          "text": "Any perceived breach of trust in a crisis situation, such as sharing user data, can damage the reputation of an intervention service.",
+          "shouldBeSelected": true
+        }
+      ],
+      "feedbackCorrect": "<p>That's right. All of these issues raise ethical concerns, especially with regard to a non-profit which deals with sensitive and vulnerable populations.&nbsp;</p>",
+      "feedbackIncorrect": "",
+      "feedbackPartlyCorrect": "<p>Not quite. All of these issues raise ethical concerns, especially with regard to a non-profit which deals with sensitive and vulnerable populations.&nbsp;</p>"
+    },
+    {
+      "type": "text",
+      "title": "Coming up...",
+      "body": "<p>The next part of the data lifecycle is <strong>destruction</strong>. Next, we'll talk about expectations about deletion of data and limitations of its lifespan.&nbsp;</p><p><br><strong>Select Next to continue.</strong></p>"
+    }
+  ]
+}

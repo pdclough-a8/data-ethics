@@ -1,0 +1,52 @@
+{
+  "title": "Conclusion",
+  "duration": "3 minutes.",
+  "blocks": [
+    {
+      "type": "graphic",
+      "alt": "Conclusion",
+      "src": "/assets/651fcab13ad8519ec21d19a0.png"
+    },
+    {
+      "type": "text",
+      "title": "You've learned a lot!",
+      "body": "<p>This module has covered the complex lifecycle that data experiences. We've moved from consensual data collection, to fair usage, to transparent management practices–but where do we go from here?&nbsp;&nbsp;<br>It's one thing to learn and know about data ethics, but it's another to actually put these principles in practice. Let's finish up by considering a few tips for embedding <a class=\"customlink\" href=\"https://link.springer.com/article/10.1007/s43681-020-00011-6\" target=\"_blank\" rel=\"noopener noreferrer\"><u>ethical practices</u></a> within your organisation.&nbsp;</p>"
+    },
+    {
+      "type": "flipcard",
+      "title": "Top tips",
+      "body": "<p><meta charset=\"utf-8\"><strong>Select the cards for more information.</strong></p>",
+      "items": [
+        {
+          "frontImageSrc": "/assets/652fe4fe0ad97cf52488bffa.png",
+          "frontImageAlt": "icon of a government building",
+          "backTitle": "",
+          "backBody": "<p><strong>Lean on your organisation's core values.</strong> Fairness, transparency, and accountability underpin the basis of doing things responsibly, and you've likely had discussions about these values in the context of your employees and customers already. Use these familiar terms as jumping-off points to hold your organisation accountable.</p>"
+        },
+        {
+          "frontImageSrc": "/assets/652fe5233ae28a8a54846b8a.png",
+          "frontImageAlt": "icon of diverse people and a globe",
+          "backTitle": "",
+          "backBody": "<p><strong>Get as many voices in the room as possible.</strong> A failure to account for personal bias can wreak havoc across the data lifecycle. Getting a range of voices and experiences together to point out your blind spots doesn't just avoid negative outcomes–it makes ethical guidelines more flexible and versatile for everyone.</p>"
+        },
+        {
+          "frontImageSrc": "/assets/652fe53b12749b6318880f49.png",
+          "frontImageAlt": "icon of a conversation",
+          "backTitle": "",
+          "backBody": "<p><strong>Enable people to communicate concerns. </strong>Data projects pass through different sections of an organisation, and not all these teams have the same level of power and influence. A true ethics policy needs to work for everyone, and appropriate safeguards must be put in place for anyone to raise and communicate concerns when needed.&nbsp;</p>"
+        },
+        {
+          "frontImageSrc": "/assets/652fe5543ae28a8a54846c49.png",
+          "frontImageAlt": "icon of a roadmap where an X marks the destination",
+          "backTitle": "",
+          "backBody": "<p><strong>It's the journey, not the destination.</strong>&nbsp;</p><p>Truly ethical practice is a constantly shifting goal. A willingness to always learn more is therefore crucial for moving forward. Use existing standards and frameworks to ensure that ethical practices don't just become an exercise in ticking boxes, but rather are a part of your standard practices and ways of working.&nbsp;</p>"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Thanks for learning with us",
+      "body": "<p>You've now completed this module on data ethics. Feel free to revisit this training at any time to review all the information we've covered.</p><p><br><strong>To exit the course, select the exit icon&nbsp;<i class=\"fas fa-sign-out-alt\"></i> or close the tab/browser window.</strong></p>"
+    }
+  ]
+}

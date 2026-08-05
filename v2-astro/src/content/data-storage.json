@@ -1,0 +1,113 @@
+{
+  "title": "Data Storage",
+  "duration": "6 minutes.",
+  "blocks": [
+    {
+      "type": "graphic",
+      "alt": "Data storage",
+      "src": "/assets/651ed80e4dadb797dce55c9e.png"
+    },
+    {
+      "type": "text",
+      "title": "The law suggests...",
+      "body": "<p><meta charset=\"utf-8\"></p><p>As with other aspects of the data lifecycle, the<a class=\"customlink\" href=\"https://www.legislation.gov.uk/ukpga/2018/12/contents\" target=\"_blank\" rel=\"noopener noreferrer\"> <u>Data Protection Act 2018</u> </a>sets out clear rules for the storage of personal data. In particular, organisations must&nbsp;<strong>not </strong>keep personal data for longer than they need to – and they need to be able to justify the length of time they hold the data for.</p><p>Policies are needed for setting standard retention periods for data. Organisations must also review the data they have, and erase or anonymise it when they no longer need it. When this is the case, individuals have the right to ask for their data to be erased.</p><p>There are exceptions, and organisations may keep data for longer periods if they are keeping it for public interest archiving, scientific or historical research, or statistical purposes.&nbsp;</p>"
+    },
+    {
+      "type": "text",
+      "title": "",
+      "body": "<p>It's fairly obvious that data needs to be stored and protected with the appropriate level of security, with backup and recovery procedures that protect key information.<br>But beyond this, there are ethical considerations relating to storage – in particular, how long organisations should store data for. <strong>Data retention</strong> links back to having a clear purpose for collecting the data in the first place and being very precise about its use.</p><p><br><strong>Select the arrow to find out more.&nbsp;</strong></p>"
+    },
+    {
+      "type": "reveal",
+      "id": "65144944c173eacbb438a084",
+      "title": "Retention",
+      "showText": "Show",
+      "hideText": "Hide",
+      "first": {
+        "src": "/assets/651eb5e08e3d8bc3100bcea6.png",
+        "alt": "A selection of data storage devices",
+        "body": ""
+      },
+      "second": {
+        "src": "/assets/651fd9fee6709d40435b943a.png",
+        "alt": "",
+        "body": "<p>Legal requirements state that data should be stored for the shortest time possible. However, in practice,<a class=\"customlink\" href=\"https://medium.com/golden-data/to-keep-or-not-to-keep-data-retention-challenges-and-solutions-2678e02c2c2e\" target=\"_blank\" rel=\"noopener noreferrer\"> <span>things aren't always as clear-cut.</span></a><span>&nbsp;</span><br>Ask yourself:</p><ul><li>Do you need to keep this data at all? Has it already served its purpose?</li><li>Should the data be anonymised? Even though it's not the law, would this be safer? Do you really need to store PII?</li><li>Are you storing out of date or redundant data? Could this be generating faulty insights leading to biased and poor decision making?&nbsp;</li><li>How often will you review stored data and decide whether it's still necessary to keep it? Consider increasing the frequency of your review periods to ensure an ethical approach.</li></ul>"
+      }
+    },
+    {
+      "type": "narrative",
+      "id": "651449548f1d294228db5a1c",
+      "title": "Access",
+      "body": "<p>Data protection and security is vital for storing and managing data, especially personal data that must be kept secure and not disclosed to unauthorised people.</p><p><br><strong>Select the arrows to learn more.</strong></p>",
+      "items": [
+        {
+          "title": "Securing data",
+          "body": "<p>Securing data means several things, including preserving its integrity, controlling access to it to reduce breaches and unauthorised access, and protecting the privacy of data contributors–for example, using techniques such as <a class=\"customlink\" href=\"https://en.wikipedia.org/wiki/De-identification\" target=\"_blank\" rel=\"noopener noreferrer\"><u>de-identification</u></a>.</p>",
+          "graphicSrc": "/assets/651eb61294505f1a22eab94a.png",
+          "graphicAlt": "icon of a padlock"
+        },
+        {
+          "title": "Balancing security and access",
+          "body": "<p>There's an obvious tension between keeping the data secure and ensuring the people who need to view it have access. It could be argued that information should also be available to people in the organisation who may need it to generate valuable insights that could improve services or save time and money – the so-called democratisation of data.&nbsp;<br>In addition, data subjects have the right to ask what data you hold on them – and ask for it to be deleted if they wish.</p>",
+          "graphicSrc": "/assets/651eb6253eab62d1217d1171.png",
+          "graphicAlt": "icon of a scales"
+        },
+        {
+          "title": "Implementation tips",
+          "body": "<ul><li>Store multiple copies of key datasets on different media formats (depending on short or long term storage), for redundancy, accessibility, and retention.</li><li>Review databases multiple times a year to understand which data is still necessary to keep and what can be securely disposed of.</li><li><a class=\"customlink\" href=\"https://uk.practicallaw.thomsonreuters.com/w-014-8024?transitionType=Default&amp;contextData=(sc.Default)&amp;firstPage=true\" target=\"_blank\" rel=\"noopener noreferrer\"><u>Thomson Reuters has produced a clear checklist</u> </a>for effective data retention policies.</li></ul>",
+          "graphicSrc": "/assets/651eb638cbca08732af9789a.png",
+          "graphicAlt": "icon of a checklist"
+        },
+        {
+          "title": "Ask yourself",
+          "body": "<ul><li>How can you balance the security and privacy and access elements of the data you are storing?</li><li>Do you have a plan for providing different levels of access to data so that data in your organisation can be used effectively and ethically?</li><li>How quickly can the data be made available to data subjects should they request it – legally, it's as soon as possible and within one month. Can you put a system in place to ensure that you respond as quickly as possible?</li></ul>",
+          "graphicSrc": "/assets/651eb64c53a700b1e0f27785.png",
+          "graphicAlt": "icon of a question mark"
+        }
+      ]
+    },
+    {
+      "type": "text",
+      "title": "Case study: Ocado v McKeeve",
+      "body": "<p>In June 2021, British retailer <a class=\"customlink\" href=\"https://www.ocadogroup.com/media/statements/ocado-settles-litigation-today/\" target=\"_blank\" rel=\"noopener noreferrer\"><span><u>Ocado settled litigation</u></span></a> with two former employees who collected confidential documents while they worked for Ocado, which they kept upon leaving the company. These employees used these documents to support the development of a new, rival operation, pursuing clients in direct competition with Ocado.</p>"
+    },
+    {
+      "type": "graphic",
+      "alt": "Hands holding a folder labelled 'Confidential'",
+      "src": "/assets/651fdadcb2afb2e37eeb854b.png"
+    },
+    {
+      "type": "mcq",
+      "id": "6514499d5843e577fed793f8",
+      "title": "Case study: Ocado v McKeeve",
+      "instruction": "",
+      "isRadio": false,
+      "items": [
+        {
+          "text": "Implementing access controls to ensure that only individuals with a legitimate need be granted access to such data",
+          "shouldBeSelected": true
+        },
+        {
+          "text": "Following thorough exit procedures to ensure that employees do not take or share confidential data upon leaving the company",
+          "shouldBeSelected": true
+        },
+        {
+          "text": "Implementing more complicated procedures for data access",
+          "shouldBeSelected": false
+        },
+        {
+          "text": "Restricting data handling and confidentiality training only to key stakeholders within the company",
+          "shouldBeSelected": false
+        }
+      ],
+      "feedbackCorrect": "<p>That's right. Access controls and exit procedures can both help to prevent employees from accessing information they don't need and taking it with them when they leave.<br>Implementing more complex access procedures could have an opposite effect from what is intended: this could deter employees from following proper channels, instead using shortcuts and less ethical methods to access data. Likewise, restricting data handling training to a few people does not promote a culture of data ethics and transparency within the company. This training should be offered to employees at all levels of the organisation.</p>",
+      "feedbackIncorrect": "<p>That's not right. Access controls and exit procedures can both help to prevent employees from accessing information they don't need and taking it with them when they leave.&nbsp;<br>Implementing more complex access procedures could have an opposite effect from what is intended: this could deter employees from following proper channels, instead using shortcuts and less ethical methods to access data. Likewise, restricting data handling training to a few people does not promote a culture of data ethics and transparency within the company. This training should be offered to employees at all levels of the organisation.</p>",
+      "feedbackPartlyCorrect": "<p>Not quite. Access controls and exit procedures can both help to prevent employees from accessing information they don't need and taking it with them when they leave.<br>Implementing more complex access procedures could have an opposite effect from what is intended: this could deter employees from following proper channels, instead using shortcuts and less ethical methods to access data. Likewise, restricting data handling training to a few people does not promote a culture of data ethics and transparency within the company. This training should be offered to employees at all levels of the organisation.</p>"
+    },
+    {
+      "type": "text",
+      "title": "Coming up...",
+      "body": "<p>The next part of the data lifecycle is <strong>usage</strong>. Next, we'll talk about some ethical issues that can arise when interpreting, visualising, and sharing data.</p><p><br><strong>Select Next to continue.</strong></p>"
+    }
+  ]
+}

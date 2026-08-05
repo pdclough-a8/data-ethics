@@ -1,0 +1,14 @@
+{
+  "name": "data-ethics-v2",
+  "version": "0.1.0",
+  "description": "Analytics8-branded rebuild of the Data Ethics learning object (prototype, decoupled from Adapt)",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview"
+  },
+  "dependencies": {
+    "astro": "^7.1.6"
+  }
+}

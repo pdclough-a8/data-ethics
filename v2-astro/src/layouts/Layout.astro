@@ -1,0 +1,197 @@
+---
+import '../styles/theme.css';
+
+interface Props {
+  title: string;
+  duration?: string;
+}
+
+const { title, duration } = Astro.props;
+
+// Mirrors contentObjects.json's page list — hand-maintained for now.
+// (In the Adapt version this tree is generated across 5 JSON files;
+// here it's just this one array.)
+const pages = [
+  { title: 'Introduction', href: '/' },
+  { title: 'Data Collection', href: '/data-collection/' },
+  { title: 'Data Storage', href: '/data-storage/' },
+  { title: 'Data Usage', href: '/data-usage/' },
+  { title: 'Data Sharing', href: '/data-sharing/' },
+  { title: 'Data Destruction', href: '/data-destruction/' },
+  { title: 'Conclusion', href: '/conclusion/' },
+];
+---
+
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title} — Analytics8 // Data Ethics</title>
+  </head>
+  <body>
+    <header class="a8-header">
+      <div class="a8-container a8-header__inner">
+        <!--
+          Placeholder wordmark. Swap for the real ∞8 mark once we have a
+          vector (SVG) or high-res file — see public/README.md.
+        -->
+        <a href="/" class="a8-logo" aria-label="Analytics8 home">Analytics8</a>
+        <nav class="a8-nav" aria-label="Course navigation">
+          <ul>
+            {pages.map((p) => (
+              <li><a href={p.href} data-page-link>{p.title}</a></li>
+            ))}
+          </ul>
+        </nav>
+      </div>
+      <div class="a8-progress" role="progressbar" aria-label="Course progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+        <div class="a8-progress__track">
+          <div class="a8-progress__fill" data-progress-fill></div>
+        </div>
+        <p class="a8-progress__label" data-progress-label>0 of {pages.length} pages viewed</p>
+      </div>
+    </header>
+
+    <main class="a8-container a8-main">
+      <h1>{title}</h1>
+      {duration && <p class="a8-duration">Duration: {duration}</p>}
+      <slot />
+    </main>
+
+    <footer class="a8-footer">
+      <div class="a8-container">
+        <p>Analytics8 // Data Ethics</p>
+      </div>
+    </footer>
+
+    <style>
+      .a8-header {
+        background: var(--a8-surface);
+        border-bottom: 2px solid var(--a8-rule);
+      }
+      .a8-header__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        gap: var(--a8-space-md);
+        padding-top: var(--a8-space-md);
+        padding-bottom: var(--a8-space-md);
+      }
+      .a8-logo {
+        font-family: var(--a8-font-heading);
+        font-weight: 700;
+        font-size: 1.25rem;
+        color: var(--a8-ink);
+        text-decoration: none;
+      }
+      .a8-nav ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        gap: var(--a8-space-md);
+        margin: 0;
+        padding: 0;
+      }
+      .a8-nav a {
+        color: var(--a8-text-muted);
+        text-decoration: none;
+        font-size: 0.9rem;
+      }
+      .a8-nav a:hover,
+      .a8-nav a:focus {
+        color: var(--a8-accent);
+      }
+      .a8-nav a[data-visited]::after {
+        content: ' \2713'; /* checkmark */
+        color: var(--a8-accent);
+        font-weight: 700;
+      }
+      .a8-nav a[aria-current='page'] {
+        color: var(--a8-ink);
+        font-weight: 700;
+      }
+      .a8-progress {
+        padding-bottom: var(--a8-space-sm);
+      }
+      .a8-progress__track {
+        height: 6px;
+        background: #ddd;
+        border-radius: 999px;
+        overflow: hidden;
+      }
+      .a8-progress__fill {
+        height: 100%;
+        width: 0%;
+        background: var(--a8-accent);
+        transition: width 0.3s ease;
+      }
+      .a8-progress__label {
+        margin: var(--a8-space-sm) 0 0;
+        font-size: 0.8rem;
+        color: var(--a8-text-muted);
+      }
+      .a8-main {
+        padding-top: var(--a8-space-lg);
+        padding-bottom: var(--a8-space-lg);
+        min-height: 60vh;
+      }
+      .a8-duration {
+        color: var(--a8-text-muted);
+        font-size: 0.9rem;
+        margin-top: -0.5rem;
+      }
+      .a8-footer {
+        background: var(--a8-ink);
+        color: var(--a8-bg);
+        padding: var(--a8-space-md) 0;
+        font-size: 0.85rem;
+      }
+      .a8-footer p {
+        margin: 0;
+      }
+    </style>
+
+    <script>
+      // UI wiring only — the actual persistence lives in
+      // src/scripts/tracking.ts, shared with Mcq.astro. That's the one file
+      // to change if SCORM reporting is ever added; this script just reads
+      // its results back out and updates the nav/progress-bar DOM.
+      import { recordPageVisit, normalisePath } from '../scripts/tracking';
+
+      function updateUI(visited: string[]) {
+        const visitedSet = new Set(visited);
+        const links = document.querySelectorAll<HTMLAnchorElement>('[data-page-link]');
+        const currentPath = normalisePath(window.location.pathname);
+
+        links.forEach((link) => {
+          const linkPath = normalisePath(new URL(link.href).pathname);
+          if (linkPath === currentPath) {
+            link.setAttribute('aria-current', 'page');
+          }
+          if (visitedSet.has(linkPath)) {
+            link.setAttribute('data-visited', 'true');
+          }
+        });
+
+        const total = links.length;
+        // Only count visited pages that are actually part of this course's
+        // nav (guards against stale entries if pages are ever renamed).
+        const knownVisited = Array.from(links).filter((link) =>
+          visitedSet.has(normalisePath(new URL(link.href).pathname))
+        ).length;
+        const percent = total > 0 ? Math.round((knownVisited / total) * 100) : 0;
+
+        const fill = document.querySelector<HTMLElement>('[data-progress-fill]');
+        const label = document.querySelector<HTMLElement>('[data-progress-label]');
+        const bar = document.querySelector<HTMLElement>('.a8-progress');
+        if (fill) fill.style.width = `${percent}%`;
+        if (label) label.textContent = `${knownVisited} of ${total} pages viewed`;
+        if (bar) bar.setAttribute('aria-valuenow', String(percent));
+      }
+
+      updateUI(recordPageVisit(window.location.pathname));
+    </script>
+  </body>
+</html>
