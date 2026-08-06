@@ -24,7 +24,7 @@ npm run dev
 ```
 
 Opens a local dev server (default `http://localhost:4321`) with hot-reload -
-edit any `.astro` file or the theme and the browser updates instantly.
+edit any `.astro` file or the theme and the browser updates instantly. 
 
 ## How content gets in
 
