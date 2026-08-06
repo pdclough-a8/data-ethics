@@ -20,13 +20,15 @@ const pages = [
 ---
 
 <Layout title="Data Ethics" variant="landing">
-  <section
-    class="a8-hero"
-    style={`background-image: url(${withBase('/assets/landing-hero.jpg')})`}
-  >
+  <section class="a8-hero">
     <div class="a8-container a8-hero__inner">
-      <h1>Data Ethics</h1>
-      <div class="a8-prose" set:html={introBody} />
+      <div class="a8-hero__text">
+        <h1>Data Ethics</h1>
+        <div class="a8-prose" set:html={introBody} />
+      </div>
+      <div class="a8-hero__image">
+        <img src={withBase('/assets/landing-hero.jpg')} alt="" />
+      </div>
     </div>
   </section>
 
@@ -41,17 +43,37 @@ const pages = [
 </Layout>
 
 <style>
+  /* Solid dark backdrop behind the text — no image sits behind the copy,
+     so contrast stays reliable regardless of what the illustration looks
+     like. The illustration itself sits in its own column to the side. */
   .a8-hero {
-    background-color: var(--a8-ink);
-    background-size: cover;
-    background-position: right center;
-    background-repeat: no-repeat;
+    background: var(--a8-ink);
     color: #fff;
   }
   .a8-hero__inner {
+    display: flex;
+    align-items: center;
+    gap: var(--a8-space-lg);
     padding-top: var(--a8-space-lg);
     padding-bottom: var(--a8-space-lg);
-    max-width: 34rem;
+  }
+  .a8-hero__text {
+    flex: 1 1 20rem;
+    min-width: 0;
+  }
+  .a8-hero__image {
+    flex: 1 1 16rem;
+    max-width: 22rem;
+  }
+  .a8-hero__image img {
+    display: block;
+    width: 100%;
+    border-radius: var(--a8-radius);
+  }
+  @media (max-width: 640px) {
+    .a8-hero__image {
+      display: none;
+    }
   }
   .a8-hero h1 {
     color: #fff;

@@ -36,11 +36,9 @@ const pages = [
   <body>
     <header class="a8-header">
       <div class="a8-container a8-header__inner">
-        <!--
-          Placeholder wordmark. Swap for the real ∞8 mark once we have a
-          vector (SVG) or high-res file — see public/README.md.
-        -->
-        <a href={withBase('/')} class="a8-logo" aria-label="Analytics8 home">Analytics8</a>
+        <a href={withBase('/')} class="a8-logo" aria-label="Analytics8 home">
+          <img src={withBase('/assets/logo.png')} alt="Analytics8" />
+        </a>
         <nav class="a8-nav" aria-label="Course navigation">
           <ul>
             {pages.map((p) => (
@@ -48,12 +46,12 @@ const pages = [
             ))}
           </ul>
         </nav>
-      </div>
-      <div class="a8-progress" role="progressbar" aria-label="Course progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
-        <div class="a8-progress__track">
-          <div class="a8-progress__fill" data-progress-fill></div>
+        <div class="a8-progress" role="progressbar" aria-label="Course progress" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0">
+          <div class="a8-progress__track">
+            <div class="a8-progress__fill" data-progress-fill></div>
+          </div>
+          <p class="a8-progress__label" data-progress-label>0/{pages.length}</p>
         </div>
-        <p class="a8-progress__label" data-progress-label>0 of {pages.length} pages viewed</p>
       </div>
     </header>
 
@@ -83,18 +81,22 @@ const pages = [
       .a8-header__inner {
         display: flex;
         align-items: center;
-        justify-content: space-between;
         flex-wrap: wrap;
-        gap: var(--a8-space-md);
+        gap: var(--a8-space-lg);
         padding-top: var(--a8-space-md);
         padding-bottom: var(--a8-space-md);
       }
+      .a8-header__inner .a8-nav {
+        margin-right: auto;
+      }
       .a8-logo {
-        font-family: var(--a8-font-heading);
-        font-weight: 700;
-        font-size: 1.25rem;
-        color: var(--a8-ink);
-        text-decoration: none;
+        display: inline-flex;
+        align-items: center;
+      }
+      .a8-logo img {
+        display: block;
+        height: 28px;
+        width: auto;
       }
       .a8-nav ul {
         list-style: none;
@@ -123,9 +125,14 @@ const pages = [
         font-weight: 700;
       }
       .a8-progress {
-        padding-bottom: var(--a8-space-sm);
+        display: flex;
+        align-items: center;
+        gap: var(--a8-space-sm);
+        width: 90px;
+        flex-shrink: 0;
       }
       .a8-progress__track {
+        flex: 1;
         height: 6px;
         background: #ddd;
         border-radius: 999px;
@@ -138,9 +145,10 @@ const pages = [
         transition: width 0.3s ease;
       }
       .a8-progress__label {
-        margin: var(--a8-space-sm) 0 0;
+        margin: 0;
         font-size: 0.8rem;
         color: var(--a8-text-muted);
+        white-space: nowrap;
       }
       .a8-main {
         padding-top: var(--a8-space-lg);
@@ -200,7 +208,7 @@ const pages = [
         const label = document.querySelector<HTMLElement>('[data-progress-label]');
         const bar = document.querySelector<HTMLElement>('.a8-progress');
         if (fill) fill.style.width = `${percent}%`;
-        if (label) label.textContent = `${knownVisited} of ${total} pages viewed`;
+        if (label) label.textContent = `${knownVisited}/${total}`;
         if (bar) bar.setAttribute('aria-valuenow', String(percent));
       }
 

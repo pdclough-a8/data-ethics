@@ -1,13 +1,13 @@
 /*
  * Provisional Analytics8 theme tokens.
  *
- * --a8-accent was updated from an orange-coral estimate (read off the Brand
- * Foundations Playbook's slide styling) to green, based on real evidence:
- * the original course's own recovered landing-page artwork/tiles use a
- * bright mint/spring green. Still an eyeballed hex, not a confirmed swatch
- * — worth replacing with the exact value if a real palette ever surfaces.
- * Everything else in the site reads from these variables, so updating them
- * here re-themes the whole course.
+ * --a8-accent is back to the orange-coral estimate (read off the Brand
+ * Foundations Playbook's slide styling) — per direct feedback, this is
+ * closer to A8's actual brand style than the green trialled briefly (which
+ * came from one specific course's own artwork, not the core brand palette).
+ * Still an eyeballed hex, not a confirmed swatch. Everything else in the
+ * site reads from these variables, so updating them here re-themes the
+ * whole course.
  */
 
 :root {
@@ -15,8 +15,8 @@
   --a8-ink: #1a1a1a;       /* headings, section-divider backgrounds */
   --a8-bg: #f2f2f2;        /* page background */
   --a8-surface: #ffffff;   /* cards / content boxes */
-  --a8-accent: #2fe38a;    /* headline emphasis, links, active states, CTAs, menu tiles */
-  --a8-accent-text: #0d0d0d; /* text colour when sitting on top of --a8-accent */
+  --a8-accent: #ff5a36;    /* headline emphasis, links, active states, CTAs, menu tiles */
+  --a8-accent-text: #ffffff; /* text colour when sitting on top of --a8-accent */
   --a8-rule: #1a1a1a;      /* thin hairline under headers */
   --a8-text: #1a1a1a;      /* body copy */
   --a8-text-muted: #5a5a5a;
