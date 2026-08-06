@@ -70,8 +70,9 @@ const pages = [
     )}
 
     <footer class="a8-footer">
-      <div class="a8-container">
+      <div class="a8-container a8-footer__inner">
         <p>Analytics8 // Data Ethics</p>
+        <button type="button" class="a8-reset" data-reset-progress>Reset progress</button>
       </div>
     </footer>
 
@@ -179,8 +180,29 @@ const pages = [
         padding: var(--a8-space-md) 0;
         font-size: 0.85rem;
       }
+      .a8-footer__inner {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: var(--a8-space-md);
+        flex-wrap: wrap;
+      }
       .a8-footer p {
         margin: 0;
+      }
+      .a8-reset {
+        background: none;
+        border: 1px solid var(--a8-bg);
+        color: var(--a8-bg);
+        border-radius: var(--a8-radius);
+        padding: 0.25rem 0.75rem;
+        font-size: 0.8rem;
+        cursor: pointer;
+        opacity: 0.7;
+      }
+      .a8-reset:hover,
+      .a8-reset:focus {
+        opacity: 1;
       }
     </style>
 
@@ -189,7 +211,14 @@ const pages = [
       // src/scripts/tracking.ts, shared with Mcq.astro. That's the one file
       // to change if SCORM reporting is ever added; this script just reads
       // its results back out and updates the nav/progress-bar DOM.
-      import { recordPageVisit, normalisePath } from '../scripts/tracking';
+      import { recordPageVisit, normalisePath, resetProgress } from '../scripts/tracking';
+
+      document.querySelector('[data-reset-progress]')?.addEventListener('click', () => {
+        if (window.confirm('Reset all page-visited and quiz progress for this course?')) {
+          resetProgress();
+          window.location.reload();
+        }
+      });
 
       function updateUI(visited: string[]) {
         const visitedSet = new Set(visited);

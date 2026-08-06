@@ -8,8 +8,9 @@
 // inside each function here is the only change required - no hunting
 // through every page/component.
 
-const PAGE_PROGRESS_KEY = 'a8-data-ethics-progress';
-const INTERACTION_PREFIX = 'a8-data-ethics-mcq:';
+const NAMESPACE = 'a8-data-ethics';
+const PAGE_PROGRESS_KEY = `${NAMESPACE}-progress`;
+const INTERACTION_PREFIX = `${NAMESPACE}-mcq:`;
 
 export function normalisePath(pathname: string): string {
   return pathname.length > 1 ? pathname.replace(/\/$/, '') : pathname;
@@ -54,4 +55,19 @@ export function getInteraction(id: string): McqResultRecord | null {
   } catch {
     return null;
   }
+}
+
+/**
+ * Clears all page-progress and quiz-answer state for this course. Only
+ * removes keys under our own namespace prefix, not the whole origin's
+ * localStorage — this site doesn't share the origin with anything else
+ * today, but no reason to be less careful than that costs.
+ */
+export function resetProgress(): void {
+  const keysToRemove: string[] = [];
+  for (let i = 0; i < localStorage.length; i++) {
+    const key = localStorage.key(i);
+    if (key?.startsWith(NAMESPACE)) keysToRemove.push(key);
+  }
+  keysToRemove.forEach((key) => localStorage.removeItem(key));
 }
