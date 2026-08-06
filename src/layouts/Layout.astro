@@ -36,8 +36,15 @@ const pages = [
   <body>
     <header class="a8-header">
       <div class="a8-container a8-header__inner">
+        <!--
+          Text-only, deliberately: two earlier attempts to use a recovered
+          image here (public/assets/logo.png, logo-icon.png) turned out to
+          be unrelated stock artwork, not the real A8 logo - see git history
+          if curious. Swap in the genuine logo file once it's actually
+          available in this repo (a pasted chat image can't be saved to
+          disk directly - needs to arrive as a real file).
+        -->
         <a href={withBase('/')} class="a8-logo" aria-label="Analytics8 home">
-          <img src={withBase('/assets/logo-icon.png')} alt="" />
           <span>Analytics8</span>
         </a>
         <nav class="a8-nav" aria-label="Course navigation">
@@ -95,13 +102,7 @@ const pages = [
       .a8-logo {
         display: inline-flex;
         align-items: center;
-        gap: 0.5rem;
         text-decoration: none;
-      }
-      .a8-logo img {
-        display: block;
-        height: 34px;
-        width: auto;
       }
       .a8-logo span {
         font-family: var(--a8-font-heading);
