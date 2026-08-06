@@ -24,6 +24,16 @@ const pages = [
   { title: 'Data Destruction', href: '/data-destruction/' },
   { title: 'Conclusion', href: '/conclusion/' },
 ];
+
+// Several pages' own copy says "Select Next to continue" - a leftover
+// expectation from the original Adapt course, which had built-in
+// page-level Next/Back buttons. Matched by title (every content page
+// passes its title as a Layout prop already) rather than by URL, so this
+// doesn't need Astro.url/base-path handling. Naturally excludes the
+// landing page, whose title ("Data Ethics") isn't in this list.
+const currentIndex = pages.findIndex((p) => p.title === title);
+const prevPage = currentIndex > 0 ? pages[currentIndex - 1] : null;
+const nextPage = currentIndex !== -1 && currentIndex < pages.length - 1 ? pages[currentIndex + 1] : null;
 ---
 
 <!doctype html>
@@ -66,6 +76,19 @@ const pages = [
         {duration && <p class="a8-duration">Duration: {duration}</p>}
         <slot />
       </main>
+    )}
+
+    {currentIndex !== -1 && (
+      <nav class="a8-container a8-page-nav" aria-label="Page navigation">
+        {prevPage ? (
+          <a href={withBase(prevPage.href)} class="a8-page-nav__link a8-page-nav__link--prev">← {prevPage.title}</a>
+        ) : <span />}
+        {nextPage ? (
+          <a href={withBase(nextPage.href)} class="a8-page-nav__link a8-page-nav__link--next">{nextPage.title} →</a>
+        ) : (
+          <a href={withBase('/')} class="a8-page-nav__link a8-page-nav__link--next">Back to Home →</a>
+        )}
+      </nav>
     )}
 
     <footer class="a8-footer">
@@ -160,6 +183,27 @@ const pages = [
       }
       .a8-main--landing {
         padding: 0;
+      }
+      .a8-page-nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: var(--a8-space-md);
+        padding-bottom: var(--a8-space-lg);
+      }
+      .a8-page-nav__link {
+        color: var(--a8-ink);
+        text-decoration: none;
+        font-weight: 700;
+        border: 1px solid var(--a8-ink);
+        border-radius: var(--a8-radius);
+        padding: 0.5rem 1rem;
+      }
+      .a8-page-nav__link:hover,
+      .a8-page-nav__link:focus {
+        background: var(--a8-accent);
+        border-color: var(--a8-accent);
+        color: var(--a8-accent-text);
       }
       .a8-duration {
         color: var(--a8-text-muted);
