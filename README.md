@@ -15,7 +15,7 @@ component type in use (`text`, `graphic`, `accordion`, `mcq`, `narrative`,
 **provisional** Analytics8 palette (see `src/styles/theme.css` - swap the
 values there the moment real brand assets exist).
 
-## Running it locally
+## Running it locally 
 
 ```
 cd v2-astro
