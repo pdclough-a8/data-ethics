@@ -12,7 +12,7 @@ interface Props {
 
 const { title, duration, variant = 'default' } = Astro.props;
 
-// Mirrors contentObjects.json's page list — hand-maintained for now.
+// Mirrors contentObjects.json's page list - hand-maintained for now.
 // (In the Adapt version this tree is generated across 5 JSON files;
 // here it's just this one array.)
 const pages = [
@@ -31,7 +31,7 @@ const pages = [
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>{title} — Analytics8 // Data Ethics</title>
+    <title>{title} - Analytics8 // Data Ethics</title>
   </head>
   <body>
     <header class="a8-header">
@@ -175,7 +175,7 @@ const pages = [
     </style>
 
     <script>
-      // UI wiring only — the actual persistence lives in
+      // UI wiring only - the actual persistence lives in
       // src/scripts/tracking.ts, shared with Mcq.astro. That's the one file
       // to change if SCORM reporting is ever added; this script just reads
       // its results back out and updates the nav/progress-bar DOM.

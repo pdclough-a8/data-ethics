@@ -1,5 +1,5 @@
 ---
-// Recreates Adapt's "hotgraphic" component type — an image with clickable
+// Recreates Adapt's "hotgraphic" component type - an image with clickable
 // hotspots. Simplified vs. the original (numbered pin buttons + a single
 // content panel below the image, rather than in-place tooltips) but keeps
 // the core interaction: click a point on the image, read more about it.
@@ -36,7 +36,7 @@ const { id, title, body, graphicSrc, graphicAlt, items } = Astro.props;
         class="a8-hotgraphic__pin"
         style={`left: ${item.left}%; top: ${item.top}%;`}
         data-hotgraphic-pin={i}
-        aria-label={`${item.title} — select to find out more`}
+        aria-label={`${item.title} - select to find out more`}
       >
         {i + 1}
       </button>

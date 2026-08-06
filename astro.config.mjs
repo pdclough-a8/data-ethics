@@ -1,6 +1,6 @@
 import { defineConfig } from 'astro/config';
 
-// GitHub Pages serves this as a project site — https://pdclough-a8.github.io/data-ethics/ —
+// GitHub Pages serves this as a project site - https://pdclough-a8.github.io/data-ethics/ -
 // not the domain root, so `base` has to match. Any hardcoded internal link/asset
 // path (nav hrefs, image src from content JSON) must go through withBase()
 // (src/scripts/paths.ts) rather than being a plain "/..." string, since Astro
@@ -9,7 +9,7 @@ export default defineConfig({
   output: 'static',
   site: 'https://pdclough-a8.github.io',
   base: '/data-ethics',
-  // Astro's default build.assets ("_astro") is left as-is here — a previous
+  // Astro's default build.assets ("_astro") is left as-is here - a previous
   // override pointed it at "assets", the same folder public/assets/ (our
   // content images) copies into, which meant Astro's own bundle files and
   // our content images were landing in the same output folder.

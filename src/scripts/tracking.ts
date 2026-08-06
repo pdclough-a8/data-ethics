@@ -1,11 +1,11 @@
 // Centralised progress/interaction tracking.
 //
-// Today this only persists to the browser's localStorage — this course is
+// Today this only persists to the browser's localStorage - this course is
 // most likely going to be used standalone, without an LMS. If that changes
 // and SCORM reporting is ever needed, THIS is the file that should change:
 // every component calls these functions rather than touching localStorage
 // (or a future LMS API) directly, so adding a `wrapper.setValue(...)` call
-// inside each function here is the only change required — no hunting
+// inside each function here is the only change required - no hunting
 // through every page/component.
 
 const PAGE_PROGRESS_KEY = 'a8-data-ethics-progress';

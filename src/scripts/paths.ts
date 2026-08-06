@@ -1,6 +1,6 @@
 // Prefixes a root-absolute path ("/foo/bar") with the site's base path
 // (import.meta.env.BASE_URL, e.g. "/data-ethics"). Astro only auto-prefixes
-// URLs it generates itself (its own bundled JS/CSS) — hardcoded strings we
+// URLs it generates itself (its own bundled JS/CSS) - hardcoded strings we
 // write ourselves (nav hrefs, image src pulled from content JSON) need this
 // applied explicitly, or they resolve against the domain root instead of
 // wherever the site is actually deployed (see astro.config.mjs).

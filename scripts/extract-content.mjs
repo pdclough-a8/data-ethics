@@ -6,13 +6,13 @@
 //   {content.blocks.map((block) => <Block block={block} />)}
 //
 // Kept for reference (and in case content ever needs re-deriving), but it
-// won't run as-is any more: `course/en/` — its source data — was removed
+// won't run as-is any more: `course/en/` - its source data - was removed
 // once migration was complete and the old Adapt course was decommissioned.
 // It's still recoverable via git history (any commit before the cleanup
 // that dropped adapt/, course/, etc.) if this script needs to run again.
 //
 // Originally run via `node scripts/extract-content.mjs` from the project
-// root. Not part of the build — a migration tool, not a runtime dependency.
+// root. Not part of the build - a migration tool, not a runtime dependency.
 
 import fs from 'node:fs';
 import path from 'node:path';
@@ -57,7 +57,7 @@ function toPublicAsset(srcPath) {
 }
 
 // Adapt leaves these generic default titles in place when an author never
-// renamed the component — they're not meant to be shown as a visible
+// renamed the component - they're not meant to be shown as a visible
 // heading, so strip them back to empty.
 const PLACEHOLDER_TITLES = new Set(['Text', 'Graphic', 'Block title', 'Article title', 'Blank']);
 function cleanTitle(title) {
@@ -66,7 +66,7 @@ function cleanTitle(title) {
 
 // Some authored HTML carries inline styles from paste-in-from-Word/Docs
 // (hardcoded font-family, font-size, text colour) that would fight the new
-// theme's typography and link colours — inline styles have higher CSS
+// theme's typography and link colours - inline styles have higher CSS
 // specificity than anything in theme.css, so they'd render inconsistently
 // per-block instead of following the shared design. Strip them; semantic
 // tags (<strong>, <ul>, <a class="customlink">, etc.) are kept as-is.
@@ -81,7 +81,7 @@ function stripDuration(body) {
 
 // One MCQ's instruction field was exported with its handlebars conditional
 // un-rendered ("{{#if _isRadio}}one option{{else}}one or more options{{/if}}")
-// — resolve it statically here rather than shipping raw template syntax.
+// - resolve it statically here rather than shipping raw template syntax.
 function resolveInstruction(instruction, isRadio) {
   const conditional = /\{\{#if _isRadio\}\}(.*?)\{\{else\}\}(.*?)\{\{\/if\}\}/;
   const match = conditional.exec(instruction ?? '');
@@ -97,7 +97,7 @@ function mapComponent(c) {
     case 'graphic':
       // Standalone "graphic" components use responsive large/small fields
       // instead of a flat src (unlike graphics nested in narrative/hotgraphic
-      // items, which do use src directly) — prefer "large".
+      // items, which do use src directly) - prefer "large".
       return {
         type: 'graphic',
         alt: c._graphic?.alt ?? '',
@@ -190,7 +190,7 @@ function mapComponent(c) {
       };
 
     case 'blank':
-      return null; // layout spacer — nothing to render
+      return null; // layout spacer - nothing to render
 
     default:
       console.warn(`  ! unrecognised component type: ${c._component} (${c._id})`);

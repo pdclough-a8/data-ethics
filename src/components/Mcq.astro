@@ -4,7 +4,7 @@
 // submission and correct/partly-correct/incorrect feedback.
 //
 // Matches the current course's actual behaviour (checked against
-// course/config.json + components.json): ungraded self-check only — no
+// course/config.json + components.json): ungraded self-check only - no
 // pass/fail, no completion gating. Answered state persists via
 // localStorage so revisiting a page shows the same result rather than
 // resetting the question.
@@ -14,7 +14,7 @@ interface McqItem {
 }
 
 interface Props {
-  id: string; // stable, unique — used as the localStorage key
+  id: string; // stable, unique - used as the localStorage key
   title: string;
   instruction?: string;
   isRadio?: boolean; // single-select vs multi-select; defaults to multi-select
@@ -136,10 +136,10 @@ const {
 
 <script>
   // Handles every .a8-mcq on the page. Single attempt, matching the
-  // current course (_attempts: 1) — once answered, inputs stay disabled
+  // current course (_attempts: 1) - once answered, inputs stay disabled
   // and the same result shows on future visits. Persistence goes through
   // src/scripts/tracking.ts (shared with Layout.astro) rather than calling
-  // localStorage directly here — see that file for why.
+  // localStorage directly here - see that file for why.
   import { recordInteraction, getInteraction, type McqResult } from '../scripts/tracking';
 
   function evaluate(selected: Set<number>, correct: Set<number>): McqResult {
