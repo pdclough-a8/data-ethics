@@ -37,10 +37,12 @@ const pages = [
     <header class="a8-header">
       <div class="a8-container a8-header__inner">
         <a href={withBase('/')} class="a8-logo" aria-label="Analytics8 home">
-          <img src={withBase('/assets/logo.png')} alt="Analytics8" />
+          <img src={withBase('/assets/logo-icon.png')} alt="" />
+          <span>Analytics8</span>
         </a>
         <nav class="a8-nav" aria-label="Course navigation">
           <ul>
+            <li><a href={withBase('/')}>Home</a></li>
             {pages.map((p) => (
               <li><a href={withBase(p.href)} data-page-link>{p.title}</a></li>
             ))}
@@ -92,11 +94,19 @@ const pages = [
       .a8-logo {
         display: inline-flex;
         align-items: center;
+        gap: 0.5rem;
+        text-decoration: none;
       }
       .a8-logo img {
         display: block;
-        height: 28px;
+        height: 34px;
         width: auto;
+      }
+      .a8-logo span {
+        font-family: var(--a8-font-heading);
+        font-weight: 700;
+        font-size: 1.15rem;
+        color: var(--a8-ink);
       }
       .a8-nav ul {
         list-style: none;
