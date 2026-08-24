@@ -10,13 +10,13 @@
     {
       "type": "text",
       "title": "The law suggests...",
-      "body": "<p>In order to use data – often the point of collecting it in the first place – it must be analysed, processed and modified, or even shared with people outside of your organisation. The Data Protection Act 2018 says that data should be used <strong>fairly, lawfully, and transparently.</strong> It should also be used only for specified purposes, and in a way that is <strong>adequate, relevant, and limited</strong> to what is absolutely necessary.&nbsp;</p><p><br>Data usage covers a wide scope of tasks, and brings numerous ethical issues, particularly around transparency, fairness, and bias.&nbsp;</p>"
+      "body": "<p>In order to use data - often the point of collecting it in the first place - it must be analysed, processed and modified, or even shared with people outside of your organisation. The Data Protection Act 2018 says that data should be used <strong>fairly, lawfully, and transparently.</strong> It should also be used only for specified purposes, and in a way that is <strong>adequate, relevant, and limited</strong> to what is absolutely necessary.&nbsp;</p><p>Data usage covers a wide scope of tasks, and brings numerous ethical issues, particularly around transparency, fairness, and bias.&nbsp;</p>"
     },
     {
       "type": "narrative",
       "id": "65144f448d8daf96d91a239e",
       "title": "Transparency",
-      "body": "<p>As well as stating an intended purpose up front, organisations should also be ready to clearly communicate how the data is being used.&nbsp;</p><p><br><strong>Select the arrows to learn more.</strong></p>",
+      "body": "<p>As well as stating an intended purpose up front, organisations should also be ready to clearly communicate how the data is being used.&nbsp;</p><p><strong>Select the arrows to learn more.</strong></p>",
       "items": [
         {
           "title": "The right to explanation",
@@ -41,7 +41,7 @@
     {
       "type": "text",
       "title": "",
-      "body": "<p>In terms of fairness - often thought of as 'impartial and just treatment or behaviour without favouritism or discrimination' - the collection and use of data should be proportionate to the challenge or issue it has set out to resolve. The quality of data should also be such that the insights it generates are fair, and that any impact on a particular group can be justified and not be detrimental.</p><p><br><strong>Select each heading from the list below to find out more.</strong></p>"
+      "body": "<p>In terms of fairness - often thought of as 'impartial and just treatment or behaviour without favouritism or discrimination' - the collection and use of data should be proportionate to the challenge or issue it has set out to resolve. The quality of data should also be such that the insights it generates are fair, and that any impact on a particular group can be justified and not be detrimental.</p><p><strong>Select each heading from the list below to find out more.</strong></p>"
     },
     {
       "type": "accordion",
@@ -49,7 +49,7 @@
       "items": [
         {
           "title": "Value",
-          "body": "<p>Are you offering customers <strong>value </strong>in exchange for using their data? This is part of what it means to collect data proportionately to the issue it is resolving–that is, improving a product or service your customers use.</p>"
+          "body": "<p>Are you offering customers <strong>value </strong>in exchange for using their data? This is part of what it means to collect data proportionately to the issue it is resolving-that is, improving a product or service your customers use.</p>"
         },
         {
           "title": "Personal data",
@@ -57,20 +57,20 @@
         },
         {
           "title": "Filling the gaps",
-          "body": "<p>Are you collecting data in a fair way, so that all groups are represented? Look for gaps in the data you are collecting – this could lead you to overlook key information you could use to ensure all groups have equitable positive experiences with the product or service you offer.&nbsp;</p>"
+          "body": "<p>Are you collecting data in a fair way, so that all groups are represented? Look for gaps in the data you are collecting - this could lead you to overlook key information you could use to ensure all groups have equitable positive experiences with the product or service you offer.&nbsp;</p>"
         }
       ]
     },
     {
       "type": "flipcard",
       "title": "Bias",
-      "body": "<p>While we acknowledge that humans are often biased and naturally prejudiced, it's a common misconception that machines make cold and objective decisions. The reality is that <a class=\"customlink\" href=\"https://arxiv.org/abs/2001.09762\" target=\"_blank\" rel=\"noopener noreferrer\"><span><u>algorithms can inherit and amplify the same biases present in the data used to build them</u></span></a><span>.</span></p><p><br><strong>Select the cards to find out more.&nbsp;</strong></p>",
+      "body": "<p>While we acknowledge that humans are often biased and naturally prejudiced, it's a common misconception that machines make cold and objective decisions. The reality is that <a class=\"customlink\" href=\"https://arxiv.org/abs/2001.09762\" target=\"_blank\" rel=\"noopener noreferrer\"><span><u>algorithms can inherit and amplify the same biases present in the data used to build them</u></span></a><span>.</span></p><p><strong>Select the cards to find out more.&nbsp;</strong></p>",
       "items": [
         {
           "frontImageSrc": "/assets/651eb7d88e3d8bc3100bddf7.png",
           "frontImageAlt": "icon of a download arrow into a computer",
           "backTitle": "Biases in data collection",
-          "backBody": "<p>Because humans decide what data to collect, biases often creep in at the data collection stage–like reporting bias, in which only a fraction of real-world information is captured, so information is underreported for certain groups.&nbsp;</p>"
+          "backBody": "<p>Because humans decide what data to collect, biases often creep in at the data collection stage-like reporting bias, in which only a fraction of real-world information is captured, so information is underreported for certain groups.&nbsp;</p>"
         },
         {
           "frontImageSrc": "/assets/651eb7f48e3d8bc3100bdebf.png",
@@ -89,12 +89,12 @@
     {
       "type": "text",
       "title": "Case study: Predictive policing",
-      "body": "<p>Due to the mistaken belief that algorithms can provide an impartial and objective solution to crime prevention, law enforcement agencies in several major US cities previously implemented <a class=\"customlink\" href=\"https://www.nature.com/articles/d41586-018-05469-3\" target=\"_blank\" rel=\"noopener noreferrer\"><u>predictive policing programs</u></a> that used algorithms to allocate resources to 'hot spots' or potential perpetrators – though many of these programs have since been discontinued amid growing evidence that such systems can inherit the biases deeply ingrained in historical crime data. Durham Constabulary in the UK, for example, <a class=\"customlink\" href=\"https://theconversation.com/ai-profiling-the-social-and-moral-hazards-of-predictive-policing-92960\" target=\"_blank\" rel=\"noopener noreferrer\"><u>removed postcode data from its own risk-assessment tool</u></a> after recognising it could reinforce those biases. When deployed without safeguards like this, the predictions such systems produce can replicate and perpetuate the biases present in their training data.&nbsp;</p>"
+      "body": "<p>Due to the mistaken belief that algorithms can provide an impartial and objective solution to crime prevention, law enforcement agencies in several major US cities previously implemented <a class=\"customlink\" href=\"https://www.nature.com/articles/d41586-018-05469-3\" target=\"_blank\" rel=\"noopener noreferrer\"><u>predictive policing programs</u></a> that used algorithms to allocate resources to 'hot spots' or potential perpetrators - though many of these programs have since been discontinued amid growing evidence that such systems can inherit the biases deeply ingrained in historical crime data. Durham Constabulary in the UK, for example, <a class=\"customlink\" href=\"https://theconversation.com/ai-profiling-the-social-and-moral-hazards-of-predictive-policing-92960\" target=\"_blank\" rel=\"noopener noreferrer\"><u>removed postcode data from its own risk-assessment tool</u></a> after recognising it could reinforce those biases. When deployed without safeguards like this, the predictions such systems produce can replicate and perpetuate the biases present in their training data.&nbsp;</p>"
     },
     {
       "type": "text",
       "title": "",
-      "body": "<p>How can bias be reduced in predictive policing?</p><p>&nbsp;</p><p><strong>Select your answer, then submit.</strong></p>"
+      "body": "<p>How can bias be reduced in predictive policing?</p><p><strong>Select your answer, then submit.</strong></p>"
     },
     {
       "type": "mcq",
@@ -120,14 +120,14 @@
           "shouldBeSelected": false
         }
       ],
-      "feedbackCorrect": "<p>That's right. Transparency is a fundamental principle in ethical algorithm development processes. This means that the methods, data sources, and decision-making processes behind the algorithm used are open to scrutiny and evaluation by external stakeholders, including the public and oversight bodies.&nbsp;<br><br>Updating algorithms to reflect demographic change does not accomplish any ethical goals, as this will not have an impact on the biases inherent in historical crime data. Likewise, implementing further input from experienced law enforcement officers will simply introduce bias from a different source. Implementing algorithms with proprietary code can hinder transparency and accountability, making it more challenging for stakeholders to identify and mitigate bias.&nbsp;</p>",
-      "feedbackIncorrect": "<p>That's not right. Transparency is a fundamental principle in ethical algorithm development processes. This means that the methods, data sources, and decision-making processes behind the algorithm used are open to scrutiny and evaluation by external stakeholders, including the public and oversight bodies.&nbsp;<br><br>Updating algorithms to reflect demographic change does not accomplish any ethical goals, as this will not have an impact on the biases inherent in historical crime data. Likewise, implementing further input from experienced law enforcement officers will simply introduce bias from a different source. Implementing algorithms with proprietary code can hinder transparency and accountability, making it more challenging for stakeholders to identify and mitigate bias.&nbsp;</p>",
+      "feedbackCorrect": "<p>That's right. Transparency is a fundamental principle in ethical algorithm development processes. This means that the methods, data sources, and decision-making processes behind the algorithm used are open to scrutiny and evaluation by external stakeholders, including the public and oversight bodies.&nbsp;<br>Updating algorithms to reflect demographic change does not accomplish any ethical goals, as this will not have an impact on the biases inherent in historical crime data. Likewise, implementing further input from experienced law enforcement officers will simply introduce bias from a different source. Implementing algorithms with proprietary code can hinder transparency and accountability, making it more challenging for stakeholders to identify and mitigate bias.&nbsp;</p>",
+      "feedbackIncorrect": "<p>That's not right. Transparency is a fundamental principle in ethical algorithm development processes. This means that the methods, data sources, and decision-making processes behind the algorithm used are open to scrutiny and evaluation by external stakeholders, including the public and oversight bodies.&nbsp;<br>Updating algorithms to reflect demographic change does not accomplish any ethical goals, as this will not have an impact on the biases inherent in historical crime data. Likewise, implementing further input from experienced law enforcement officers will simply introduce bias from a different source. Implementing algorithms with proprietary code can hinder transparency and accountability, making it more challenging for stakeholders to identify and mitigate bias.&nbsp;</p>",
       "feedbackPartlyCorrect": "<p>Not quite. Transparency is a fundamental principle in ethical algorithm development processes. This means that the methods, data sources, and decision-making processes behind the algorithm used are open to scrutiny and evaluation by external stakeholders, including the public and oversight bodies.&nbsp;<br>Updating algorithms to reflect demographic change does not accomplish any ethical goals, as this will not have an impact on the biases inherent in historical crime data. Likewise, implementing further input from experienced law enforcement officers will simply introduce bias from a different source. Implementing algorithms with proprietary code can hinder transparency and accountability, making it more challenging for stakeholders to identify and mitigate bias.&nbsp;</p>"
     },
     {
       "type": "text",
       "title": "Coming up...",
-      "body": "<p>The next part of the data lifecycle is <strong>sharing</strong>. Next, we'll talk about some ethical issues that can arise when sharing data within your business, and externally with stakeholders.</p><p><br><strong>Select Next to continue.</strong></p>"
+      "body": "<p>The next part of the data lifecycle is <strong>sharing</strong>. Next, we'll talk about some ethical issues that can arise when sharing data within your business, and externally with stakeholders.</p><p><strong>Select Next to continue.</strong></p>"
     }
   ]
 }

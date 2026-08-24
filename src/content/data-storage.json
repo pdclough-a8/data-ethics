@@ -10,12 +10,12 @@
     {
       "type": "text",
       "title": "The law suggests...",
-      "body": "<p>As with other aspects of the data lifecycle, the<a class=\"customlink\" href=\"https://www.legislation.gov.uk/ukpga/2018/12/contents\" target=\"_blank\" rel=\"noopener noreferrer\"> <u>Data Protection Act 2018</u> </a>sets out clear rules for the storage of personal data. In particular, organisations must&nbsp;<strong>not </strong>keep personal data for longer than they need to – and they need to be able to justify the length of time they hold the data for.</p><p>Policies are needed for setting standard retention periods for data. Organisations must also review the data they have, and erase or anonymise it when they no longer need it. When this is the case, individuals have the right to ask for their data to be erased.</p><p>There are exceptions, and organisations may keep data for longer periods if they are keeping it for public interest archiving, scientific or historical research, or statistical purposes.&nbsp;</p>"
+      "body": "<p>As with other aspects of the data lifecycle, the<a class=\"customlink\" href=\"https://www.legislation.gov.uk/ukpga/2018/12/contents\" target=\"_blank\" rel=\"noopener noreferrer\"> <u>Data Protection Act 2018</u> </a>sets out clear rules for the storage of personal data. In particular, organisations must&nbsp;<strong>not </strong>keep personal data for longer than they need to - and they need to be able to justify the length of time they hold the data for.</p><p>Policies are needed for setting standard retention periods for data. Organisations must also review the data they have, and erase or anonymise it when they no longer need it. When this is the case, individuals have the right to ask for their data to be erased.</p><p>There are exceptions, and organisations may keep data for longer periods if they are keeping it for public interest archiving, scientific or historical research, or statistical purposes.&nbsp;</p>"
     },
     {
       "type": "text",
       "title": "",
-      "body": "<p>It's fairly obvious that data needs to be stored and protected with the appropriate level of security, with backup and recovery procedures that protect key information.<br><br>But beyond this, there are ethical considerations relating to storage – in particular, how long organisations should store data for. <strong>Data retention</strong> links back to having a clear purpose for collecting the data in the first place and being very precise about its use.</p><p><br><strong>Select Show below to find out more.&nbsp;</strong></p>"
+      "body": "<p>It's fairly obvious that data needs to be stored and protected with the appropriate level of security, with backup and recovery procedures that protect key information.<br>But beyond this, there are ethical considerations relating to storage - in particular, how long organisations should store data for. <strong>Data retention</strong> links back to having a clear purpose for collecting the data in the first place and being very precise about its use.</p><p><strong>Select Show below to find out more.&nbsp;</strong></p>"
     },
     {
       "type": "reveal",
@@ -38,17 +38,17 @@
       "type": "narrative",
       "id": "651449548f1d294228db5a1c",
       "title": "Access",
-      "body": "<p>Data protection and security is vital for storing and managing data, especially personal data that must be kept secure and not disclosed to unauthorised people.</p><p><br><strong>Select the arrows to learn more.</strong></p>",
+      "body": "<p>Data protection and security is vital for storing and managing data, especially personal data that must be kept secure and not disclosed to unauthorised people.</p><p><strong>Select the arrows to learn more.</strong></p>",
       "items": [
         {
           "title": "Securing data",
-          "body": "<p>Securing data means several things, including preserving its integrity, controlling access to it to reduce breaches and unauthorised access, and protecting the privacy of data contributors–for example, using techniques such as <a class=\"customlink\" href=\"https://en.wikipedia.org/wiki/De-identification\" target=\"_blank\" rel=\"noopener noreferrer\"><u>de-identification</u></a>.</p>",
+          "body": "<p>Securing data means several things, including preserving its integrity, controlling access to it to reduce breaches and unauthorised access, and protecting the privacy of data contributors-for example, using techniques such as <a class=\"customlink\" href=\"https://en.wikipedia.org/wiki/De-identification\" target=\"_blank\" rel=\"noopener noreferrer\"><u>de-identification</u></a>.</p>",
           "graphicSrc": "/assets/651eb61294505f1a22eab94a.png",
           "graphicAlt": "icon of a padlock"
         },
         {
           "title": "Balancing security and access",
-          "body": "<p>There's an obvious tension between keeping the data secure and ensuring the people who need to view it have access. It could be argued that information should also be available to people in the organisation who may need it to generate valuable insights that could improve services or save time and money – the so-called democratisation of data.&nbsp;<br><br>In addition, data subjects have the right to ask what data you hold on them – and ask for it to be deleted if they wish.</p>",
+          "body": "<p>There's an obvious tension between keeping the data secure and ensuring the people who need to view it have access. It could be argued that information should also be available to people in the organisation who may need it to generate valuable insights that could improve services or save time and money - the so-called democratisation of data.&nbsp;<br>In addition, data subjects have the right to ask what data you hold on them - and ask for it to be deleted if they wish.</p>",
           "graphicSrc": "/assets/651eb6253eab62d1217d1171.png",
           "graphicAlt": "icon of a scales"
         },
@@ -60,7 +60,7 @@
         },
         {
           "title": "Ask yourself",
-          "body": "<ul><li>How can you balance the security and privacy and access elements of the data you are storing?</li><li>Do you have a plan for providing different levels of access to data so that data in your organisation can be used effectively and ethically?</li><li>How quickly can the data be made available to data subjects should they request it – legally, it's as soon as possible and within one month. Can you put a system in place to ensure that you respond as quickly as possible?</li></ul>",
+          "body": "<ul><li>How can you balance the security and privacy and access elements of the data you are storing?</li><li>Do you have a plan for providing different levels of access to data so that data in your organisation can be used effectively and ethically?</li><li>How quickly can the data be made available to data subjects should they request it - legally, it's as soon as possible and within one month. Can you put a system in place to ensure that you respond as quickly as possible?</li></ul>",
           "graphicSrc": "/assets/651eb64c53a700b1e0f27785.png",
           "graphicAlt": "icon of a question mark"
         }
@@ -74,7 +74,7 @@
     {
       "type": "text",
       "title": "",
-      "body": "<p>What could Ocado have done to prevent this breach of data security?</p><p>&nbsp;</p><p><strong>Select two correct answers, then submit.</strong></p>"
+      "body": "<p>What could Ocado have done to prevent this breach of data security?</p><p><strong>Select two correct answers, then submit.</strong></p>"
     },
     {
       "type": "mcq",
@@ -107,7 +107,7 @@
     {
       "type": "text",
       "title": "Coming up...",
-      "body": "<p>The next part of the data lifecycle is <strong>usage</strong>. Next, we'll talk about some ethical issues that can arise when interpreting, visualising, and sharing data.</p><p><br><strong>Select Next to continue.</strong></p>"
+      "body": "<p>The next part of the data lifecycle is <strong>usage</strong>. Next, we'll talk about some ethical issues that can arise when interpreting, visualising, and sharing data.</p><p><strong>Select Next to continue.</strong></p>"
     }
   ]
 }

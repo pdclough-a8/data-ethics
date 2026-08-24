@@ -10,7 +10,7 @@
     {
       "type": "text",
       "title": "Consent",
-      "body": "<p>Seeking <strong>consent </strong>is the most appropriate way to legally collect information, while giving customers genuine control over their data.&nbsp;</p><p><br>While <a class=\"customlink\" href=\"https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/consent/when-is-consent-appropriate/\" target=\"_blank\" rel=\"noopener noreferrer\"><u>consent isn't always required</u></a> (such as in cases of legitimate interest and/or legal obligation), the General Data Protection Regulations (GDPR) suggest that consent be given to collect data for an explicit and stated purpose. Even without consent, there still needs to be clear and comprehensive information provided about how personal information is used.&nbsp;</p><p>&nbsp;</p><p>Unfortunately, some companies also resort to manipulative user agreements to get the consent they need, but it is not always consent a participant is happy to give. The value of consent is diminished when it becomes a condition of service.</p>"
+      "body": "<p>Seeking <strong>consent </strong>is the most appropriate way to legally collect information, while giving customers genuine control over their data.&nbsp;</p><p>While <a class=\"customlink\" href=\"https://ico.org.uk/for-organisations/guide-to-data-protection/guide-to-the-general-data-protection-regulation-gdpr/consent/when-is-consent-appropriate/\" target=\"_blank\" rel=\"noopener noreferrer\"><u>consent isn't always required</u></a> (such as in cases of legitimate interest and/or legal obligation), the General Data Protection Regulations (GDPR) suggest that consent be given to collect data for an explicit and stated purpose. Even without consent, there still needs to be clear and comprehensive information provided about how personal information is used.&nbsp;</p><p>Unfortunately, some companies also resort to manipulative user agreements to get the consent they need, but it is not always consent a participant is happy to give. The value of consent is diminished when it becomes a condition of service.</p>"
     },
     {
       "type": "text",
@@ -21,7 +21,7 @@
       "type": "narrative",
       "id": "651446765843e577fed78ce0",
       "title": "Confidentiality and anonymity",
-      "body": "<p>Customers will often opt in to data collection under the assumption that the information collected remains confidential, and that any published findings are anonymised.&nbsp;</p><p>&nbsp;</p><p><strong>Select the back and next arrows to find out more.</strong></p>",
+      "body": "<p>Customers will often opt in to data collection under the assumption that the information collected remains confidential, and that any published findings are anonymised.&nbsp;</p><p><strong>Select the back and next arrows to find out more.</strong></p>",
       "items": [
         {
           "title": "Breaking confidentiality",
@@ -46,7 +46,7 @@
     {
       "type": "text",
       "title": "",
-      "body": "<p>It can be hard to know the purpose or value of data in advance, but it is important to plan for it before collecting any data.</p><p><br><strong>Select each heading from the list below to find out more.</strong></p>"
+      "body": "<p>It can be hard to know the purpose or value of data in advance, but it is important to plan for it before collecting any data.</p><p><strong>Select each heading from the list below to find out more.</strong></p>"
     },
     {
       "type": "accordion",
@@ -69,12 +69,12 @@
     {
       "type": "text",
       "title": "Case study: Always-on Alexas",
-      "body": "<p>There are endless examples of questionable personal data collection practices. Amazon received a rash of negative headlines following a <a class=\"customlink\" href=\"https://www.npr.org/2023/06/01/1179381126/amazon-alexa-ring-settlement\" target=\"_blank\" rel=\"noopener noreferrer\"><u>2023 FTC settlement</u></a>, in which the company agreed to pay $25 million after regulators found that its Alexa smart speaker had retained children's voice recordings indefinitely and ignored parents' requests to delete them – part of a wider pattern of concern over <a class=\"customlink\" href=\"https://www.theguardian.com/technology/2022/feb/27/the-data-game-what-amazon-knows-about-you-and-how-to-stop-it\" target=\"_blank\" rel=\"noopener noreferrer\"><u>how much data Amazon collects</u></a> about its users.</p>"
+      "body": "<p>There are endless examples of questionable personal data collection practices. Amazon received many negative headlines following a <a class=\"customlink\" href=\"https://www.npr.org/2023/06/01/1179381126/amazon-alexa-ring-settlement\" target=\"_blank\" rel=\"noopener noreferrer\"><u>2023 FTC settlement</u></a>, in which the company agreed to pay $25 million after regulators found that its Alexa smart speaker had retained children's voice recordings indefinitely and ignored parents' requests to delete them - part of a wider pattern of concern over <a class=\"customlink\" href=\"https://www.theguardian.com/technology/2022/feb/27/the-data-game-what-amazon-knows-about-you-and-how-to-stop-it\" target=\"_blank\" rel=\"noopener noreferrer\"><u>how much data Amazon collects</u></a> about its users.</p>"
     },
     {
       "type": "text",
       "title": "",
-      "body": "<p>Which of these actions could pose a problem with regard to ethical data collection?</p><p>&nbsp;</p><p><strong>Select all answers that apply, then Submit.</strong></p>"
+      "body": "<p>Which of these actions could pose a problem with regard to ethical data collection?</p><p><strong>Select all answers that apply, then Submit.</strong></p>"
     },
     {
       "type": "mcq",
@@ -100,14 +100,14 @@
           "shouldBeSelected": true
         }
       ],
-      "feedbackCorrect": "<p>That's right. All of these data collection practices are unethical, as users do not retain control over their data. They're not all illegal, though–while it's against the law to store children's data without parental consent, it's within the law to set defaults that are not necessarily within the user's best interests when it comes to their personal data.&nbsp;</p>",
-      "feedbackIncorrect": "<p>Not quite. All of these data collection practices are unethical, as users do not retain control over their data. They're not all illegal, though–while it's against the law to store children's data without parental consent, it's within the law to set defaults that are not necessarily within the user's best interests when it comes to their personal data.&nbsp;</p>",
-      "feedbackPartlyCorrect": "<p>Not quite. All of these data collection practices are unethical, as users do not retain control over their data. They're not all illegal, though–while it's against the law to store children's data without parental consent, it's within the law to set defaults that are not necessarily within the user's best interests when it comes to their personal data.&nbsp;</p>"
+      "feedbackCorrect": "<p>That's right. All of these data collection practices are unethical, as users do not retain control over their data. They're not all illegal, though-while it's against the law to store children's data without parental consent, it's within the law to set defaults that are not necessarily within the user's best interests when it comes to their personal data.&nbsp;</p>",
+      "feedbackIncorrect": "<p>Not quite. All of these data collection practices are unethical, as users do not retain control over their data. They're not all illegal, though-while it's against the law to store children's data without parental consent, it's within the law to set defaults that are not necessarily within the user's best interests when it comes to their personal data.&nbsp;</p>",
+      "feedbackPartlyCorrect": "<p>Not quite. All of these data collection practices are unethical, as users do not retain control over their data. They're not all illegal, though-while it's against the law to store children's data without parental consent, it's within the law to set defaults that are not necessarily within the user's best interests when it comes to their personal data.&nbsp;</p>"
     },
     {
       "type": "text",
       "title": "Coming up...",
-      "body": "<p>The next part of the data lifecycle is <strong>storage</strong>. Next, we'll talk about some ethical considerations when storing data.&nbsp;</p><p><br><strong>Select Next to continue.</strong></p>"
+      "body": "<p>The next part of the data lifecycle is <strong>storage</strong>. Next, we'll talk about some ethical considerations when storing data.&nbsp;</p><p><strong>Select Next to continue.</strong></p>"
     }
   ]
 }
