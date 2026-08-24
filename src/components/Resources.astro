@@ -74,7 +74,10 @@ const { title, body, items } = Astro.props;
     border-color: var(--a8-accent);
     transform: translateY(-2px);
     box-shadow: 0 6px 16px rgba(26, 26, 26, 0.08);
-    outline: none;
+  }
+  .a8-resources__card:focus-visible {
+    outline: 2px solid var(--a8-ink);
+    outline-offset: 2px;
   }
   .a8-resources__source {
     font-size: 0.72rem;

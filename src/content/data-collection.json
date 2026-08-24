@@ -21,7 +21,7 @@
       "type": "narrative",
       "id": "651446765843e577fed78ce0",
       "title": "Confidentiality and anonymity",
-      "body": "<p>Customers will often opt in to data collection under the assumption that the information collected remains confidential, and that any published findings are anonymised.&nbsp;</p><p>&nbsp;</p><p><strong>Select the next and back arrows to find out more.</strong></p>",
+      "body": "<p>Customers will often opt in to data collection under the assumption that the information collected remains confidential, and that any published findings are anonymised.&nbsp;</p><p>&nbsp;</p><p><strong>Select the back and next arrows to find out more.</strong></p>",
       "items": [
         {
           "title": "Breaking confidentiality",
@@ -69,7 +69,7 @@
     {
       "type": "text",
       "title": "Case study: Always-on Alexas",
-      "body": "<p>There are endless examples of questionable personal data collection practices. Amazon received a rash of negative headlines following a<a class=\"customlink\" href=\"https://www.npr.org/2023/06/01/1179381126/amazon-alexa-ring-settlement\" target=\"_blank\" rel=\"noopener noreferrer\"> <u>2021 class-action lawsuit</u></a>, which accused the company's Alexa smart speaker of <a class=\"customlink\" href=\"https://www.theguardian.com/technology/2022/feb/27/the-data-game-what-amazon-knows-about-you-and-how-to-stop-it\" target=\"_blank\" rel=\"noopener noreferrer\"><u>secretly collecting and storing</u> </a>user data.</p>"
+      "body": "<p>There are endless examples of questionable personal data collection practices. Amazon received a rash of negative headlines following a <a class=\"customlink\" href=\"https://www.npr.org/2023/06/01/1179381126/amazon-alexa-ring-settlement\" target=\"_blank\" rel=\"noopener noreferrer\"><u>2023 FTC settlement</u></a>, in which the company agreed to pay $25 million after regulators found that its Alexa smart speaker had retained children's voice recordings indefinitely and ignored parents' requests to delete them – part of a wider pattern of concern over <a class=\"customlink\" href=\"https://www.theguardian.com/technology/2022/feb/27/the-data-game-what-amazon-knows-about-you-and-how-to-stop-it\" target=\"_blank\" rel=\"noopener noreferrer\"><u>how much data Amazon collects</u></a> about its users.</p>"
     },
     {
       "type": "text",

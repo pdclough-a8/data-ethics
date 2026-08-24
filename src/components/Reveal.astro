@@ -79,8 +79,13 @@ function panelStyle(panel: { src: string }) {
     display: flex;
     align-items: center;
   }
+  /* No single accent shade clears 4.5:1 against both a light page
+     background and this card's dark overlay - rather than pick one and
+     fail the other, links on this dark card inherit the card's own white
+     text colour instead; the underline (set globally on a.customlink)
+     still marks them as links without relying on colour alone. */
   .a8-reveal__card :global(a.customlink) {
-    color: var(--a8-accent);
+    color: inherit;
   }
   .a8-reveal__toggle {
     display: block;

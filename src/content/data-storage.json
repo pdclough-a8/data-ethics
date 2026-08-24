@@ -10,7 +10,7 @@
     {
       "type": "text",
       "title": "The law suggests...",
-      "body": "<p><meta charset=\"utf-8\"></p><p>As with other aspects of the data lifecycle, the<a class=\"customlink\" href=\"https://www.legislation.gov.uk/ukpga/2018/12/contents\" target=\"_blank\" rel=\"noopener noreferrer\"> <u>Data Protection Act 2018</u> </a>sets out clear rules for the storage of personal data. In particular, organisations must&nbsp;<strong>not </strong>keep personal data for longer than they need to – and they need to be able to justify the length of time they hold the data for.</p><p>Policies are needed for setting standard retention periods for data. Organisations must also review the data they have, and erase or anonymise it when they no longer need it. When this is the case, individuals have the right to ask for their data to be erased.</p><p>There are exceptions, and organisations may keep data for longer periods if they are keeping it for public interest archiving, scientific or historical research, or statistical purposes.&nbsp;</p>"
+      "body": "<p>As with other aspects of the data lifecycle, the<a class=\"customlink\" href=\"https://www.legislation.gov.uk/ukpga/2018/12/contents\" target=\"_blank\" rel=\"noopener noreferrer\"> <u>Data Protection Act 2018</u> </a>sets out clear rules for the storage of personal data. In particular, organisations must&nbsp;<strong>not </strong>keep personal data for longer than they need to – and they need to be able to justify the length of time they hold the data for.</p><p>Policies are needed for setting standard retention periods for data. Organisations must also review the data they have, and erase or anonymise it when they no longer need it. When this is the case, individuals have the right to ask for their data to be erased.</p><p>There are exceptions, and organisations may keep data for longer periods if they are keeping it for public interest archiving, scientific or historical research, or statistical purposes.&nbsp;</p>"
     },
     {
       "type": "text",
@@ -68,7 +68,7 @@
     },
     {
       "type": "text",
-      "title": "Case study: Ocado v McKeeve",
+      "title": "Case study: Ocado's confidential data theft",
       "body": "<p>In June 2021, British retailer <a class=\"customlink\" href=\"https://www.ocadogroup.com/media/statements/ocado-settles-litigation-today/\" target=\"_blank\" rel=\"noopener noreferrer\"><span><u>Ocado settled litigation</u></span></a> with two former employees who collected confidential documents while they worked for Ocado, which they kept upon leaving the company. These employees used these documents to support the development of a new, rival operation, pursuing clients in direct competition with Ocado.</p>"
     },
     {
@@ -79,7 +79,7 @@
     {
       "type": "mcq",
       "id": "6514499d5843e577fed793f8",
-      "title": "Case study: Ocado v McKeeve",
+      "title": "Case study: Ocado's confidential data theft",
       "instruction": "Choose two options then select Submit.",
       "isRadio": false,
       "items": [

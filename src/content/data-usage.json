@@ -64,7 +64,7 @@
     {
       "type": "flipcard",
       "title": "Bias",
-      "body": "<p>While we acknowledge that humans are often biased and naturally prejudiced, it's a common misconception that machines make cold and objective decisions. The reality is that they are <a class=\"customlink\" href=\"https://arxiv.org/abs/2001.09762\" target=\"_blank\" rel=\"noopener noreferrer\"><span><u>as susceptible to bias as any human</u></span></a><span>.</span></p><p><br><strong>Select the cards to find out more.&nbsp;</strong></p>",
+      "body": "<p>While we acknowledge that humans are often biased and naturally prejudiced, it's a common misconception that machines make cold and objective decisions. The reality is that <a class=\"customlink\" href=\"https://arxiv.org/abs/2001.09762\" target=\"_blank\" rel=\"noopener noreferrer\"><span><u>algorithms can inherit and amplify the same biases present in the data used to build them</u></span></a><span>.</span></p><p><br><strong>Select the cards to find out more.&nbsp;</strong></p>",
       "items": [
         {
           "frontImageSrc": "/assets/651eb7d88e3d8bc3100bddf7.png",
@@ -89,7 +89,7 @@
     {
       "type": "text",
       "title": "Case study: Predictive policing",
-      "body": "<p>Due to the mistaken belief that algorithms can provide an impartial and objective solution to crime prevention, law enforcement agencies in major US cities, including New York City, Chicago, and Los Angeles, have implemented <a class=\"customlink\" href=\"https://www.nature.com/articles/d41586-018-05469-3\" target=\"_blank\" rel=\"noopener noreferrer\"><u>predictive policing programs</u>.</a> These programs, which use algorithms to allocate resources to 'hot spots' or potential perpetrators. However, as a <a class=\"customlink\" href=\"https://theconversation.com/ai-profiling-the-social-and-moral-hazards-of-predictive-policing-92960\" target=\"_blank\" rel=\"noopener noreferrer\"><u>report by Durham Constabulary</u></a> highlights, the models used in these programs inherit the biases deeply ingrained in historical crime data. When deployed, the predictions produced replicate and perpetuate the biases present in the training data.&nbsp;</p>"
+      "body": "<p>Due to the mistaken belief that algorithms can provide an impartial and objective solution to crime prevention, law enforcement agencies in several major US cities previously implemented <a class=\"customlink\" href=\"https://www.nature.com/articles/d41586-018-05469-3\" target=\"_blank\" rel=\"noopener noreferrer\"><u>predictive policing programs</u></a> that used algorithms to allocate resources to 'hot spots' or potential perpetrators – though many of these programs have since been discontinued amid growing evidence that such systems can inherit the biases deeply ingrained in historical crime data. Durham Constabulary in the UK, for example, <a class=\"customlink\" href=\"https://theconversation.com/ai-profiling-the-social-and-moral-hazards-of-predictive-policing-92960\" target=\"_blank\" rel=\"noopener noreferrer\"><u>removed postcode data from its own risk-assessment tool</u></a> after recognising it could reinforce those biases. When deployed without safeguards like this, the predictions such systems produce can replicate and perpetuate the biases present in their training data.&nbsp;</p>"
     },
     {
       "type": "text",
