@@ -11,6 +11,7 @@ import Narrative from './Narrative.astro';
 import Hotgraphic from './Hotgraphic.astro';
 import Flipcard from './Flipcard.astro';
 import Reveal from './Reveal.astro';
+import Resources from './Resources.astro';
 
 interface Props {
   block: Record<string, any> & { type: string };
@@ -27,3 +28,4 @@ const { block } = Astro.props;
 {block.type === 'hotgraphic' && <Hotgraphic {...block} />}
 {block.type === 'flipcard' && <Flipcard {...block} />}
 {block.type === 'reveal' && <Reveal {...block} />}
+{block.type === 'resources' && <Resources {...block} />}

@@ -15,7 +15,7 @@
     {
       "type": "text",
       "title": "",
-      "body": "<p>It's fairly obvious that data needs to be stored and protected with the appropriate level of security, with backup and recovery procedures that protect key information.<br>But beyond this, there are ethical considerations relating to storage – in particular, how long organisations should store data for. <strong>Data retention</strong> links back to having a clear purpose for collecting the data in the first place and being very precise about its use.</p><p><br><strong>Select the arrow to find out more.&nbsp;</strong></p>"
+      "body": "<p>It's fairly obvious that data needs to be stored and protected with the appropriate level of security, with backup and recovery procedures that protect key information.<br><br>But beyond this, there are ethical considerations relating to storage – in particular, how long organisations should store data for. <strong>Data retention</strong> links back to having a clear purpose for collecting the data in the first place and being very precise about its use.</p><p><br><strong>Select Show below to find out more.&nbsp;</strong></p>"
     },
     {
       "type": "reveal",

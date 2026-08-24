@@ -1,0 +1,116 @@
+---
+// A grid of clickable link-cards pointing at external further-reading -
+// added as a "Further resources" section on the Conclusion page. Unlike
+// Flipcard's items (image-fronted, flip to reveal text), each item here is
+// itself the link - the whole card is a single <a> out to an external URL,
+// so no client-side script is needed.
+interface ResourceItem {
+  source?: string;
+  title: string;
+  description: string;
+  url: string;
+  cta?: string;
+}
+
+interface Props {
+  title?: string;
+  body?: string;
+  items: ResourceItem[];
+}
+
+const { title, body, items } = Astro.props;
+---
+
+<section class="a8-resources">
+  {title && <h2>{title}</h2>}
+  {body && <div class="a8-prose" set:html={body} />}
+
+  <div class="a8-resources__grid">
+    {items.map((item) => (
+      <a
+        class="a8-resources__card"
+        href={item.url}
+        target="_blank"
+        rel="noopener noreferrer"
+      >
+        {item.source && <span class="a8-resources__source">{item.source}</span>}
+        <h3 class="a8-resources__title">{item.title}</h3>
+        <p class="a8-resources__desc">{item.description}</p>
+        <span class="a8-resources__cta">
+          {item.cta ?? 'Learn more'}
+          <svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true">
+            <path d="M4 12L12 4M6 4h6v6" />
+          </svg>
+        </span>
+      </a>
+    ))}
+  </div>
+</section>
+
+<style>
+  .a8-resources {
+    margin: var(--a8-space-lg) 0;
+  }
+  .a8-resources__grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: var(--a8-space-md);
+    margin-top: var(--a8-space-md);
+  }
+  .a8-resources__card {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+    background: var(--a8-surface);
+    border: 1px solid #ddd;
+    border-radius: var(--a8-radius);
+    padding: var(--a8-space-md);
+    text-decoration: none;
+    color: var(--a8-text);
+    transition: border-color 0.15s ease, transform 0.15s ease, box-shadow 0.15s ease;
+  }
+  .a8-resources__card:hover,
+  .a8-resources__card:focus-visible {
+    border-color: var(--a8-accent);
+    transform: translateY(-2px);
+    box-shadow: 0 6px 16px rgba(26, 26, 26, 0.08);
+    outline: none;
+  }
+  .a8-resources__source {
+    font-size: 0.72rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: var(--a8-text-muted);
+  }
+  .a8-resources__title {
+    margin: 0;
+    font-size: 1.05rem;
+    line-height: 1.3;
+    color: var(--a8-ink);
+  }
+  .a8-resources__desc {
+    margin: 0;
+    font-size: 0.9rem;
+    color: var(--a8-text-muted);
+    flex-grow: 1;
+  }
+  .a8-resources__cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    font-size: 0.85rem;
+    font-weight: 700;
+    color: var(--a8-accent);
+    margin-top: 0.25rem;
+  }
+  .a8-resources__cta svg {
+    width: 13px;
+    height: 13px;
+    transition: transform 0.15s ease;
+  }
+  .a8-resources__card:hover .a8-resources__cta svg,
+  .a8-resources__card:focus-visible .a8-resources__cta svg {
+    transform: translate(2px, -2px);
+  }
+</style>
