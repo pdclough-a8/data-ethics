@@ -1,5 +1,6 @@
 ---
 import Layout from '../layouts/Layout.astro';
+import HeroGraphic from '../components/HeroGraphic.astro';
 import { withBase } from '../scripts/paths';
 
 // Real copy, from course/en/course.json's title/body/_menu fields (the
@@ -27,7 +28,7 @@ const pages = [
         <div class="a8-prose" set:html={introBody} />
       </div>
       <div class="a8-hero__image">
-        <img src={withBase('/assets/landing-hero.jpg')} alt="" />
+        <HeroGraphic />
       </div>
     </div>
   </section>
@@ -64,11 +65,6 @@ const pages = [
   .a8-hero__image {
     flex: 1 1 16rem;
     max-width: 22rem;
-  }
-  .a8-hero__image img {
-    display: block;
-    width: 100%;
-    border-radius: var(--a8-radius);
   }
   @media (max-width: 640px) {
     .a8-hero__image {
