@@ -48,7 +48,7 @@
         },
         {
           "title": "Balancing security and access",
-          "body": "<p>There's an obvious tension between keeping the data secure and ensuring the people who need to view it have access. It could be argued that information should also be available to people in the organisation who may need it to generate valuable insights that could improve services or save time and money – the so-called democratisation of data.&nbsp;<br>In addition, data subjects have the right to ask what data you hold on them – and ask for it to be deleted if they wish.</p>",
+          "body": "<p>There's an obvious tension between keeping the data secure and ensuring the people who need to view it have access. It could be argued that information should also be available to people in the organisation who may need it to generate valuable insights that could improve services or save time and money – the so-called democratisation of data.&nbsp;<br><br>In addition, data subjects have the right to ask what data you hold on them – and ask for it to be deleted if they wish.</p>",
           "graphicSrc": "/assets/651eb6253eab62d1217d1171.png",
           "graphicAlt": "icon of a scales"
         },
@@ -72,15 +72,15 @@
       "body": "<p>In June 2021, British retailer <a class=\"customlink\" href=\"https://www.ocadogroup.com/media/statements/ocado-settles-litigation-today/\" target=\"_blank\" rel=\"noopener noreferrer\"><span><u>Ocado settled litigation</u></span></a> with two former employees who collected confidential documents while they worked for Ocado, which they kept upon leaving the company. These employees used these documents to support the development of a new, rival operation, pursuing clients in direct competition with Ocado.</p>"
     },
     {
-      "type": "graphic",
-      "alt": "Hands holding a folder labelled 'Confidential'",
-      "src": "/assets/651fdadcb2afb2e37eeb854b.png"
+      "type": "text",
+      "title": "",
+      "body": "<p>What could Ocado have done to prevent this breach of data security?</p><p>&nbsp;</p><p><strong>Select two correct answers, then submit.</strong></p>"
     },
     {
       "type": "mcq",
       "id": "6514499d5843e577fed793f8",
       "title": "Case study: Ocado v McKeeve",
-      "instruction": "",
+      "instruction": "Choose two options then select Submit.",
       "isRadio": false,
       "items": [
         {

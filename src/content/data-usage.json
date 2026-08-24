@@ -62,30 +62,27 @@
       ]
     },
     {
-      "type": "hotgraphic",
-      "id": "65144f62c173eacbb438afe9",
+      "type": "flipcard",
       "title": "Bias",
-      "body": "<p>While we acknowledge that humans are often biased and naturally prejudiced, it's a common misconception that machines make cold and objective decisions. The reality is that they are <a class=\"customlink\" href=\"https://arxiv.org/abs/2001.09762\" target=\"_blank\" rel=\"noopener noreferrer\"><span><u>as susceptible to bias as any human</u></span></a><span>.</span></p><p><br><strong>Select the icons to find out more.&nbsp;</strong></p>",
-      "graphicSrc": "/assets/651feba797a10df36a554c46.png",
-      "graphicAlt": "A person typing on a laptop.",
+      "body": "<p>While we acknowledge that humans are often biased and naturally prejudiced, it's a common misconception that machines make cold and objective decisions. The reality is that they are <a class=\"customlink\" href=\"https://arxiv.org/abs/2001.09762\" target=\"_blank\" rel=\"noopener noreferrer\"><span><u>as susceptible to bias as any human</u></span></a><span>.</span></p><p><br><strong>Select the cards to find out more.&nbsp;</strong></p>",
       "items": [
         {
-          "title": "Biases in data collection",
-          "body": "<p>Because humans decide what data to collect, biases often creep in at the data collection stage–like reporting bias, in which only a fraction of real-world information is captured, so information is underreported for certain groups.&nbsp;</p>",
-          "left": 25.05,
-          "top": 19.94
+          "frontImageSrc": "/assets/651eb7d88e3d8bc3100bddf7.png",
+          "frontImageAlt": "icon of a download arrow into a computer",
+          "backTitle": "Biases in data collection",
+          "backBody": "<p>Because humans decide what data to collect, biases often creep in at the data collection stage–like reporting bias, in which only a fraction of real-world information is captured, so information is underreported for certain groups.&nbsp;</p>"
         },
         {
-          "title": "Biases in data analysis",
-          "body": "<p>There are a few ways in which bias can creep into data analysis. Data preprocessing can exclude certain groups, and humans can act unconsciously to introduce bias when selecting features for analysis, setting parameters, or interpreting results. Likewise, algorithms may inherit bias from training models.</p>",
-          "left": 32.78,
-          "top": 54
+          "frontImageSrc": "/assets/651eb7f48e3d8bc3100bdebf.png",
+          "frontImageAlt": "icon of information moving from a computer to a server",
+          "backTitle": "Biases in data analysis",
+          "backBody": "<p>There are a few ways in which bias can creep into data analysis. Data preprocessing can exclude certain groups, and humans can act unconsciously to introduce bias when selecting features for analysis, setting parameters, or interpreting results. Likewise, algorithms may inherit bias from training models.</p>"
         },
         {
-          "title": "Minimising bias",
-          "body": "<p>There are tools and strategies to help minimise bias in data processing and handling. Employing bias detection tools, interpretability tools, and ethical AI frameworks can all help you to increase transparency in how data is handled. Conducting fairness auditing and continually monitoring systems can also help you to stop bias before it causes a negative impact on groups.</p>",
-          "left": 58.12,
-          "top": 13.42
+          "frontImageSrc": "/assets/651eb8104dadb797dce49feb.png",
+          "frontImageAlt": "icon of information being passed to a person",
+          "backTitle": "Minimising bias",
+          "backBody": "<p>There are tools and strategies to help minimise bias in data processing and handling. Employing bias detection tools, interpretability tools, and ethical AI frameworks can all help you to increase transparency in how data is handled. Conducting fairness auditing and continually monitoring systems can also help you to stop bias before it causes a negative impact on groups.</p>"
         }
       ]
     },
@@ -93,11 +90,6 @@
       "type": "text",
       "title": "Case study: Predictive policing",
       "body": "<p>Due to the mistaken belief that algorithms can provide an impartial and objective solution to crime prevention, law enforcement agencies in major US cities, including New York City, Chicago, and Los Angeles, have implemented <a class=\"customlink\" href=\"https://www.nature.com/articles/d41586-018-05469-3\" target=\"_blank\" rel=\"noopener noreferrer\"><u>predictive policing programs</u>.</a> These programs, which use algorithms to allocate resources to 'hot spots' or potential perpetrators. However, as a <a class=\"customlink\" href=\"https://theconversation.com/ai-profiling-the-social-and-moral-hazards-of-predictive-policing-92960\" target=\"_blank\" rel=\"noopener noreferrer\"><u>report by Durham Constabulary</u></a> highlights, the models used in these programs inherit the biases deeply ingrained in historical crime data. When deployed, the predictions produced replicate and perpetuate the biases present in the training data.&nbsp;</p>"
-    },
-    {
-      "type": "graphic",
-      "alt": "",
-      "src": "/assets/651eb83c53a700b1e0f28703.png"
     },
     {
       "type": "text",
