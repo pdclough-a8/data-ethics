@@ -67,11 +67,6 @@
       ]
     },
     {
-      "type": "graphic",
-      "alt": "An Amazon Alexa device listening in on a parent and child having a conversation.",
-      "src": "/assets/651eb5b8cbca08732af9755c.png"
-    },
-    {
       "type": "text",
       "title": "Case study: Always-on Alexas",
       "body": "<p>There are endless examples of questionable personal data collection practices. Amazon received a rash of negative headlines following a<a class=\"customlink\" href=\"https://www.npr.org/2023/06/01/1179381126/amazon-alexa-ring-settlement\" target=\"_blank\" rel=\"noopener noreferrer\"> <u>2021 class-action lawsuit</u></a>, which accused the company's Alexa smart speaker of <a class=\"customlink\" href=\"https://www.theguardian.com/technology/2022/feb/27/the-data-game-what-amazon-knows-about-you-and-how-to-stop-it\" target=\"_blank\" rel=\"noopener noreferrer\"><u>secretly collecting and storing</u> </a>user data.</p>"
