@@ -105,7 +105,8 @@
       "items": [
         {
           "text": "Regularly updating algorithms to reflect demographic change",
-          "shouldBeSelected": false
+          "shouldBeSelected": false,
+          "feedback": "<p>Not quite. Updating algorithms to reflect demographic change doesn't address the underlying problem - the bias is baked into the historical crime data itself, and adjusting for demographics alone won't undo that.</p>"
         },
         {
           "text": "Ensuring transparency in the algorithm development process",
@@ -113,11 +114,13 @@
         },
         {
           "text": "Shifting input from largely historical data to largely the judgements of experienced law enforcement officers",
-          "shouldBeSelected": false
+          "shouldBeSelected": false,
+          "feedback": "<p>Not quite. Relying more on the judgement of experienced officers doesn't remove bias - it just introduces bias from a different source, human rather than algorithmic.</p>"
         },
         {
           "text": "Ensuring all predictive policing programs in different locations use the same proprietary algorithms",
-          "shouldBeSelected": false
+          "shouldBeSelected": false,
+          "feedback": "<p>Not quite. Proprietary, closed-source algorithms make it harder, not easier, for stakeholders to scrutinise how decisions are being made - using the same one everywhere doesn't fix that, it just spreads it further.</p>"
         }
       ],
       "feedbackCorrect": "<p>That's right. Transparency is a fundamental principle in ethical algorithm development processes. This means that the methods, data sources, and decision-making processes behind the algorithm used are open to scrutiny and evaluation by external stakeholders, including the public and oversight bodies.&nbsp;<br>Updating algorithms to reflect demographic change does not accomplish any ethical goals, as this will not have an impact on the biases inherent in historical crime data. Likewise, implementing further input from experienced law enforcement officers will simply introduce bias from a different source. Implementing algorithms with proprietary code can hinder transparency and accountability, making it more challenging for stakeholders to identify and mitigate bias.&nbsp;</p>",
