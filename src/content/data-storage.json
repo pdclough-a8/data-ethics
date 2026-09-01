@@ -87,11 +87,11 @@
           "shouldBeSelected": true
         },
         {
-          "text": "Implementing more complicated procedures for data access",
+          "text": "Implementing far more complicated data access procedures for every employee, regardless of role, to make unauthorised access as difficult as possible",
           "shouldBeSelected": false
         },
         {
-          "text": "Restricting data handling and confidentiality training only to key stakeholders within the company",
+          "text": "Restricting data handling and confidentiality training to a small group of senior stakeholders, rather than offering it to employees at every level",
           "shouldBeSelected": false
         }
       ],
