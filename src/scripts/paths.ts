@@ -5,6 +5,9 @@
 // applied explicitly, or they resolve against the domain root instead of
 // wherever the site is actually deployed (see astro.config.mjs).
 export function withBase(path: string): string {
+  // Already a full/inline URL (data: URIs, http(s):// links) - leave alone,
+  // prefixing would corrupt them rather than route them anywhere useful.
+  if (/^([a-z][a-z0-9+.-]*:)/i.test(path)) return path;
   const base = import.meta.env.BASE_URL ?? '/';
   const normalisedBase = base.endsWith('/') ? base.slice(0, -1) : base;
   const normalisedPath = path.startsWith('/') ? path : `/${path}`;
