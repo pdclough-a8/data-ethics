@@ -88,11 +88,13 @@
         },
         {
           "text": "Implementing far more complicated data access procedures for every employee, regardless of role, to make unauthorised access as difficult as possible",
-          "shouldBeSelected": false
+          "shouldBeSelected": false,
+          "feedback": "<p>Not quite. Adding more complicated access procedures often backfires - it can push employees toward shortcuts and less secure workarounds instead of following the proper process, rather than actually making the data more secure.</p>"
         },
         {
           "text": "Restricting data handling and confidentiality training to a small group of senior stakeholders, rather than offering it to employees at every level",
-          "shouldBeSelected": false
+          "shouldBeSelected": false,
+          "feedback": "<p>Not quite. Limiting data handling training to a few senior stakeholders doesn't build a culture of data ethics across the organisation - this kind of training needs to reach employees at every level, not just the top.</p>"
         }
       ],
       "feedbackCorrect": "<p>That's right. Access controls and exit procedures can both help to prevent employees from accessing information they don't need and taking it with them when they leave.<br>Implementing more complex access procedures could have an opposite effect from what is intended: this could deter employees from following proper channels, instead using shortcuts and less ethical methods to access data. Likewise, restricting data handling training to a few people does not promote a culture of data ethics and transparency within the company. This training should be offered to employees at all levels of the organisation.</p>",
